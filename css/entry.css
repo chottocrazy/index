@@ -1,0 +1,76 @@
+#post #form {
+  position:absolute;
+  top:50%; left:50%;
+  z-index:10;
+  width:90%;
+  padding:0; margin:0;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  
+}
+#post h2  {
+  font-size: 1.25rem;
+  padding: 0;
+  text-align:left;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+#post #sub {
+  display:inline-block;
+  padding:0.25rem 0.5rem;
+  margin-bottom:0.5rem;
+  background-color:#000;
+  color:#fff;
+}
+#post input[type="text"],
+#post input[type="email"] {
+  font-size: 1.25rem;
+  padding:0.5rem;
+  width:90%;
+  border: none;
+}
+button,
+input[type="submit"] {
+  font-size:1.5rem;
+  padding:0.5rem 0;
+  width:100%;
+  background-color: #000;
+  color:#fff;
+  border-radius:0.5rem;
+}
+button:hover,
+input[type="submit"]:hover {
+  background-color: #fff;
+  color:#000;
+  cursor:pointer;
+}
+#what textarea {
+  font-size:1.25rem;
+  margin:0;
+  padding:0.5rem;
+  width:97.5%;
+  height:17.5rem;
+  background-color:#fff;
+  border:solid 2px #ccc;
+  color:#000;
+}
+#why textarea {
+  font-size:1.25rem;
+  margin:0;
+  padding:0.5rem;
+  width:97.5%;
+  height:15rem;
+  background-color:#fff;
+  border:solid 2px #ccc;
+  color:#000;
+}
+#how textarea {
+  font-size:1.25rem;
+  margin:0;
+  padding:0.5rem;
+  width:97.5%;
+  height:11.5rem;
+  background-color:#fff;
+  border:solid 2px #ccc;
+  color:#000;
+}

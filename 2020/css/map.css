@@ -1,0 +1,85 @@
+body {
+  padding:0; margin:0;
+  position:relative;
+  top:0; left:0;
+  width:100%; height:100%;
+}
+#full {
+  width:100rem; zoom:125%;
+  -webkit-overflow-scrolling: touch;
+}
+#about {
+  pointer-events:none;
+  font-size:0.9rem;
+  border:0.05rem solid;
+  border-radius:0.75rem;
+}
+#about h2,
+#about p {
+  padding:0 1rem;
+}
+#link {
+  position:absolute;
+  z-index:0;
+  top:0; left:0;
+  width:100%;
+  height:100%;
+}
+#link:hover {
+  background:linear-gradient(-55deg, #D24117, #f6d435, #25AF5A);
+  background-size:200% 200%;
+  animation:gradientBG 1s ease infinite;
+  cursor:pointer;
+}
+#main {
+  position:relative;
+  float:left;
+  width:50rem;
+  height:25rem;
+  background:linear-gradient(-55deg, #D24117, #f6d435, #25AF5A);
+  background-size:200% 200%;
+  animation:gradientBG 1s ease infinite;
+	cursor:pointer;
+}
+#normal {
+  position:relative;
+  float:left;
+  width:25rem;
+  height:25rem;
+  background:#eee;
+}
+#wide {
+  position:relative;
+  float:left;
+  width:50rem;
+  height:25rem;
+  background:#eee;
+}
+h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.center {
+  position:absolute;
+  top:50%; left:50%;
+  width:80%;
+  z-index:10;
+  padding:0; margin:0;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+}
+.message {
+  font-size:1rem;
+  position:relative;
+  padding:0.25rem 0.5rem;
+  border:0.1rem solid;
+  border-radius:0.5rem;
+  background:#fff;
+}
+
+@media screen and (max-width: 950px){
+  #full {width:100rem; zoom:1;}
+}
+@media screen and (max-width: 500px){
+  #full {width:50rem; zoom:0.75;}
+}

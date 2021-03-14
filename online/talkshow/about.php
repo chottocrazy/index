@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="ramdom.js"></script>
+<title>暗闇でおしゃべりしたい | 大 chotto crazy 2020</title>
+<link rel="stylesheet" type="text/css" href="/css/about.css" />
+<style type="text/css">
+body {background:#000;
+	text-shadow: 0 0 1.5vw #fff, 0 0 2vw #fff;}
+#more u,
+#date,
+#links a {background:#000; color:#fff;}
+#links a:hover {background:#fff; color:#000;}
+#more_text {color:#fff; border-bottom:0.2rem solid #000;}
+#more_text h2 {
+	color:#eee;
+  -webkit-text-stroke: 0.05rem #000;
+  text-stroke: 0.05rem #000;
+}
+</style>
+<script type="text/javascript">
+$(function(){
+$("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
+})
+</script>
+</head>
+<body>
+<div id="header">
+<a href="/" target="_parent"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
+<a><b>How</b></a>
+</div>
+<div id="introduce">
+<div id="title">
+<p id="jp_title" class="center">暗闇でおしゃべりしたい</p>
+<i class="namae_by">Kenny Pain</i>
+</div>
+<div id="about_text">
+<p>人と話したいけど、注目されたくない。<br/>
+人の視線を感じない環境なら、緊張することなく話せるのではないかと考え「暗闇でおしゃべりしたい」を思いついた。</p>
+<p>「暗闇」の中での私たちの声は加工される。<br/>
+加工された声は素性を隠し、話す人と聞く人に程良い距離感を与える。</p>
+<p>明かりがある日常生活では相手を知るためにまず自己紹介をするのが一般的。<br/>
+しかし「暗闇」で素性を隠した相手と自己紹介をする必要はあるのだろうか。<br/>
+「暗闇」だからこそできる本音の話や人には言いづらい話があると思う。</p>
+<p>質問は人間性を探る「暗闇」に合ったお題と、敢えて明るい場所でもできるお題を設定。<br/>
+「暗闇」という環境のもと、雰囲気が重くなり過ぎないよう質問のバランスを考えることが重要だと感じている。</p>
+<p>面白い話をしなきゃ、楽しませなきゃと相手を満足させることを意識し話すのではなく、正直に、素直に話せたことへの達成感を感じること、自分が満足できるよういろんな人と「暗闇でおしゃべりしたい」</p>
+</div>
+<div id="more" class="more_index">
+<p><u>暗闇でおしゃべりしたい〇〇のこと</u><br/><b id="sub">These questions were created by Kenny Pain</b><br/>
+<span id="date">2020.12.15</span></p>
+<div id="more_text">
+<h2>質問の答えは全て二択です。</h2>
+<p>どちらかの答えを選択し、Answer をクリックすると、次の質問へと進みます。</p>
+</div>
+<div id="links">
+<h2>Play
+<a href="/online/talkshow/" target="_parent">暗闇でおしゃべりしたい〇〇のこと</a>
+</h2>
+</div>
+</div>
+<hr/>
+<div id="more" class="more_index">
+<p><u>2021.1.23</u><br/></p>
+<div id="more_text">
+<h2>暗闇でおしゃべり会</h2>
+<p>大大大 chotto crazy 2020 MAX にて、暗闇でおしゃべり会を開催しました。</p>
+</div>
+</div>
+</div>
+<div id="about_q"></div>
+</body>
+</html>

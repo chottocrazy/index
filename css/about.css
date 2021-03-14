@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Quarantype-Oblique";
+  src: url(/font/Quarantype-Oblique.otf);
+}
+@font-face {
+  font-family: "Quarantype";
+  src: url(/font/Quarantype-Regular.otf);
+}
+@font-face {
+  font-family: "Orchard";
+  src: url(/font/Orchard-Linear.otf);
+}
+@font-face {
+  font-family: "Kipper";
+  src: url(/font/Kipper.otf  );
+}
+@font-face {
+  font-family: "floraandfauna";
+  src: url(/font/floraandfauna.otf);
+}
+
+.namae_by,
+.hold:before,
+.on,
+#header b
+{font-family:"Orchard";}
+#more b,
+#more #date,
+#links
+{font-family:"Quarantype";}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+#header {
+  font-size:1rem;
+  padding:0;
+  margin:1.5% 2.5% 0;
+  width:95%;
+  display:flex;
+  z-index:100;
+  flex-direction:row;
+  justify-content:space-between;
+}
+#header a {
+  color:#000;
+  text-decoration:none;
+}
+#header .dai:before {
+  content:"大";
+  position:absolute;
+  margin: 0;
+  font-size: 200%;
+  font-family: "Times New Roman", "Times", serif;
+  color:#D24117;
+}
+.hold, .dai {
+  color:#eee;
+  letter-spacing: 0rem;
+}
+.hold:before {
+  content:"hold";
+  color:#555;
+  font-style:italic;
+  position:absolute;
+  font-weight: 555;
+  margin-top:0.5rem;
+  margin-left:-0.5rem;
+}
+.on {
+  padding-left:0.75rem;
+}
+.on,
+.hold:before,
+.dai:before,
+.dai:after {
+  -webkit-text-stroke: 0.001rem #FFF;
+  text-stroke: 0.001rem #FFF;
+}
+#introduce {
+  position:relative;
+  top:0; left:0;
+  margin:0;
+}
+#title {
+  z-index:1;
+  position:relative;
+  margin:2.5rem 0 2.5rem;
+  pointer-events:none;
+  font-family: Arial;
+  font-size: 2rem;
+  font-weight: normal;
+  font-weight: 500;
+  text-align:center;
+}
+#jp_title {
+  display:inline-block;
+  z-index:1;
+  font-size:1rem;
+  padding:0.25rem 0.5rem;
+  border:0.1rem solid;
+  border-radius:0.5rem;
+  width:auto;
+  background:#fff;
+}
+.namae_by {
+  font-size:2.5rem;
+  color:#fff;
+  -webkit-text-stroke: 0.01rem #000;
+  text-stroke: 0.01rem #000;
+}
+.namae_by:before {
+  content:"by";
+  color:#fff;
+  font-size:75%;
+  -webkit-text-stroke: 0.01rem #fff;
+  text-stroke: 0.01rem #fff;
+  font-family: Arial;
+  font-style:italic;
+  position:absolute;
+  z-index:-1;
+  font-weight: 500;
+  margin-top:1rem;
+  margin-left:-1rem;
+}
+.pehu:after {
+  content:"∧° ┐";
+  font-size:125%;
+  font-family:"MS Mincho", serif;
+  margin-left:0.75rem;
+  font-style: normal;
+}
+.center {
+ position: absolute;
+ top: 55%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+#about_text {
+  margin:2rem auto 4rem;
+  padding:0 2.5%;
+  width:80%;
+  border:2px solid;
+  border-radius:1rem;
+  background:#fff;
+}
+#more {
+  font-size:1rem;
+  display:block;
+  position:relative;
+  width:90%;
+  margin:5rem auto;
+}
+#more #sub {
+  font-size:3.5rem;
+  line-height:100%;
+}
+#more u,
+#links a {
+  color:#fff;
+  padding:0.25rem;
+  font-size:1rem;
+  text-decoration:none;
+}
+#more #date {
+  text-align:center;
+  padding:0.5vw;
+  position:absolute;
+  top:0; right:0;
+  border:0.1rem solid;
+  border-radius:0.5rem;
+}
+#more_text {
+  width:100%;
+  clear:both;
+}
+#title h1 {
+  font-family: "Kipper";
+  margin:0;
+	font-size:1.25rem;
+  position:absolute;
+  z-index:-1;
+	width:90%;
+}
+#more h1 {
+  font-family: "floraandfauna";
+	font-size:2rem;
+  position:fixed;
+  z-index:-1;
+}
+#title h1,
+#more h1 {
+  bottom:0; left:0;
+  padding:0 5%;
+	display:block;
+	width:90%;
+}
+#more_text h2,
+#about_text h2 {
+	display:block;
+	width:100%;
+  line-height:125%;
+	padding:3rem 0;
+	transform: scale(1, 2);
+	font-size:1.25rem;
+}
+#links {font-size:1rem;}
+#links a {margin-left:0.5rem;}
+#links h2 {font-size:1.5rem;}
