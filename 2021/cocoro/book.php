@@ -16,7 +16,7 @@ $("#").load("");
 <body>
 <div id="book">
 <div id="day">
-<h2>Saturday April 4, 2021</h2>
+<h2>Saturday April 3, 2021</h2>
 <h1><b>Screening</b></h1>
 <div id="ticket">
 <u>同時開催</u>
