@@ -1,0 +1,75 @@
+body {
+	padding:0; margin:0;
+	width:100vw; height:100vh;
+}
+
+#inside {
+  width:85%;
+  font-size:1rem;
+  max-height:85vh;
+  overflow-y:scroll;
+  position:absolute;
+  z-index:2;
+  margin:0; padding:0;
+  top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  -webkit transform:translate(-50%,-50%);
+}
+
+#inside a {
+  color:#000;
+  border:0.2rem solid;
+  border-radius:0.5rem;
+  padding:0.25rem 0.5rem;
+  text-decoration:none;
+}
+
+#marquee {
+	position:fixed;
+	width:100%; height:100%;
+  top:0; left:0;
+	padding:0; margin:0;
+	overflow:hidden;
+}
+#marquee div {
+	position:absolute;
+	padding:0.25rem 0;
+  margin:0;
+}
+#marquee .outside {background:#fff;}
+#marquee ul {
+	width:100%;
+	font-size:1.5rem;
+  text-align:center;
+	display:inline-block;
+	padding:0; margin:0;
+}
+#marquee li {
+	display:inline-block;
+	margin: 0 1rem;
+}
+#marquee #top {
+	width:100vw; top:0;
+}
+#marquee #left {
+	width:100vh; top:100vh;
+	transform-origin:left top;
+	transform:rotate(270deg);
+}
+#marquee #right {
+	width:100vh; top:100vh; right:0;
+	transform-origin:right top;
+	transform:rotate(90deg);
+}
+#marquee #bottom {
+	width:100vw;	bottom:0;
+	transform:rotate(180deg);
+}
+@media screen and (max-width: 900px){
+#marquee ul {font-size:1.25rem;}
+#inside {width:80%;}
+}
+@media screen and (max-width: 450px){
+#marquee ul {font-size:1rem;}
+#inside {width:75%; max-height:90vh;}
+}
