@@ -16,15 +16,14 @@ $("#").load("");
 <body>
 <div id="book">
 <div id="day">
-<h2>Presents</h2>
-<h1><b>creative community space pehu</b></h1>
+<h2>Email</h2>
+<h1><b>Reservation</b></h1>
 <div id="ticket">
 <u>主催</u>
 <b><i>∧° ┐ | creative, community space</i></b>
 <p><u>お問い合わせ</u>
 <b><i>we.are.pe.hu@gmail.com</i></b></p>
-<u>予約フォーム</u>
-<b><i>下記のリンク先からご予約ください</i></b>
+<b><i>予約フォーム</i></b>
 <p><a href="https://forms.gle/ysbtnEtE8Dc2mBFp6">https://forms.gle/ysbtnEtE8Dc2mBFp6</a></p>
 </div>
 </div>
