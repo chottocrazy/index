@@ -65,9 +65,10 @@ body {padding:0; margin:0;}
   font-family: "ＭＳ Ｐ明朝","MS PMincho";
 }
 #ticket p {text-align: center; margin: 1vw;}
-#day span {
+#day span,
+#day a {
   font-size:110%;
-  text-align:right;
+  text-decoration:none;
   color:#000;
   background:#fff;
   border:0.01vw solid;
@@ -76,7 +77,8 @@ body {padding:0; margin:0;}
   border-radius: 1vw;
   animation:1s ease-in 1s infinite bound;
 }
-#day span:hover {
+#day span:hover,
+#day a:hover {
   color:#eee;
   cursor:pointer;
   background:rgb(129, 108, 102);
