@@ -22,9 +22,7 @@ $("#").load("");
 <p><b><i>予約フォーム</i></b><br/>
 <a href="https://forms.gle/ysbtnEtE8Dc2mBFp6">https://forms.gle/ysbtnEtE8Dc2mBFp6</a></p>
 <p><u>お問い合わせ</u>
-<b><i>we.are.pe.hu@gmail.com</i></b></p><br/>
-<p><u>主催</u>
-<b><i>∧° ┐ | creative, community space</i></b></p>
+<b><i>we.are.pe.hu@gmail.com</i></b></p>
 </div>
 </div>
 </div>
