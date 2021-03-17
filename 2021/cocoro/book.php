@@ -16,32 +16,16 @@ $("#").load("");
 <body>
 <div id="book">
 <div id="day">
-<h2>Saturday April 3, 2021</h2>
-<h1><b>Reservation</b></h1>
+<h2>Presents</h2>
+<h1><b>creative community space pehu</b></h1>
 <div id="ticket">
+<u>主催</u>
+<b><i>∧° ┐ | creative, community space</i></b>
+<p><u>お問い合わせ</u>
+<b><i>we.are.pe.hu@gmail.com</i></b></p>
 <u>予約フォーム</u>
-<b>
-<i>下記のリンク先からご予約ください</i></b>
+<b><i>下記のリンク先からご予約ください</i></b>
 <p><a href="https://forms.gle/ysbtnEtE8Dc2mBFp6">https://forms.gle/ysbtnEtE8Dc2mBFp6</a></p>
-</div>
-</div>
-<div id="day">
-<h2>Chotto Crazy Videos</h2>
-<h1><b>Screening</b></h1>
-<div id="ticket">
-<u>同時開催</u>
-<b>
-<i>大大大 chotto crazy 2020 記録映像上映</i></b>
-<p><span onclick="obj=document.getElementById('value').style; obj.display=(obj.display=='none')?'block':'none';">More Info Soon</span></p>
-</div>
-</div>
-<div id="day">
-<h2>creative community space pehu</h2>
-<h1><b>Presented</b> by</h1>
-<div id="ticket">
-<u>お問い合わせ</u>
-<b>
-<i>we.are.pe.hu@gmail.com</i></b>
 </div>
 </div>
 </div>
