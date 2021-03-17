@@ -16,15 +16,15 @@ $("#").load("");
 <body>
 <div id="book">
 <div id="day">
-<h2>Email</h2>
-<h1><b>Reservation</b></h1>
+<h2>Reservation</h2>
+<h1><b>Email</b></h1>
 <div id="ticket">
 <u>主催</u>
 <b><i>∧° ┐ | creative, community space</i></b>
 <p><u>お問い合わせ</u>
 <b><i>we.are.pe.hu@gmail.com</i></b></p>
-<b><i>予約フォーム</i></b>
-<p><a href="https://forms.gle/ysbtnEtE8Dc2mBFp6">https://forms.gle/ysbtnEtE8Dc2mBFp6</a></p>
+<p><b><i>予約フォーム</i></b><br/>
+<a href="https://forms.gle/ysbtnEtE8Dc2mBFp6">https://forms.gle/ysbtnEtE8Dc2mBFp6</a></p>
 </div>
 </div>
 </div>
