@@ -40,7 +40,7 @@ fclose($fp);
 <div><a onclick="obj=document.getElementById('how').style; obj.display=(obj.display=='none')?'block':'none';">投稿する</a></div>
 </div>
 <div id="how" style="display:none;">
-<iframe src="about.php"></iframe>
+<iframe src="about.html"></iframe>
 </div>
 
 <form id="org" style="display:block;">
