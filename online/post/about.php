@@ -44,7 +44,7 @@ $("#").load("__");
 <p>使用例
 <a href="http://zayuunomei.chottocrazy.pe.hu/" target="_blank" rel="noopener noreferrer">座右の銘を交換したい</a>
 <a href="http://chottocrazy.pe.hu/online/post/excuse/" target="_blank" rel="noopener noreferrer">口実を作る</a>
-<a href="http://vg.pe.hu/up/haiku/" target="_blank" rel="noopener noreferrer">俳句 | haiku</a>
+<a href="http://vg.pe.hu/up/reading/haiku/" target="_blank" rel="noopener noreferrer">俳句 | haiku</a>
 <a href="http://vg.pe.hu/jp/cm/aa/writing/" target="_blank" rel="noopener noreferrer">Secret Crane / Flower</a>
 </p>
 <p>応用編

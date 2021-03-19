@@ -77,7 +77,6 @@ $("#").load("__");
 <a href="http://vg.pe.hu/publication/value/online/" target="_blank" rel="noopener noreferrer">大切にすることを大切にするためのオンライン展</a>
 </p>
 <p>応用編
-<a href="http://vg.pe.hu/howto/refine/" target="_blank" rel="noopener noreferrer">絞り込み機能をつける</a>
 <a href="/ccm/" target="_blank" rel="noopener noreferrer">ちょっとクレイジーな仲間たち</a>
 </p>
 </div>
