@@ -145,7 +145,7 @@ body {background:#eee;}
 </ul>
 </div>
 <div class="reset">
-<a onclick="window.location.reload();">Reset</a>
+<a>Reset</a>
 </div>
 </div>
 </form>
