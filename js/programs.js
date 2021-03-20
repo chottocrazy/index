@@ -3,8 +3,8 @@ $(function() {
     $(".list li").removeClass("list_toggle");
   });
   if ($(".list li").hasClass("list_toggle")) {
-    $(".reset .reset-button").click(function() {
-      $(".list li").addClass("list_toggle");
+    $(".reset").click(function() {
+      $(".list li").removeClass("is-hide");
     });
   }
 });
