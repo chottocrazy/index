@@ -119,7 +119,7 @@ fclose($fp);
 </ul>
 </div>
 <div class="reset">
-<a onclick="window.location.reload();">リセット</a>
+<a>Reset</a>
 </div>
 </div>
 </form>
