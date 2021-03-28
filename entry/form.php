@@ -1,7 +1,6 @@
 <?php
 $request_param = $_POST;
 $mailto = $request_param['email'];
-$mailto = 'we.are.pe.hu@gmail.com';
 $to = 'we.are.pe.hu@gmail.com';
 $mailfrom = "we.are.pe.hu@gmail.com";
 $subject = "大 chotto crazy 2021";
