@@ -14,7 +14,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
-$("#entry").load("entry/");
 $("#credit").load("credit.html");
 })
 </script>
@@ -81,7 +80,6 @@ b, h1, h3,
 <span class="bg_fff">we are the chotto crazy</span>
 </div>
 </div>
-<div id="entry"></div>
 <div id="full">
 <div id="normal">
 <div id="wide">
@@ -143,6 +141,10 @@ b, h1, h3,
 </div>
 <a id="link" href="/max/" target="_parent"></a>
 </div>
+</div>
+<div class="popup" id="notice" style="display:none;">
+<p><iframe width="100%" height="100%" src="notice.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('notice').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div id="credit"></div>
 </body>
