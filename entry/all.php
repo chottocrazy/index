@@ -37,45 +37,63 @@ fclose($fp);
 <link href="/css/ideas.css" rel="stylesheet">
 <title>大 chotto crazy | We Support your Amazing Ideas and Creative Challenges</title>
 <style type="text/css">
+html, body {padding:0; margin:0;}
+#foot {
+  display:block;
+  position:relative;
+  top:0; left:0;
+  width:100%;
+  height:100vh;
+}
+#foot .inside h1 {
+  width:50vw;
+  position:absolute;
+  top:47.5%; left:50%;
+  padding:0; margin:0;
+  transform: translate(-50%, -50%);
+  font-size: 10vw; font-weight:500;
+  font-family: "SF Compact", sans-serif; 
+}
+#foot .inside p {
+  font-size:2.5vw;
+  width:100%;
+  text-align:center;
+  position:absolute;
+  top:90%; left:50%;
+  transform: translate(-50%, -50%);
+  font-family: "SF Compact", sans-serif; 
+}
+#foot .inside b {
+  border:0.25vw solid;
+  background:#fff;
+  padding:0.5vw 2.5vw;
+  border-radius:2rem;
+}
+
 </style>
 </head>
 <body>
-<div class="thankyou">
-<p>Thank you</p>
-<span class="we">You</span> <span class="hold">are</span> <span class="on"><b>chotto crazy</b></span>
+<div id="foot">
+<div class="inside">
+<h1><span id="rename"></span></h1>
+<p class="notice"><b>ご投稿ありがとうございました</b></p>
 </div>
-<ul id="ideas">
-<?php if (!empty($rows)): ?>
-<?php foreach ($rows as $row): ?>
-<li>
-<div>
-<p class="text"><?=h($row[0])?></p>
-<span class="name"><i><?=h($row[1])?></i></span>
 </div>
-</li>
-<?php endforeach; ?>
-<?php else: ?>
-<li>
-<div>
-<p class="text">応募内容</p>
-<span class="name"><i>名前</i></span>
-</div>
-</li>
-<?php endif; ?>
-</ul>
-<script type="text/javascript">
-$(function() {
-	var arr = [];
-	$("#ideas li").each(function() {
-		arr.push($(this).html());
-	});
-	arr.sort(function() {
-		return Math.random() - Math.random();
-	});
-	$("#ideas").empty();
-	for(i=0; i < arr.length; i++) {
-		$("#ideas").append('<li>' + arr[i] + '</li>');
-	}
-});
+<script>
+var text = ["Thank You","for", "Submit" ];
+var counter = 0;
+var elem = document.getElementById("rename");
+var inst = setInterval(change, 750);
+
+elem.innerHTML = text[counter];
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+  }
+};
 </script>
+
 </body>
