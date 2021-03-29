@@ -4,7 +4,7 @@ body {
   top:0; left:0;
   width:100%; height:100%;
 }
-
+hr {border:none; padding:0.25rem;}
 #full {
   position:relative;
   width:100rem; zoom:125%;
@@ -70,6 +70,12 @@ body {
 #post #about p {
   padding:0 1rem;
 }
+#post #about i {
+  font-style:normal;
+  padding:0.75rem 1rem 0.25rem;
+  font-size:75%;
+  display:block;
+}
 #post input[type="text"],
 #post input[type="email"] {
   font-size: 1rem;
@@ -97,7 +103,7 @@ body {
   box-sizing: border-box;
   position: relative;
   display: inline-block;
-  margin:0.25rem 0 0 0;
+  margin: 0;
   padding: 0 1.75rem;
   vertical-align: middle;
   cursor: pointer;
@@ -158,8 +164,12 @@ input[type=checkbox]:checked + .checkbox:before {
   pointer-events:none;
 }
 .schedule i {font-style:normal;}
-.schedule p {font-size:0.95rem; margin:0.75rem 0;}
-.schedule p i {font-size:120%;}
+.schedule p {font-size:0.95rem; margin:1rem 0;}
+.schedule p i {
+  font-size:120%;
+  line-height:175%;
+  padding-right:0.25rem;
+}
 
 .schedule .yes:after,
 .schedule .no:after,
@@ -174,7 +184,7 @@ input[type=checkbox]:checked + .checkbox:before {
 .schedule p i:before {
   content:"ちょっとクレイジーな";
   font-size:75%;
-  padding-right:0.25rem;
+  padding-right:0.5rem;
   color:#eee;
   -webkit-text-stroke: 0.025rem #000;
   text-stroke: 0.025rem #000;
