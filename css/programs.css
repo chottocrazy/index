@@ -329,7 +329,7 @@ form ul {
   margin:2.5%;
   background:#fff;
   border-radius:1rem 1.25rem 0.75rem 1.5rem;
-  font-family: "MS Mincho", serif;
+  font-family:YuGothic,"Yu Gothic";
   position:relative;
   z-index:1;
 }
