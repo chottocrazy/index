@@ -9,7 +9,12 @@ $("#").load("");
 </script>
 <style type="text/css">
 @media screen and (max-width: 500px){
-  .mobile {pointer-events:none;}
+.mobile {pointer-events:none;}
+.mobile:after {
+  position:absolute;
+  z-index:1000;
+  content:"PCからのみダウンロード可能です。";
+  }
 }
 </style>
 <link rel="stylesheet" type="text/css" href="css/map.css" />
