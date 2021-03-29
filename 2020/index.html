@@ -8,6 +8,9 @@ $("#").load("");
 })
 </script>
 <style type="text/css">
+@media screen and (max-width: 500px){
+  .mobile {pointer-events:none;}
+}
 </style>
 <link rel="stylesheet" type="text/css" href="css/map.css" />
 <link rel="stylesheet" type="text/css" href="css/works.css" />
@@ -97,7 +100,7 @@ $("#").load("");
 <p><u>ウェブサイトの閲覧には、zipファイル内のすべてのデータが必要です。</u></p>
 <p>フォルダ内のファイルを消去すると、完璧な状態のウェブサイトを閲覧できなくなってしまいます。</p>
 </div>
-<a id="link" href="download.zip" download="2020.zip"></a>
+<a id="link" class="mobile" href="download.zip" download="2020.zip"></a>
 </div>
 </div>
 <div id="full">
