@@ -47,7 +47,7 @@
   -webkit-text-stroke: 0.025rem #000;
   text-stroke: 0.025rem #000;
 }
-.chotto:after {
+#about .chotto:after {
   content:"あなたの";
   font-size: 150%;
   color:#eee;
