@@ -190,15 +190,6 @@ input[type=checkbox]:checked + .checkbox:before {
   -webkit-text-stroke: 0.05rem #000;
   text-stroke: 0.05rem #000;
 }
-.schedule p i:before {
-  content:"ちょっとクレイジーな";
-  font-size:75%;
-  padding-right:0.5rem;
-  color:#eee;
-  -webkit-text-stroke: 0.025rem #000;
-  text-stroke: 0.025rem #000;
-  
-}
 .schedule .yes:after {content:"けど、できない";}
 .schedule .no:after {content:"けど、気になる";}
 .schedule .or:after {content:"けど、やってみたい";}
