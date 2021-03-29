@@ -109,7 +109,7 @@ b, h1, h3 {
 <span class="bg_fff">Powerful, Energetic, Healthy, Unity</span>
 </div>
 <div id="normal">
-<div id="" class="center">
+<div id="post" class="center">
 <h2 class="schedule">
 <span id="sub">公募期間</span><br/>
 <span class="contents">2021年4月1日 (木) - 5月15日 (水)</span>
@@ -121,7 +121,7 @@ b, h1, h3 {
 </div>
 </div>
 <div id="normal">
-<div id="" class="center">
+<div id="post" class="center">
 <h2 class="schedule">
 <span class="sub">採用発表</span><br/>
 <span class="contents">2021年5月1日 (土)</span><br/>
