@@ -44,10 +44,10 @@ hr {border:none; padding:0;}
   font-size: 1rem;
   font-weight: 500;
 }
-#post h2 i,
-#post h2 b {
-  padding:1%;
-  font-size:125%;
+#entry i,
+#entry b {
+  padding:2.5%;
+  font-size:135%;
 }
 #post h3 {
   position:relative;
