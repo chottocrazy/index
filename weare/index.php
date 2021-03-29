@@ -175,6 +175,6 @@ body {background:#eee;}
 </ul>
 </div>
 </div>
-<p id="marquee"><b>This is the List of Amazing Ideas and Creative Challenges by Pehu</b><span>ペフが、これまでに実現した／今、実現している／これから実現したい、ちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
+<p id="marquee"><span>ペフが、これまでに実現した／今、実現している／これから実現したい、ちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
 </body>
 </html>
