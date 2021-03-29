@@ -4,6 +4,33 @@ body {
   top:0; left:0;
   width:100%; height:100%;
 }
+
+#full {
+  position:relative;
+  width:100rem; zoom:125%;
+  -webkit-overflow-scrolling: touch;
+}
+#main {
+  position:relative;
+  float:left;
+  width:50rem;
+  height:23.5rem;
+  background:#fff;
+}
+#normal {
+  position:relative;
+  float:left;
+  width:25rem;
+  height:23.5rem;
+  background:#eee;
+}
+#wide {
+  position:relative;
+  padding:0; margin:0;
+  width:100%;
+  height:11.75rem;
+  background:#eee;
+}
 #post h1 {
   pointer-events:none;
   background:#fff;
@@ -157,32 +184,6 @@ input[type=checkbox]:checked + .checkbox:before {
 .schedule .no:after {content:"けど、気になる";}
 .schedule .or:after {content:"けど、やってみたい";}
 
-#full {
-  position:relative;
-  width:100rem; zoom:125%;
-  -webkit-overflow-scrolling: touch;
-}
-#main {
-  position:relative;
-  float:left;
-  width:50rem;
-  height:22.5rem;
-  background:#fff;
-}
-#normal {
-  position:relative;
-  float:left;
-  width:25rem;
-  height:22.5rem;
-  background:#eee;
-}
-#wide {
-  position:relative;
-  padding:0; margin:0;
-  width:100%;
-  height:11.25rem;
-  background:#eee;
-}
 #link {
   position: absolute;
   margin:0;
