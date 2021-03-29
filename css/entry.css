@@ -46,6 +46,7 @@ hr {border:none; padding:0;}
 }
 #post h2 i,
 #post h2 b {
+  padding:1%;
   font-size:125%;
 }
 #post h3 {
