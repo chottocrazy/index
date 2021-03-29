@@ -186,6 +186,7 @@ input[type=checkbox]:checked + .checkbox:before {
   float:left;
   font-size:75%;
   left:0;
+  top:-0.25rem;
   padding-right: 0.25rem;
   position:relative;
   font-family:"MS Serif";
@@ -194,10 +195,11 @@ input[type=checkbox]:checked + .checkbox:before {
 }
 .schedule .chotto:after {
   content:"あなたの";
-  font-size: 125%;
+  font-size: 100%;
   color:#eee;
   position:absolute;
-  float:left; left:1.75rem;
+  top:-0.25rem;
+  left:-7rem;
   -webkit-text-stroke: 0.05rem #D24117;
   text-stroke: 0.05rem #D24117;
 }
