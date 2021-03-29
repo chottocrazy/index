@@ -246,7 +246,7 @@ button:hover {
   position:relative;
   z-index:100;
   pointer-events:none;
-  font-size:90%;
+  font-size:95%;
   margin:0;
   padding:0.5rem;
   color:#f6d435;
