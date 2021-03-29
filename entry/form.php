@@ -84,27 +84,56 @@ $("#").load("");
   font-family:"inscrutable"; overflow: hidden;
 }
 .hold:before,
-b, h1, h3,
-.two {
+b, h1, h3 {
   font-family:"Orchard";
 }
-.two:after {
-  content:"2021";
-  font-size:75%;
-  position:absolute;
-  z-index:1;
-  font-style:normal;
-  margin-left:-2.5rem;
-  margin-top:-0.75rem;
-  -webkit-text-stroke: 0.075rem #FFF;
-  text-stroke: 0.075rem #FFF;
-}
 </style>
-<link rel="stylesheet" type="text/css" href="http://chottocrazy.pe.hu/css/top.css" />
+<link rel="stylesheet" type="text/css" href="/css/top.css" />
 <link rel="stylesheet" type="text/css" href="/css/entry.css" />
 <title>大 chotto crazy 2021 | We Support your Amazing Ideas and Creative Challenges</title>
 </head>
 <body>
+<div id="full">
+<div id="main">
+<div id="wide">
+<h2 style="font-size:2rem; text-align:center; line-height: 200%;" class="center"><b>Let's Entry Your Amazing Ideas and Creative Challenges.</b></h2>
+</div>
+<div id="wide">
+<div id="logo" class="center">
+<span class="message">あなたの実現したいことは何ですか？</span>
+<h2 id="logo" style="zoom:1.5;">
+<span class="dai">the</span> <span class="two"><b>chotto crazy</b></span>
+</h2>
+</div>
+</div>
+<span class="bg_fff">Powerful, Energetic, Healthy, Unity</span>
+</div>
+<div id="normal">
+<div id="" class="center">
+<h2 class="schedule">
+<span id="sub">公募期間</span><br/>
+<span class="contents">2021年4月1日 (木) - 5月15日 (水)</span>
+</h2>
+<h2>
+<span class="sub">個人面談</span><br/>
+<span class="contents">2021年4月5日 - 4月30日</span><br/>
+ご応募頂いた方々と個人面談を行い、大 chotto crazy 2021 で実現するプログラムを決定します。<br/><br/></h2>
+</div>
+</div>
+<div id="normal">
+<div id="" class="center">
+<h2 class="schedule">
+<span class="sub">採用発表</span><br/>
+<span class="contents">2021年5月1日 (土)</span><br/>
+開催期間中に実現するプログラムを発表します。
+</h2>
+<h2>
+<span class="sub">実現期間</span><br/>
+<span class="contents">2021年5月1日 - 12月31日</span><br/>
+大阪・北加賀屋のシェアスタジオ「音ビル」をメイン会場に、公募で集まった「実現したいこと」を様々な方法で実現します。</h2>
+</div>
+</div>
+</div>
 <section id="post">
 <form class="mailForm" action="/entry/all.php" method="post">
 <div id="full">
