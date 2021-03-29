@@ -93,47 +93,6 @@ b, h1, h3 {
 <title>大 chotto crazy 2021 | We Support your Amazing Ideas and Creative Challenges</title>
 </head>
 <body>
-<div id="full">
-<div id="main">
-<div id="wide">
-<h2 style="font-size:2rem; text-align:center; line-height: 200%;" class="center"><b>Let's Entry Your Amazing Ideas and Creative Challenges.</b></h2>
-</div>
-<div id="wide">
-<div id="logo" class="center">
-<span class="message">あなたの実現したいことは何ですか？</span>
-<h2 id="logo" style="zoom:1.5;">
-<span class="dai">the</span> <span class="two"><b>chotto crazy</b></span>
-</h2>
-</div>
-</div>
-<span class="bg_fff">Powerful, Energetic, Healthy, Unity</span>
-</div>
-<div id="normal">
-<div id="post" class="center">
-<h2 class="schedule">
-<span id="sub">公募期間</span><br/>
-<span class="contents">2021年4月1日 (木) - 5月15日 (水)</span>
-</h2>
-<h2>
-<span id="sub">個人面談</span><br/>
-<span class="contents">2021年4月5日 - 4月30日</span><br/>
-ご応募頂いた方々と個人面談を行い、大 chotto crazy 2021 で実現するプログラムを決定します。<br/><br/></h2>
-</div>
-</div>
-<div id="normal">
-<div id="post" class="center">
-<h2 class="schedule">
-<span id="sub">採用発表</span><br/>
-<span class="contents">2021年5月1日 (土)</span><br/>
-開催期間中に実現するプログラムを発表します。
-</h2>
-<h2>
-<span id="sub">実現期間</span><br/>
-<span class="contents">2021年5月1日 - 12月31日</span><br/>
-大阪・北加賀屋のシェアスタジオ「音ビル」をメイン会場に、公募で集まった「実現したいこと」を様々な方法で実現します。</h2>
-</div>
-</div>
-</div>
 <section id="post">
 <form class="mailForm" action="/entry/all.php" method="post">
 <div id="full">
@@ -171,14 +130,14 @@ b, h1, h3 {
 </div>
 <div id="main" style="background:#eee;">
 <div id="form">
-<h2 id="what"><span id="sub" class="type">あなたの実現したいことは何ですか？</span><br/>
-<textarea type="text" id="content" name="content" required></textarea></h2>
+<h2 id="what"><span id="sub">あなたの実現したいことは何ですか？</span><br/>
+<textarea id="content" name="content" required></textarea></h2>
 </div>
 <span class="bg_fff"> Let's Type Your Amazing Ideas and Creative Challenges </span>
 </div>
 <div id="normal">
 <div id="form">
-<h2><span id="sub" class="when">いつまでに実現したいですか？</span><br/>
+<h2><span id="sub">いつまでに実現したいですか？</span><br/>
 <input type="text" id="when" name="when" required></h2>
 <h2><span id="sub">どこで実現したいですか？</span><br/>
 <input type="text" id="where" name="where" required></h2>
@@ -191,15 +150,15 @@ b, h1, h3 {
 </div>
 <div id="normal">
 <div id="form">
-<h2 id="why"><span id="sub" class="type">なぜ実現したいと思いましたか？</span><br/>
-<textarea type="text" id="why" name="why" required></textarea></h2>
+<h2 id="why"><span id="sub">なぜ実現したいと思いましたか？</span><br/>
+<textarea id="why" name="why" required></textarea></h2>
 </div>
 <span class="bg_fff"> Why Do You Want to do? </span>
 </div>
 <div id="main" style="background:#eee;">
 <div id="form">
-<h2 id="how"><span id="sub" class="type">実現までの計画を考えてみましょう</span><br/>
-<textarea type="text" id="how" name="how" required></textarea></h2>
+<h2 id="how"><span id="sub">実現までの計画を考えてみましょう</span><br/>
+<textarea id="how" name="how" required></textarea></h2>
 </div>
 <span class="bg_fff"> Let's Type Your Plan to do </span>
 </div>
