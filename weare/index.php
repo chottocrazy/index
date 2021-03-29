@@ -75,7 +75,7 @@ fclose($fp);
 }
 body {background:#eee;}
 .org {background:#fff;}
-.reset a {background:#fff;}
+.reset-button {background:#fff;}
 </style>
 </head>
 <body>
@@ -145,7 +145,7 @@ body {background:#eee;}
 </ul>
 </div>
 <div class="reset">
-<a>Reset</a>
+<input type="reset" name="reset" value="RESET" class="reset-button">
 </div>
 </div>
 </form>
