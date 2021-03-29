@@ -119,7 +119,7 @@ fclose($fp);
 </ul>
 </div>
 <div class="reset">
-<a>Reset</a>
+<input type="reset" name="reset" value="RESET" class="reset-button">
 </div>
 </div>
 </form>
