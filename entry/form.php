@@ -115,7 +115,7 @@ b, h1, h3 {
 <span class="contents">2021年4月1日 (木) - 5月15日 (水)</span>
 </h2>
 <h2>
-<span class="sub">個人面談</span><br/>
+<span id="sub">個人面談</span><br/>
 <span class="contents">2021年4月5日 - 4月30日</span><br/>
 ご応募頂いた方々と個人面談を行い、大 chotto crazy 2021 で実現するプログラムを決定します。<br/><br/></h2>
 </div>
@@ -123,12 +123,12 @@ b, h1, h3 {
 <div id="normal">
 <div id="post" class="center">
 <h2 class="schedule">
-<span class="sub">採用発表</span><br/>
+<span id="sub">採用発表</span><br/>
 <span class="contents">2021年5月1日 (土)</span><br/>
 開催期間中に実現するプログラムを発表します。
 </h2>
 <h2>
-<span class="sub">実現期間</span><br/>
+<span id="sub">実現期間</span><br/>
 <span class="contents">2021年5月1日 - 12月31日</span><br/>
 大阪・北加賀屋のシェアスタジオ「音ビル」をメイン会場に、公募で集まった「実現したいこと」を様々な方法で実現します。</h2>
 </div>
