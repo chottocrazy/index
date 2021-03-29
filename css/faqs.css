@@ -15,7 +15,7 @@ hr {border:none; padding:0;}
   position:relative;
   float:left;
   width:100%;
-  height:16.5rem;
+  height:17rem;
   background:#fff;
 }
 .faqs #normal {
@@ -23,13 +23,6 @@ hr {border:none; padding:0;}
   float:left;
   width:50%;
   height:16.5rem;
-  background:#eee;
-}
-.faqs #wide {
-  position:relative;
-  padding:0; margin:0;
-  width:100%;
-  height:8.25rem;
   background:#eee;
 }
 .faqs h1 {
