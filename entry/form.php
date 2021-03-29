@@ -210,7 +210,7 @@ b, h1, h3 {
 <h2 id="submit">
 <span>
 <input type="hidden" id="token" name="token" value="1234567" />
-<button class="mailForm__submit" type="submit">実現したいことを応募する</button>
+<button class="mailForm__submit" type="submit">ちょっとクレイジーな実現したいことを応募する</button>
 </span>
 </h2>
 </div>
