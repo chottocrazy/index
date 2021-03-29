@@ -99,7 +99,6 @@ b, h1, h3,
   text-stroke: 0.075rem #FFF;
 }
 </style>
-<link rel="stylesheet" type="text/css" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
 <link rel="stylesheet" type="text/css" href="/css/entry.css" />
 <title>大 chotto crazy 2021 | We Support your Amazing Ideas and Creative Challenges</title>
