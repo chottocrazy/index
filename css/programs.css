@@ -157,8 +157,8 @@ form ul {
   width: 100%;
   font-size:1rem;
   text-align:center;
-  padding:0.25rem 0;
-  margin: 0.25rem auto 0;
+  padding:0.5rem 0;
+  margin: 0.5rem auto 0;
   background: #eee;
   text-shadow:0.1rem 0.1rem #fff;
   border-radius: 2.5rem;
@@ -167,7 +167,8 @@ form ul {
   border: 1px solid #000;
 }
 .label:hover,
-.reset-button:hover, button:hover {
+.reset-button:hover,
+button:hover {
   color:#fff;
   cursor:pointer;
   background: #D24117;
