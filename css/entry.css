@@ -175,9 +175,31 @@ input[type=checkbox]:checked + .checkbox:before {
 .schedule i {font-style:normal;}
 .schedule p {font-size:0.95rem; margin:1rem 0;}
 .schedule p i {
+  position:relative;
   font-size:120%;
   line-height:175%;
   padding-right:0.25rem;
+}
+.schedule .chotto:before {
+  content:"ちょっとクレイジーな";
+  color:#eee; 
+  float:left;
+  font-size:75%;
+  left:0;
+  padding-right: 0.25rem;
+  position:relative;
+  font-family:"MS Serif";
+  -webkit-text-stroke: 0.025rem #000;
+  text-stroke: 0.025rem #000;
+}
+.schedule .chotto:after {
+  content:"あなたの";
+  font-size: 125%;
+  color:#eee;
+  position:absolute;
+  float:left; left:1.75rem;
+  -webkit-text-stroke: 0.05rem #D24117;
+  text-stroke: 0.05rem #D24117;
 }
 
 .schedule .yes:after,
