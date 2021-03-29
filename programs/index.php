@@ -133,7 +133,7 @@ fclose($fp);
 <a style="width:<?=h($row[6])?>%;" onclick="obj=document.getElementById('<?=h($row[5])?>').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 <div id="<?=h($row[5])?>" class="info" style="display:none;">
 <span><?=h($row[4])?></span>
-<p id="marquee" class="how"><span><?=h($row[8])?></span></p>
+<p class="how"><?=h($row[8])?></p>
 <a class="<?=h($row[9])?>" href="<?=h($row[9])?>" target="_blank"></a>
 </div>
 </li>
@@ -145,7 +145,7 @@ fclose($fp);
 <a style="width:10%;" onclick="obj=document.getElementById('<?=h($row[5])?>').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 <div id="<?=h($row[5])?>" class="info" style="display:;">
 <span>説明 row[4]</span>
-<span class="how"><marquee>実現方法 row[8]</marquee></span>
+<p class="how">実現方法 row[8]</p>
 <a class="<?=h($row[9])?>" href="<?=h($row[9])?>" target="_blank"></a>
 </div>
 </li>
