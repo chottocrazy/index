@@ -32,7 +32,7 @@ fclose($fp);
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>大 chotto crazy by Pehu</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/js/programs.js"></script>
+<script src="http://creative-community.pe.hu/coding/js/org.js"></script>
 <link rel="stylesheet" href="/css/programs.css" />
 <style type="text/css">
 #header b,
