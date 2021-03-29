@@ -23,9 +23,6 @@ if($request_param['token'] === '1234567'){
 if(mb_send_mail($to, $subject2, $content2, $mailfrom)){
     mb_send_mail($mailto,$subject,$content,$mailfrom);
     ?>
-    <script>
-        window.location = '/entry/all.php';
-    </script>
     <?php
 } else {
     header('Content-Type: text/html; charset=UTF-8');
