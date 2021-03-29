@@ -35,8 +35,8 @@
 #about .yes:after {content:"けど、できない";}
 #about .no:after {content:"けど、気になる";}
 #about .or:after {content:"けど、やってみたい";}
-.chotto {position:relative; width:100%;} 
-.chotto:before {
+#about .chotto {position:relative; width:100%;} 
+#about .chotto:before {
   content:"ちょっとクレイジーな";
   color:#eee;
   float:left;
