@@ -200,7 +200,7 @@ h2 .hold:before, h2 .dai:before, h2 b, h2 .daidaidai, h2 .on:after {
 #head #index {float:right;}
 hr {border:none; clear:both;}
 .png p:hover {
-  background:#fff;
+  background:#eee;
 }
 #ramdom div,
 .block {
@@ -258,7 +258,7 @@ hr {border:none; clear:both;}
 	font-weight:500;
 }
 #start u:hover {
-  background:#eee;
+  background:#fff;
   color:#eee;
   cursor:pointer;
 }
