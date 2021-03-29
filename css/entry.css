@@ -1,111 +1,168 @@
-#post #form {
-  position:absolute;
-  top:50%; left:50%;
-  z-index:10;
-  width:90%;
-  padding:0; margin:0;
-  transform:translate(-50%,-50%);
-  -webkit-transform:translate(-50%,-50%);
-  
-}
-#post h2  {
-  font-size: 1.25rem;
-  padding: 0;
-  text-align:left;
-  letter-spacing: 0.1rem;
-  font-weight: 500;
-}
-#post #sub {
-  display:inline-block;
-  padding:0.25rem 0.5rem;
-  margin-bottom:0.5rem;
-  background-color:#000;
-  color:#fff;
-}
-#post input[type="text"],
-#post input[type="email"] {
-  font-size: 1.25rem;
-  padding:0.5rem;
-  width:90%;
-  border: none;
-}
-button,
-input[type="submit"] {
-  font-size:1.5rem;
-  padding:0.5rem 0;
-  width:100%;
-  background-color: #000;
-  color:#fff;
-  border-radius:0.5rem;
-}
-button:hover,
-input[type="submit"]:hover {
-  background-color: #fff;
-  color:#000;
-  cursor:pointer;
-}
-#what textarea {
-  font-size:1.25rem;
-  margin:0;
-  padding:0.5rem;
-  width:97.5%;
-  height:17.5rem;
-  background-color:#fff;
-  border:solid 2px #ccc;
-  color:#000;
-}
-#why textarea {
-  font-size:1.25rem;
-  margin:0;
-  padding:0.5rem;
-  width:97.5%;
-  height:15rem;
-  background-color:#fff;
-  border:solid 2px #ccc;
-  color:#000;
-}
-#how textarea {
-  font-size:1.25rem;
-  margin:0;
-  padding:0.5rem;
-  width:97.5%;
-  height:11.5rem;
-  background-color:#fff;
-  border:solid 2px #ccc;
-  color:#000;
-}
 body {
   padding:0; margin:0;
   position:relative;
   top:0; left:0;
   width:100%; height:100%;
 }
+#post h1 {
+  pointer-events:none;
+  background:#fff;
+  border:0.1rem solid;
+  border-radius:0.75rem;
+  text-align:center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+#post h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+#post h3 {
+  position:relative;
+  z-index:10;
+  padding:0; margin:0;
+  pointer-events:none;
+  font-size:1.5rem;
+  line-height:200%;
+  padding:1.25rem 2.5rem;
+}
+#post #sub {
+  display:inline-block;
+  padding:0.25rem 0.5rem;
+  margin-bottom:0.5rem;
+  background-color:#000;
+  font-size:120%;
+  color:#fff;
+}
+#post #about {
+  font-size:0.75rem;
+  border:0.05rem solid;
+  border-radius:0.75rem;
+}
+#post #about h2,
+#post #about p {
+  padding:0 1rem;
+}
+#post input[type="text"],
+#post input[type="email"] {
+  font-size: 1rem;
+  padding:2.5%;
+  width:95%;
+  border: none;
+  border-radius:5px;
+}
+#what textarea,
+#why textarea,
+#how textarea {
+  font-size:1.25rem;
+  margin:0;
+  padding:1.25%;
+  width:97.5%;
+  height:17rem;
+  background-color:#fff;
+  border:none;
+  border-radius:5px;
+  color:#000;
+}
+
+#post input[type="radio"] {
+  display: none;
+}
+.radio, .checkbox {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  margin:0.25rem 0 0 0;
+  padding: 0 1.75rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.radio:after, .checkbox:after {
+  position: absolute;
+  display: inline-block;
+  left:0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin:-0.25rem 0 0 0 ;
+  border: 2px solid #000;
+  border-radius: 0.25rem;
+  content: '';
+}
+
+.radio:before {
+  position: absolute;
+  top: 50%;
+  left: 0.25rem;
+  display: block;
+  margin-top: -0.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #000;
+  content: '';
+  opacity: 0;
+}
+input[type=radio]:checked + .radio:before {
+  opacity: 1;
+}
+input[type=checkbox]:checked + .checkbox:before {
+  opacity: 1;
+}
+#post button {
+  border:none;
+  color:#fff;
+  background:#000;
+  font-size:2rem;
+  cursor:pointer;
+  display:inline-block;
+  width:100rem;
+}
+.center,
+#form,
+#title {
+  position:absolute;
+  width:85%;
+  z-index:10;
+  padding:0; margin:0;
+  top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+}
+.center,
+#title {
+  pointer-events:none;
+}
+.schedule i {font-style:normal;}
+.schedule p {font-size:0.95rem; margin:0.75rem 0;}
+.schedule p i {font-size:120%;}
+
+.schedule .yes:after,
+.schedule .no:after,
+.schedule .or:after {
+  position:relative;
+  padding-left: 0.25rem;
+  font-size:125%;
+  color:#eee;
+  -webkit-text-stroke: 0.05rem #000;
+  text-stroke: 0.05rem #000;
+}
+.schedule p i:before {
+  content:"ちょっとクレイジーな";
+  font-size:75%;
+  padding-right:0.25rem;
+  color:#eee;
+  -webkit-text-stroke: 0.025rem #000;
+  text-stroke: 0.025rem #000;
+  
+}
+.schedule .yes:after {content:"けど、できない";}
+.schedule .no:after {content:"けど、気になる";}
+.schedule .or:after {content:"けど、やってみたい";}
+
 #full {
   position:relative;
   width:100rem; zoom:125%;
   -webkit-overflow-scrolling: touch;
-}
-#about {
-  font-size:0.9rem;
-  border:0.05rem solid;
-  border-radius:0.75rem;
-}
-#about h2,
-#about p {
-  padding:0 1rem;
-}
-#link {
-  position: absolute;
-  margin:0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-indent:-999px;
-}
-#link:hover {
-  cursor:pointer;
-  background-color:rgba(225,225,225,0.25);
 }
 #main {
   position:relative;
@@ -128,38 +185,18 @@ body {
   height:11.25rem;
   background:#eee;
 }
-h1 {
-  pointer-events:none;
-  background:#fff;
-  border:0.1rem solid;
-  border-radius:0.75rem;
-  text-align:center;
-  font-size: 2.5rem;
-  font-weight: 500;
+#link {
+  position: absolute;
+  margin:0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent:-999px;
 }
-h2 {
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-h3 {
-  position:relative;
-  z-index:10;
-  padding:0; margin:0;
-  pointer-events:none;
-  font-size:1.5rem;
-  line-height:200%;
-  padding:1.25rem 2.5rem;
-}
-.center,
-#title {
-  position:absolute;
-  top:50%; left:50%;
-  width:80%;
-  z-index:10;
-  pointer-events:none;
-  padding:0; margin:0;
-  transform:translate(-50%,-50%);
-  -webkit-transform:translate(-50%,-50%);
+#link:hover {
+  cursor:pointer;
+  background-color:rgba(225,225,225,0.25);
 }
 .message {
   font-size:1rem;
@@ -181,7 +218,8 @@ h3 {
   width:15rem;
   background:#fff;
 }
-#marquee {
+#marquee,
+#submit {
   overflow: hidden;
   position:relative;
   width:100%; height:3rem;
@@ -205,6 +243,14 @@ h3 {
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
+#submit > span {
+  position: absolute;
+  font-size:2rem;
+  white-space: nowrap;
+  top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+}
 #marquee > span:hover {
   animation-play-state: paused;
   cursor: default;
@@ -216,7 +262,9 @@ h3 {
 
 @media screen and (max-width: 950px){
   #full {width:100rem; zoom:1;}
+#post button {width:100rem;}
 }
 @media screen and (max-width: 500px){
   #full {width:50rem; zoom:1;}
+#post button {width:50rem;}
 }
