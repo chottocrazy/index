@@ -13,21 +13,21 @@ body {
   position:relative;
   float:left;
   width:50rem;
-  height:24rem;
+  height:23rem;
   background:#fff;
 }
 #normal {
   position:relative;
   float:left;
   width:25rem;
-  height:24rem;
+  height:23rem;
   background:#eee;
 }
 #wide {
   position:relative;
   padding:0; margin:0;
   width:100%;
-  height:12rem;
+  height:11.5rem;
   background:#eee;
 }
 
