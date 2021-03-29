@@ -132,9 +132,8 @@ fclose($fp);
 <span class="date"><?=h($row[3])?></span>
 <a style="width:<?=h($row[6])?>%;" onclick="obj=document.getElementById('<?=h($row[5])?>').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 <div id="<?=h($row[5])?>" class="info" style="display:none;">
-<marquee><?=h($row[4])?></marquee>
-<p id="marquee"><span><?=h($row[4])?></span></p>
-<span class="how"><?=h($row[8])?></span>
+<span><?=h($row[4])?></span>
+<p id="marquee" class="how"><span><?=h($row[8])?></span></p>
 <a class="<?=h($row[9])?>" href="<?=h($row[9])?>" target="_blank"></a>
 </div>
 </li>
@@ -145,8 +144,8 @@ fclose($fp);
 <span class="date">0000.00.00 row[3]</span>
 <a style="width:10%;" onclick="obj=document.getElementById('<?=h($row[5])?>').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 <div id="<?=h($row[5])?>" class="info" style="display:;">
-<p id="marquee"><span>説明 row[4]</span></p>
-<span class="how">実現方法 row[8]</span>
+<span>説明 row[4]</span>
+<span class="how"><marquee>実現方法 row[8]</marquee></span>
 <a class="<?=h($row[9])?>" href="<?=h($row[9])?>" target="_blank"></a>
 </div>
 </li>
