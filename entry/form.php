@@ -174,7 +174,7 @@ b, h1, h3 {
 <div id="main" style="background:#eee;">
 <div id="form">
 <h2 id="what"><span id="sub">あなたの実現したいことは何ですか？</span><br/>
-<textarea id="content" name="content" required></textarea></h2>
+<textarea name="content" required></textarea></h2>
 </div>
 <span class="bg_fff"> Let's Type Your Amazing Ideas and Creative Challenges </span>
 </div>
@@ -194,14 +194,14 @@ b, h1, h3 {
 <div id="normal">
 <div id="form">
 <h2 id="why"><span id="sub">なぜ実現したいと思いましたか？</span><br/>
-<textarea id="why" name="why" required></textarea></h2>
+<textarea name="why" required></textarea></h2>
 </div>
 <span class="bg_fff"> Why Do You Want to do? </span>
 </div>
 <div id="main" style="background:#eee;">
 <div id="form">
 <h2 id="how"><span id="sub">実現までの計画を考えてみましょう</span><br/>
-<textarea id="how" name="how" required></textarea></h2>
+<textarea name="how" required></textarea></h2>
 </div>
 <span class="bg_fff"> Let's Type Your Plan to do </span>
 </div>
