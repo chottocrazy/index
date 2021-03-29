@@ -60,6 +60,7 @@ while ($row = fgetcsv($fp)) {
     $rows[] = $row;
 }
 ?>
+<html lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="viewport" content="width=device-width">
@@ -99,7 +100,7 @@ b, h1, h3,
   text-stroke: 0.075rem #FFF;
 }
 </style>
-<link rel="stylesheet" type="text/css" href="/css/top.css" />
+<link rel="stylesheet" type="text/css" href="http://chottocrazy.pe.hu/css/top.css" />
 <link rel="stylesheet" type="text/css" href="/css/entry.css" />
 <title>大 chotto crazy 2021 | We Support your Amazing Ideas and Creative Challenges</title>
 </head>
@@ -110,14 +111,13 @@ b, h1, h3,
 <div id="normal">
 <div class="center">
 <h2 class="schedule">
-<span class="sub">公募内容</span><br/>
-<span class="contents">やりたいこと</span><br/>
-<span class="contents">やりたくないこと</span><br/>
-<span class="contents">やらなくてもいいこと</span>
-</h2>
-<h2 class="schedule">
-<span class="sub">公募期間</span><br/>
-<span class="contents">2021年1月16日 (土) - 3月31日 (水)</span>
+<span id="sub">公募内容</span><br/>
+<span class="contents"><i class="yes">やりたい</i></span><br/>
+<span class="contents"><i class="no">やりたくない</i></span><br/>
+<span class="contents"><i class="or">やらなくてもいい</i></span>
+<p><i>創造的チャレンジ</i> や<br/>
+<i>素晴らしいアイデア</i>を</p>
+募集します。
 </h2>
 </div>
 <span class="bg_fff">What Do You Want to Do?</span>
@@ -125,53 +125,65 @@ b, h1, h3,
 <div id="normal">
 <div id="form">
 <h2><span id="sub" class="name">名前</span><br/>
-<input type="text" id="name" name="name" placeholder="Your Name" required></h2>
+<input type="text" id="name" name="name"  required></h2>
 <h2><span id="sub">メールアドレス</span><br/>
-<input type="email" id="email" name="email" placeholder="Email" required></h2>
+<input type="email" id="email" name="email" required></h2>
 <div id="about">
-<p>このウェブサイトに、あなたの実現したいことと実現までの計画を公開してもよろしいですか？</p>
-<p><input type="radio" name="public" value="yes" required> はい
-<input type="radio" name="public" value="none" required> いいえ</p>
+<p>あなたの実現したいことと実現までの計画を公開してもよろしいですか？</p>
+<p>
+<input type="radio" name="public" value="yes" id="yes" required>
+<label for="yes" class="radio">はい</label>
+<input type="radio" name="public" value="none" id="no" required>
+<label for="no" class="radio">いいえ</label>
+</p>
 </div>
 </div>
 <span class="bg_fff">Your Name / Email Address</span>
 </div>
 <div id="main" style="background:#eee;">
 <div id="form">
-<h2 id="what"><span id="sub" class="type">実現したいこと</span><br/>
-<textarea type="text" id="content" name="content" placeholder="Let's Type Your Amazing Ideas and Creative Challenges" required></textarea></h2>
+<h2 id="what"><span id="sub" class="type">あなたの実現したいことは何ですか？</span><br/>
+<textarea type="text" id="content" name="content" required></textarea></h2>
 </div>
 <span class="bg_fff"> Let's Type Your Amazing Ideas and Creative Challenges </span>
 </div>
 <div id="normal">
 <div id="form">
-<div id="about">
-<p>実現したいことを実現するための簡単な計画をご入力下さい。</p>
-</div>
 <h2><span id="sub" class="when">いつまでに実現したいですか？</span><br/>
-<input type="text" id="when" name="when" placeholder="When You Want to do?" required></h2>
+<input type="text" id="when" name="when" required></h2>
 <h2><span id="sub">どこで実現したいですか？</span><br/>
-<input type="text" id="where" name="where" placeholder="Where You Want to do?" required></h2>
+<input type="text" id="where" name="where" required></h2>
+<br/>
+<div id="about">
+<p><b>実現したいことを実現する</b>までの<b>簡単な計画</b>をご記入下さい。</p>
+</div>
 </div>
 <span class="bg_fff">When / Where you want to do?</span>
 </div>
 <div id="normal">
 <div id="form">
-<h2 id="why"><span id="sub" class="type">なぜ実現したいですか？</span><br/>
-<textarea type="text" id="why" name="why" placeholder="Why You Want to do?" required></textarea></h2>
+<h2 id="why"><span id="sub" class="type">なぜ実現したいと思いましたか？</span><br/>
+<textarea type="text" id="why" name="why" required></textarea></h2>
 </div>
 <span class="bg_fff"> Why Do You Want to do? </span>
 </div>
 <div id="main" style="background:#eee;">
 <div id="form">
 <h2 id="how"><span id="sub" class="type">実現までの計画を考えてみましょう</span><br/>
-<textarea type="text" id="how" name="how" placeholder="Let's Type Your Plan to do" required></textarea><br/>
-<input type="hidden" id="token" name="token" value="1234567" />
-<button class="mailForm__submit" type="submit">応募する</button></h2>
+<textarea type="text" id="how" name="how" required></textarea></h2>
 </div>
 <span class="bg_fff"> Let's Type Your Plan to do </span>
 </div>
 </div>
+<div id="full">
+<h2 id="submit">
+<span>
+<input type="hidden" id="token" name="token" value="1234567" />
+<button class="mailForm__submit" type="submit">実現したいことを応募する</button>
+</span>
+</h2>
+</div>
 </form>
 </section>
 </body>
+</html>
