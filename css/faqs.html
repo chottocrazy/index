@@ -1,0 +1,208 @@
+body {
+  padding:0; margin:0;
+  position:relative;
+  top:0; left:0;
+  overflow-x:hidden;
+  height:100%;
+}
+hr {border:none; padding:0;}
+
+.faqs {
+  position:relative;
+  width:100vw;
+}
+.faqs #main {
+  position:relative;
+  float:left;
+  width:100%;
+  height:16.5rem;
+  background:#fff;
+}
+.faqs #normal {
+  position:relative;
+  float:left;
+  width:50%;
+  height:16.5rem;
+  background:#eee;
+}
+.faqs #wide {
+  position:relative;
+  padding:0; margin:0;
+  width:100%;
+  height:8.25rem;
+  background:#eee;
+}
+.faqs h1 {
+  pointer-events:none;
+  background:#fff;
+  border:0.1rem solid;
+  border-radius:0.75rem;
+  text-align:center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.faqs h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.faqs #logo {zoom:1.5;}
+.faqs #normal h2 {
+  font-size:0.9rem;
+  }
+.faqs i,
+.faqs b {
+  padding:1%;
+  font-size:120%;
+}
+.faqs h3 {
+  position:relative;
+  z-index:10;
+  padding:0; margin:0;
+  pointer-events:none;
+  font-size:1.5rem;
+  line-height:200%;
+  padding:1.25rem 2.5rem;
+}
+.faqs #sub {
+  display:inline-block;
+  padding:0.25rem 0.5rem;
+  margin-bottom:0.5rem;
+  background-color:#000;
+  font-size:120%;
+  color:#fff;
+}
+.faqs #normal #about {
+  width:17.5rem;
+}
+.faqs #about {
+  display:inline-block;
+  font-size:0.75rem;
+  border:0.05rem solid;
+  border-radius:0.75rem;
+}
+.faqs #about h2,
+.faqs #about p {
+  padding:0 1rem;
+}
+.faqs #about s {
+  font-style:normal;
+  text-decoration:none;
+  padding:0.75rem 1rem 0.25rem;
+  font-size:75%;
+  display:block;
+}
+.faqs #about u {font-size:1.5rem;}
+.faqs .contents .year{
+  padding-left:1rem;
+  font-style: italic;
+  -webkit-text-stroke: 0.01rem #fff;
+  text-stroke: 0.01rem #fff;
+}
+.faqs .contents .hold:before
+{top:4.25rem; left:2.5rem;}
+.faqs .contents .dai:before
+{top:4.5rem; left:3rem; font-size:3rem;}
+.center,
+#form,
+#title {
+  position:absolute;
+  width:85%;
+  z-index:10;
+  padding:0; margin:0;
+  top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+}
+.schedule i {font-style:normal;}
+.schedule p {font-size:0.95rem; margin:1rem 0;}
+.schedule p i {
+  font-size:120%;
+  line-height:175%;
+  padding-right:0.25rem;
+}
+
+.schedule .yes:after,
+.schedule .no:after,
+.schedule .or:after {
+  position:relative;
+  padding-left: 0.25rem;
+  font-size:125%;
+  color:#eee;
+  -webkit-text-stroke: 0.05rem #000;
+  text-stroke: 0.05rem #000;
+}
+.schedule p i:before {
+  content:"ちょっとクレイジーな";
+  font-size:75%;
+  padding-right:0.5rem;
+  color:#eee;
+  -webkit-text-stroke: 0.025rem #000;
+  text-stroke: 0.025rem #000;
+  
+}
+.schedule .yes:after {content:"けど、できない";}
+.schedule .no:after {content:"けど、気になる";}
+.schedule .or:after {content:"けど、やってみたい";}
+
+#link {
+  position: absolute;
+  margin:0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent:-999px;
+}
+#link:hover {
+  cursor:pointer;
+  background-color:rgba(225,225,225,0.25);
+}
+.message {
+  font-size:1rem;
+  position:relative;
+  bottom:0rem;
+  padding:0.25rem 0.5rem;
+  border:0.1rem solid;
+  border-radius:0.5rem;
+  background:#fff;
+}
+#marquee {
+  overflow: hidden;
+  position:relative;
+  width:100%; height:3rem;
+  padding:0; margin:0;
+  top:0; left:0;
+  color:#fff;
+  background:#000;
+  z-index:10;
+}
+#marquee::after {
+  content: "";
+  white-space: nowrap;
+  display: inline-block;
+}
+#marquee > span {
+  position: absolute;
+  font-size:2rem;
+  white-space: nowrap;
+  animation-name: marquee;
+  animation-timing-function: linear;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#marquee > span:hover {
+  animation-play-state: paused;
+  cursor: default;
+}
+@keyframes marquee {
+  0% { left: 100%; transform: translate(0); }
+  100% { left: 0; transform: translate(-100%); }
+}
+
+@media screen and (max-width: 950px){
+}
+@media screen and (max-width: 500px){
+.faqs #normal {width:100%; height:12.5rem;}
+.faqs #logo {zoom:1;}
+.faqs #form .message {zoom:0.7;}
+}
