@@ -153,6 +153,6 @@ fclose($fp);
 </ul>
 </div>
 </div>
-<p id="marquee"><span>一般公募より集まった「実現したいこと」から選考した、公式プログラム（ちょっとクレイジーなアイデアやチャレンジ）を、様々な方法で実現します。</span></p>
+<p id="marquee"><span>一般公募より選考した「実現したいこと」大 chotto crazy 公式プログラム を紹介します。</span></p>
 </body>
 </html>
