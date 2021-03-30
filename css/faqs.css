@@ -84,6 +84,9 @@ hr {border:none; padding:0;}
 .faqs #normal #about {
   width:17.5rem;
   display:inline-block;
+}
+.faqs #main #about,
+.faqs #normal #about {
   font-size:0.75rem;
   border:0.05rem solid;
   border-radius:0.75rem;
@@ -230,7 +233,7 @@ hr {border:none; padding:0;}
 
 @media screen and (max-width: 800px){
 .faqs #normal {width:100%; height:12.5rem;}
-.faqs #main {height:20rem;}
+.faqs #main {height:18rem;}
 .faqs #normal h2 {font-size:1rem;}
 .faqs #normal .center,
 .faqs #normal .right {
@@ -253,9 +256,11 @@ hr {border:none; padding:0;}
   margin-left:-2.5rem;
 }
 .faqs #info {zoom:0.9;}
+.faqs #info .notice {zoom:1.2;}
 .faqs #form .message {zoom:0.75;}
 }
 @media screen and (max-width: 450px){
+.faqs #main {height:19rem;}
 .faqs #normal h2 {font-size:3.5vw;}
 .faqs #normal h2 .by {font-size:90%;}
 .faqs #normal #about {
@@ -267,8 +272,11 @@ hr {border:none; padding:0;}
 {top:50%;}
 .faqs #logo {
   zoom:1.75;
-  margin-top:-0.25rem;
+  margin-top:1rem;
   margin-left:-1rem;
 }
-.faqs #form .message {zoom:0.5;}
+.faqs #form .message {
+  zoom:0.5;
+  top:-2.5rem;
+}
 }
