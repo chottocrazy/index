@@ -91,7 +91,7 @@ hr {border:none; padding:0;}
   border: none;
   border-radius:5px;
 }
-#post #what textarea {font-size:2rem;}
+#post #what textarea {font-size:1.5rem;}
 #post textarea {
   font-size:1.2rem;
   margin:0;
