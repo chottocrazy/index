@@ -104,9 +104,9 @@ hr {border:none; padding:0;}
   text-stroke: 0.01rem #fff;
 }
 .faqs .contents .hold:before
-{top:4.25rem; left:2.5rem;}
+{top:2.25rem; left:2.5rem;}
 .faqs .contents .dai:before
-{top:4.5rem; left:3rem; font-size:3rem;}
+{top:2.5rem; left:3rem; font-size:3rem;}
 .faqs #normal .right {
   z-index:10;
   position:absolute;
