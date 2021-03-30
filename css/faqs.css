@@ -22,7 +22,7 @@ hr {border:none; padding:0;}
   position:relative;
   float:left;
   width:50%;
-  height:15.25rem;
+  height:15rem;
   background:#eee;
 }
 .faqs h1 {
@@ -249,7 +249,7 @@ hr {border:none; padding:0;}
 }
 .faqs #logo {
   font-size:1.5rem;
-  margin-top:7rem;
+  margin-top:5.5rem;
   margin-left:-2.5rem;
 }
 .faqs #info {zoom:0.9;}
@@ -267,7 +267,7 @@ hr {border:none; padding:0;}
 {top:50%;}
 .faqs #logo {
   zoom:1.75;
-  margin-top:0rem;
+  margin-top:-0.25rem;
   margin-left:-1rem;
 }
 .faqs #form .message {zoom:0.5;}
