@@ -26,11 +26,10 @@ b, h1, h3 {
   font-family:"Orchard";
 }
 .print{display: none;}
-.print {border-top:2px dotted;}
 .print #post {zoom:0.9;}
 
 @media print{
-.print{display: block;}
+.print{display: block; border-top:2px dotted;}
 }
 @media print{
 .no_print{display: none;}
@@ -152,7 +151,7 @@ b, h1, h3 {
 <div id="main" style="background:#eee;">
 <div id="form">
 <p id="post"><span id="sub">備考</span> 無記入のままご応募ください<br/>
-<textarea name="content" required></textarea></p>
+<span id="empty"></span></p>
 </div>
 </div>
 </div>
