@@ -15,7 +15,7 @@ hr {border:none; padding:0;}
   position:relative;
   float:left;
   width:100%;
-  height:17.5rem;
+  height:17rem;
   background:#fff;
 }
 .faqs #normal {
@@ -255,6 +255,7 @@ hr {border:none; padding:0;}
 .faqs #form .message {zoom:0.75;}
 }
 @media screen and (max-width: 450px){
+.faqs #main {height:20rem;}
 .faqs #normal h2 {font-size:3.5vw;}
 .faqs #normal h2 .by {font-size:90%;}
 .faqs #normal #about {
