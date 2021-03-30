@@ -256,7 +256,7 @@ hr {border:none; padding:0;}
   margin-left:-2.5rem;
 }
 .faqs #info {zoom:0.9;}
-.faqs #info .notice {zoom:1.2;}
+.faqs #info .notice {zoom:0.75;}
 .faqs #form .message {zoom:0.75;}
 }
 @media screen and (max-width: 450px){
