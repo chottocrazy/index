@@ -25,6 +25,9 @@ $("#").load("");
 b, h1, h3 {
   font-family:"Orchard";
 }
+@media print{
+.no_print{display: none;}
+}
 </style>
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
 <link rel="stylesheet" type="text/css" href="/css/entry.css" />
@@ -102,7 +105,7 @@ b, h1, h3 {
 </div>
 <div id="full" class="no_print">
 <h2 id="marquee">
-<span>上記の入力フォームに実現したいことを記入した エントリー用紙 を ダウンロードする</span>
+<span>上記の入力フォームに実現したいことを記入した エントリー用紙 を 出力する</span>
 <a id="link" href="#" onclick="window.print(); return false;"></a>
 </h2>
 </div>
