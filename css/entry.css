@@ -97,7 +97,7 @@ hr {border:none; padding:0;}
   padding:0 1.25%;
   width:97.5%;
   max-width:97.5%;
-  min-height:16rem;
+  min-height:15rem;
   background-color:#fff;
   border:none;
   border-radius:5px;
@@ -170,7 +170,7 @@ input[type=checkbox]:checked + .checkbox:before {
   position:relative;
   width:90%;
   z-index:10;
-  padding:0; margin: 1.5rem 5%;
+  padding:0; margin: 2rem 5%;
   top:0; left:0;
 }
 .center {
