@@ -90,7 +90,9 @@ hr {border:none; padding:0;}
   border: none;
   border-radius:5px;
 }
-#post textarea {
+#post #empty {display:block;}
+#post textarea,
+#post #empty {
   font-size:1.25rem;
   margin:0;
   padding:1.25%;
