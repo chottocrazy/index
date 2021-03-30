@@ -32,12 +32,12 @@
   -webkit-text-stroke: 0.05rem #000;
   text-stroke: 0.05rem #000;
 }
-#about .yes:after {content:"ăăŠăă§ăăŞă";}
-#about .no:after {content:"ăăŠăć°ăŤăŞă";}
-#about .or:after {content:"ăăŠăăăŁăŚăżăă";}
+#about .yes:after {content:"けど、できない";}
+#about .no:after {content:"けど、気になる";}
+#about .or:after {content:"けど、やってみたい";}
 #about .chotto {position:relative; width:100%;} 
 #about .chotto:before {
-  content:"ăĄăăŁă¨ăŻăŹă¤ă¸ăźăŞ";
+content:"ちょっとクレイジーな";
   color:#eee;
   float:left;
   left:0;
@@ -48,7 +48,7 @@
   text-stroke: 0.025rem #000;
 }
 #about .chotto:after {
-  content:"ăăŞăăŽ";
+  content:"あなたの";
   font-size: 150%;
   color:#eee;
   position:absolute;
@@ -109,7 +109,7 @@
   margin-left:-0.5rem;
 }
 .dai:before {
-  content:"ĺ¤§";
+  content:"大";
   position:absolute;
   margin: 0 0.5rem;
   font-size: 200%;
@@ -124,7 +124,7 @@
   font-size: 75%;
 }
 .by:after {
-  content:"â§Â° â";
+  content:"∧° ┐";
   font-size:125%;
   font-family:"MS Mincho", serif;
   margin-left:0.75rem;
