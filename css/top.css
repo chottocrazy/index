@@ -3,7 +3,7 @@
 	font-size:120%;
 	display:inline-block;
 	transform: scale(1, 2);
-	line-height:250%;
+	line-height:120%;
 	font-weight:500;
 	margin:1% 1% 0;
 }
@@ -13,9 +13,9 @@
 	font-size:125%;
 	display:inline-block;
 	transform: scale(1, 2.5);
-	line-height:250%;
+	line-height:100%;
 	font-weight:500;
-	margin:0 1% 5.5%;
+	margin:0 1% 1%;
 	text-decoration:underline wavy #000;
 }
 #about u {
@@ -32,12 +32,12 @@
   -webkit-text-stroke: 0.05rem #000;
   text-stroke: 0.05rem #000;
 }
-#about .yes:after {content:"けど、できない";}
-#about .no:after {content:"けど、気になる";}
-#about .or:after {content:"けど、やってみたい";}
+#about .yes:after {content:"ăăŠăă§ăăŞă";}
+#about .no:after {content:"ăăŠăć°ăŤăŞă";}
+#about .or:after {content:"ăăŠăăăŁăŚăżăă";}
 #about .chotto {position:relative; width:100%;} 
 #about .chotto:before {
-  content:"ちょっとクレイジーな";
+  content:"ăĄăăŁă¨ăŻăŹă¤ă¸ăźăŞ";
   color:#eee;
   float:left;
   left:0;
@@ -48,7 +48,7 @@
   text-stroke: 0.025rem #000;
 }
 #about .chotto:after {
-  content:"あなたの";
+  content:"ăăŞăăŽ";
   font-size: 150%;
   color:#eee;
   position:absolute;
@@ -109,7 +109,7 @@
   margin-left:-0.5rem;
 }
 .dai:before {
-  content:"大";
+  content:"ĺ¤§";
   position:absolute;
   margin: 0 0.5rem;
   font-size: 200%;
@@ -124,7 +124,7 @@
   font-size: 75%;
 }
 .by:after {
-  content:"∧° ┐";
+  content:"â§Â° â";
   font-size:125%;
   font-family:"MS Mincho", serif;
   margin-left:0.75rem;
