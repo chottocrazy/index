@@ -25,6 +25,11 @@ $("#").load("");
 b, h1, h3 {
   font-family:"Orchard";
 }
+.print{display: none;}
+
+@media print{
+.print{display: block;}
+}
 @media print{
 .no_print{display: none;}
 }
@@ -105,9 +110,48 @@ b, h1, h3 {
 </div>
 <div id="full" class="no_print">
 <h2 id="marquee">
-<span>上記の入力フォームに実現したいことを記入した エントリー用紙 を 出力する</span>
+<span>上記の入力フォームに実現したいことを記入した エントリー用紙 を ダウンロードする</span>
 <a id="link" href="#" onclick="window.print(); return false;"></a>
 </h2>
+</div>
+</div>
+<div id="full" class="print">
+<div id="normal">
+<div id="post" class="center">
+<h2 id="entry">
+<span id="sub">応募方法</span><hr/>
+<span class="contents">2021年5月15日 (水) 必着</span><br/>
+実現したいことを記入した<i>エントリー用紙</i>を<i>we.are.pe.hu@gmail.com</i>へ送信
+<br/><br/>
+<span class="contents">2021年5月15日 (水) 消印有効</span><br/>
+実現したいことを記入した<i>エントリー用紙</i>を<i>〒559-0011 大阪市住之江区北加賀屋 5-5-1 音ビル 2F</i><b>ペフ</b>まで 郵送<br/></h2>
+</div>
+</div>
+<div id="normal">
+<div id="post" class="center"><p id="post"><span id="sub">チェックシート</span><br/>
+このチェックシートは、応募完了後に行う個人面談時に使用します。(無記入のままご応募ください)</p>
+<br/>2021年5月1日 - 12月31日 の期間中に実現が可能<br/>
+<p>
+<input type="radio" name="public" value="yes" id="yes" required>
+<label for="yes" class="radio">はい</label>
+<input type="radio" name="public" value="none" id="no" required>
+<label for="no" class="radio">いいえ</label>
+</p>
+<br/>実現のための費用 1万円以内で 実現が可能<br/>
+<p>
+<input type="radio" name="public" value="yes" id="yes" required>
+<label for="yes" class="radio">はい</label>
+<input type="radio" name="public" value="none" id="no" required>
+<label for="no" class="radio">いいえ</label><br/>
+</p>
+<b>1万円以上の実現費用を希望する場合は、より詳細な計画をご記入ください。</b>
+</div>
+</div>
+<div id="main" style="background:#eee;">
+<div id="form">
+<p id="post"><span id="sub">備考</span> 無記入のままご応募ください<br/>
+<textarea name="content" required></textarea></p>
+</div>
 </div>
 </div>
 </body>
