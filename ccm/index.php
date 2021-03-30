@@ -239,7 +239,7 @@ $("#").load("");
 <p class="yes"><iframe src="http://ichoose.pe.hu/50q/aaacck2xw/k2/"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('ks_q').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
-<p id="marquee"><b>This is the List of Chotto Crazy Mates</b><span>我々、ちょっとクレイジーメイト は、真のちょっとクレイジーシップにのっとり、人と比べるのではなく自分に素直になるとともに、全てを尊重し、はじめてのことでも臆せずチャレンジする気持ちでこのイベントを全力で楽しむことを誓います。</span></p>
+<p id="marquee"><b>This is the List of Chotto Crazy Mates</b><span>我々、ちょっとクレイジーメイト は、真のちょっとクレイジーシップにのっとり、人と比べるのではなく自分に素直になるとともに、全てを尊重し、はじめてのことでも臆せずチャレンジすること、実現したいことを実現するまでのすべてを全力で楽しむことを誓います。</span></p>
 </div>
 </div>
 </body>
