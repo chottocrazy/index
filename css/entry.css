@@ -89,7 +89,6 @@ hr {border:none; padding:0;}
   width:95%;
   border: none;
   border-radius:5px;
-  pointer-events:none;
 }
 #post textarea {
   font-size:1.25rem;
@@ -101,7 +100,6 @@ hr {border:none; padding:0;}
   border:none;
   border-radius:5px;
   color:#000;
-  pointer-events:none;
 }
 
 #post input[type="radio"] {
@@ -115,7 +113,6 @@ hr {border:none; padding:0;}
   padding: 0 1.75rem;
   vertical-align: middle;
   cursor: pointer;
-  pointer-events:none;
 }
 .radio:after, .checkbox:after {
   position: absolute;
