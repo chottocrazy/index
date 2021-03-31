@@ -33,7 +33,7 @@ fclose($fp);
 <title>大 chotto crazy by Pehu</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/js/programs.js"></script>
-<link rel="stylesheet" href="http://chottocrazy.pe.hu/css/programs.css" />
+<link rel="stylesheet" href="http://chottocrazy.pe.hu/css/about.css" />
 <style type="text/css">
 #header b,
 .hold:before,
