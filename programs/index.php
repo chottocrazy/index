@@ -65,8 +65,8 @@ fclose($fp);
   -webkit-text-stroke: 0.001rem #FFF;
   text-stroke: 0.001rem #FFF;
 }
-#tobe .label {background:#25AF5A;}
-#active .label {background:#f6d435;}
+#tobe .label {background:#25AF5A; color: #000;}
+#active .label {background:#f6d435; color: #000;}
 </style>
 </head>
 <body>
