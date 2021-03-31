@@ -177,9 +177,9 @@ input[type=checkbox]:checked + .checkbox:before {
   padding:0; margin: 2rem 5%;
   top:0; left:0;
 }
-.center {
+#post .center {
   position:absolute;
-  width:80%;
+  width:90%;
   z-index:10;
   padding:2.5%; margin:0;
   top:50%; left:50%;
