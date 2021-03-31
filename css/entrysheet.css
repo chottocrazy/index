@@ -5,26 +5,26 @@ body {
   width:100%; height:100%;
 }
 hr {border:none; padding:0;}
-#full {
+#post #full {
   position:relative;
   width:100rem; zoom:125%;
   -webkit-overflow-scrolling: touch;
 }
-#main {
+#post #main {
   position:relative;
   float:left;
   width:50rem;
   min-height:23.5rem;
   background:#fff;
 }
-#normal {
+#post #normal {
   position:relative;
   float:left;
   width:25rem;
   min-height:23.5rem;
   background:#eee;
 }
-#wide {
+#post #wide {
   position:relative;
   padding:0; margin:0;
   width:100%;
