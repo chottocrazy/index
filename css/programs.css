@@ -139,9 +139,7 @@ form ul {
   font-size:1rem;
   text-align: center;
   border-radius: 2rem;
-  color: #000;
-  background:#fff;
-	text-shadow:0.1rem 0.1rem #fff;
+  text-shadow:0.1rem 0.1rem #fff;
 }
 .year .label {
   border: 1px solid #25AF5A;
