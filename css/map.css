@@ -94,7 +94,9 @@ h3 {
 #title,
 .center p,
 .center h2,
-.center b 
+.center b,
+#wide h2,
+#wide div
 {pointer-events:none;}
 
 .message {
