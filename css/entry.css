@@ -184,6 +184,54 @@ input[type=checkbox]:checked + .checkbox:before {
   -webkit-transform:translate(-50%,-50%);
   pointer-events:none;
 }
+
+#logo {
+  font-family: Arial;
+  font-size: 2rem;
+  line-height: 200%;
+  font-weight: normal;
+  font-weight: 500;
+  text-align:center;
+}
+#logo b {
+  font-size: 125%;
+  font-style: italic;
+  -webkit-text-stroke: 0.01rem #fff;
+  text-stroke: 0.01rem #fff;
+}
+#logo i {
+  padding-right:0.25rem;
+}
+.hold, .dai {
+  color:#eee;
+  letter-spacing: 0rem;
+}
+.hold:before {
+  content:"hold";
+  color:#555;
+  font-style:italic;
+  position:absolute;
+  font-weight: 555;
+  margin-top:0.5rem;
+  margin-left:-0.5rem;
+}
+.dai:before {
+  content:"大";
+  position:absolute;
+  margin: 0 0.5rem;
+  font-size: 200%;
+  font-family: "Times New Roman", "Times", serif;
+  color:#D24117;
+}
+.on {
+  padding-left:0.75rem;
+}
+.hold:before,
+.dai:before,
+.dai:after {
+  -webkit-text-stroke: 0.075rem #FFF;
+  text-stroke: 0.075rem #FFF;
+}
 .schedule i {font-style:normal;}
 .schedule p {font-size:0.95rem; margin:1rem 0;}
 .schedule p i {
