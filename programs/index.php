@@ -91,14 +91,23 @@ fclose($fp);
 <h2 class="search-box_label">実現方法</h2>
 <ul>
 <li>
-<input type="radio" name="how" value="attractions" id="attractions">
-<label for="attractions" class="label">展覧会・アトラクション</label></li>
+<input type="radio" name="how" value="think" id="think">
+<label for="think" class="label">思考</label></li>
 <li>
-<input type="radio" name="how" value="events" id="events">
-<label for="events" class="label">限定開催</label></li>
+<input type="radio" name="how" value="organize" id="organize">
+<label for="organize" class="label">整理</label></li>
 <li>
-<input type="radio" name="how" value="online" id="online">
-<label for="online" class="label">オンライン</label></li>
+<input type="radio" name="how" value="communication" id="communication">
+<label for="communication" class="label">交流</label></li>
+<li>
+<input type="radio" name="how" value="creation" id="creation">
+<label for="creation" class="label">制作</label></li>
+<li>
+<input type="radio" name="how" value="refresh" id="refresh">
+<label for="refresh" class="label">休憩</label></li>
+<li>
+<input type="radio" name="how" value="presentation" id="presentation">
+<label for="presentation" class="label">発表</label></li>
 </ul>
 </div>
 <div class="search-box state">
