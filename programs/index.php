@@ -65,8 +65,8 @@ fclose($fp);
   -webkit-text-stroke: 0.001rem #FFF;
   text-stroke: 0.001rem #FFF;
 }
-#tobe .label {background:#25AF5A; color: #000;}
-#active .label {background:#f6d435; color: #000;}
+#tobe .label {background:#25AF5A;}
+#active .label {background:#f6d435;}
 </style>
 </head>
 <body>
@@ -118,7 +118,7 @@ fclose($fp);
 <li id="tobe">
 <input type="radio" name="state" value="tobe" id="tobe">
 <label for="tobe" class="label">告知</label></li>
-<li id="active">>
+<li id="active">
 <input type="radio" name="state" value="active" id="active">
 <label for="active" class="label">開催中</label></li>
 <li>
