@@ -115,10 +115,10 @@ fclose($fp);
 <div class="search-box state">
 <h2 class="search-box_label">状態</h2>
 <ul>
-<li>
+<li id="tobe">
 <input type="radio" name="state" value="tobe" id="tobe">
 <label for="tobe" class="label">告知</label></li>
-<li>
+<li id="active">>
 <input type="radio" name="state" value="active" id="active">
 <label for="active" class="label">開催中</label></li>
 <li>
