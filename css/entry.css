@@ -289,6 +289,11 @@ input[type=checkbox]:checked + .checkbox:before {
   font-weight:555;
   text-decoration:underline wavy #D24117;
 }
+.contents {
+  line-height: 200%;
+  padding: 0.25rem 0.5rem;
+  background: #fff;
+}
 #about .yes:after,
 #about .no:after,
 #about .or:after {
