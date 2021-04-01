@@ -1,4 +1,3 @@
-
 <?php
 
 function h($str) {
@@ -44,7 +43,7 @@ $("#").load("");
 </head>
 <body>
 <div id="topics" class="online">
-<h2><u>お知らせ</u><br/><i id="sub" class="">Topics</i></h2>
+<h2><b id="date">お知らせ</b><i id="sub" class="">Topics</i></h2>
 
 <div>
 <?php if (!empty($rows)): ?>
