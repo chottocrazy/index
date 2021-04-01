@@ -150,21 +150,22 @@ form ul {
 .state .label {
   border: 1px solid #000;
 }
-.reset, button {
+.reset-button, button {
   display:inline-block;
   width: 100%;
   text-align:center;
   padding:0.5rem 0;
   margin: 0.5rem auto 0;
+  font-size:1rem;
   background: #eee;
+  border: none;
   text-shadow:0.1rem 0.1rem #fff;
   border-radius: 2.5rem;
-  border: none;
   cursor: pointer;
   border: 1px solid #000;
 }
 .label:hover,
-.reset:hover,
+.reset-button:hover,
 button:hover {
   color:#fff;
   cursor:pointer;
