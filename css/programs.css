@@ -29,10 +29,7 @@
 #links
 {font-family:"Quarantype";}
 
-body {
-	margin: 0;
-	padding: 0;
-}
+body {margin:0; padding:0;}
 #header {
   font-size:1rem;
   padding:0;
@@ -68,9 +65,8 @@ body {
   margin-top:0.5rem;
   margin-left:-0.5rem;
 }
-.on {
-  padding-left:0.75rem;
-}
+.on {padding-left:0.75rem;}
+
 .on,
 .hold:before,
 .dai:before,
@@ -150,24 +146,38 @@ body {
   display:block;
   position:relative;
   width:90%;
-  margin:5rem auto;
+  margin:4.5rem auto 2.5rem;
 }
 #more #sub {
   font-size:3.5rem;
   line-height:100%;
 }
+#topics {
+  zoom:0.9;
+  font-size:1rem;
+  display:block;
+  position:relative;
+  width:90%;
+  margin:1rem auto 2rem;
+}
+#topics #sub {
+  font-size:1.25rem;
+  line-height:2rem;
+}
 #more u,
+#topics u,
 #links a {
   color:#fff;
   padding:0.25rem;
   font-size:1rem;
   text-decoration:none;
 }
-#more #date {
+#date {
   text-align:center;
-  padding:0.5vw;
+  padding:0.5vw 1vw;
   position:absolute;
   top:0; right:0;
+  background:#fff;
   border:0.1rem solid;
   border-radius:0.5rem;
 }
@@ -208,3 +218,9 @@ body {
 #links {font-size:1rem;}
 #links a {margin-left:0.5rem;}
 #links h2 {font-size:1.5rem;}
+
+#topics #links h2,
+#topics #links a {
+  margin:0.25rem 0 0;
+}
+.none {display:none;}
