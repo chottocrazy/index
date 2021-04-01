@@ -6,7 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="ramdom.js"></script>
 <title>About | 大 chotto crazy</title>
-<link rel="stylesheet" type="text/css" href="/css/about.css" />
+<link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
 .post_about u,
 .post_about #links a {background:#f8e352;}
