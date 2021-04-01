@@ -150,7 +150,7 @@ form ul {
 .state .label {
   border: 1px solid #000;
 }
-input[type='reset'], button {
+.reset, button {
   display:inline-block;
   width: 100%;
   font-size:1rem;
@@ -165,7 +165,7 @@ input[type='reset'], button {
   border: 1px solid #000;
 }
 .label:hover,
-input[type='reset']:hover,
+.reset:hover,
 button:hover {
   color:#fff;
   cursor:pointer;
