@@ -26,4 +26,15 @@ $("#").load("");
 </div>
 </div>
 </div>
+<div id="book">
+<div id="day">
+<h2>the same time</h2>
+<h1><b>Held at</b></h1>
+<div id="ticket">
+<p><b><i>同時開催</i></b><br/>
+<b><a href="http://la.chottocrazy.pe.hu/">みんなで音が合うまで、「ラ(だと思う音)」を歌いましょう</a></b></p>
+<p><b>by 山村祥子</b></p>
+</div>
+</div>
+</div>
 </body>
