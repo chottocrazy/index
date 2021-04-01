@@ -61,7 +61,7 @@ $("#").load("");
 <?php else: ?>
 <?php endif; ?>
 <div id="topics" class="online">
-<span id="date">2020.9.27 - 2021.1.31</span>
+<span id="date">2020.3.29 - 2021.1.31</span>
 <p><u>大 chotto crazy 2020</u></p>
 <span id="sub">公募で集まった120の実現したいことより選考した20のプログラムを実現しました。</span>
 <div id="links">
