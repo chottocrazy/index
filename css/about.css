@@ -150,11 +150,6 @@ form ul {
 .state .label {
   border: 1px solid #000;
 }
-.reset-button {
-  font-size:1rem;
-  background: #eee;
-  border: none;
-}
 .reset, button {
   display:inline-block;
   width: 100%;
