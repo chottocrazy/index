@@ -22,6 +22,7 @@ hr {border:none; padding:0;}
   position:relative;
   float:left;
   width:100%;
+  font-size: 1.25rem;
   height:49.5rem;
   background:#fff;
 }
