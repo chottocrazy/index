@@ -22,7 +22,6 @@ hr {border:none; padding:0;}
   position:relative;
   float:left;
   width:100%;
-  font-size: 1.5rem;
   height:49.5rem;
   background:#fff;
 }
@@ -140,6 +139,9 @@ hr {border:none; padding:0;}
 }
 .faqs #info .notice {zoom:0.85;}
 
+.faqs #contents {
+  zoom:111%;
+}
 .faqs #info p {
   font-size:1rem;
 }
