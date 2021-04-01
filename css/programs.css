@@ -22,7 +22,8 @@
 .namae_by,
 .hold:before,
 .on,
-#header b
+#header b,
+#topics h2 i
 {font-family:"Orchard";}
 #more b,
 #more #date,
@@ -157,9 +158,10 @@ body {margin:0; padding:0;}
   font-size:1rem;
   display:block;
   position:relative;
-  width:90%;
+  width:95%;
   margin:1rem auto 2rem;
 }
+#topics h2 i {zoom:1.25;}
 #topics #sub {
   font-size:1.25rem;
   line-height:2rem;
