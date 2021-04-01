@@ -6,7 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="ramdom.js"></script>
 <title>口実を作りたい | 大 chotto crazy 2020</title>
-<link rel="stylesheet" type="text/css" href="/css/about.css" />
+<link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
 body {background:#f8e352;}
 #more u,
