@@ -162,7 +162,7 @@ body {margin:0; padding:0;}
   margin:1rem auto 2rem;
 }
 #topics h2 i {zoom:2;}
-#topics h2 b {zoom:0.75;}
+#topics h2 b {zoom:0.75; margin-top:1.5rem; font-weight:500;}
 #topics #sub {
   font-size:1.25rem;
   line-height:2rem;
