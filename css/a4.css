@@ -18,6 +18,13 @@ hr {border:none; padding:0;}
   height:17.5rem;
   background:#fff;
 }
+.faqs #contents {
+  position:relative;
+  float:left;
+  width:100%;
+  height:49.5rem;
+  background:#fff;
+}
 .faqs #normal {
   position:relative;
   float:left;
@@ -237,10 +244,13 @@ hr {border:none; padding:0;}
 .faqs #normal {width:100%; height:12.5rem;}
 .faqs #main {height:18rem;}
 .faqs #normal h2 {font-size:1rem;}
+.faqs #normal .center 
+  {width:85%;}
+.faqs #normal .right 
+  {max-width:400px;}
 .faqs #normal .center,
 .faqs #normal .right {
   margin-top:1.25rem;
-  max-width:400px;
   z-index:10;
   position:absolute;
   padding:0; margin:0;
