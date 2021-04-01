@@ -127,9 +127,7 @@ fclose($fp);
 <label for="complete" class="label">完了</label></li>
 </ul>
 </div>
-<div class="reset">
-<input type="reset" name="reset" value="RESET" class="reset-button">
-</div>
+<div class="reset">RESET</div>
 </div>
 </form>
 <div class="list">
