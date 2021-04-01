@@ -61,7 +61,6 @@ font-weight:500;
 color:#000; 
 border-bottom:0.125rem solid;
 }
-.online:before {content:"オンライン発表"; border:0.125rem solid #000;}
 .pre_event:before {content:"プレイベント"; color:#25AF5A; border:0.125rem solid #25AF5A;}
 .exhibition:before {content:"展覧会・アトラクション"; color:#D24117; border:0.125rem solid #D24117;}
 .festival:before {content:"限定開催"; color:#f6d435; border:0.125rem solid #f6d435;}
