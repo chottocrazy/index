@@ -33,7 +33,9 @@ $("#").load("");
 <div id="ticket">
 <p><b><i>同時開催</i></b><br/>
 <b><a href="http://la.chottocrazy.pe.hu/">みんなで音が合うまで、「ラ(だと思う音)」を歌いましょう</a></b></p>
-<p><b>by 山村祥子</b></p>
+<p><b>by 山村祥子</b><br/><br/>
+<b><a href="http://creative-community.pe.hu/coding/html/">HTMLの基本を学ぼう</a></b></p>
+<p><b>by ささじまかずま</b></p>
 </div>
 </div>
 </div>
