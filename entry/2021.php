@@ -85,7 +85,7 @@ fclose($fp);
 <span class="who">by <i>creative, community space ∧°┐</i></span>
 </p>
 </div>
-<a href="___" target="_blank" rel="noopener noreferrer"></a>
+<a href="/entry/2021/peaceforfuture.pdf" target="_blank" rel="noopener noreferrer"></a>
 <img class="pdf" src="http://vg.pe.hu/merchandise/icon/pdf.png">
 </div>
 </li>
