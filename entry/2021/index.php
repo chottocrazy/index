@@ -47,7 +47,7 @@ fclose($fp);
 <span><?=h($row[0])?></span></p>
 <div class="plan">
 <b class="date"><?=h($row[2])?></b>
-<b class="where"><?=h($row[3])?> で</b>
+<b class="where"><?=h($row[3])?></b>
 <p class="why"><?=h($row[4])?><br/>
 <span class="who">by <i><?=h($row[1])?></i></span>
 </p>
