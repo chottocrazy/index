@@ -34,6 +34,7 @@ fclose($fp);
 <style type="text/css">
 body {background:#eee;}
 .online u, #links a {background:#000}
+#topics #top {margin:-1.5rem 0 1.5rem;}
 </style>
 <script type="text/javascript">
 $(function(){
@@ -43,7 +44,7 @@ $("#").load("");
 </head>
 <body>
 <div id="topics" class="online">
-<h2><b id="date">お知らせ</b><i id="sub" class="">Topics</i></h2>
+<h2 id="top"><b id="date">お知らせ</b><i id="sub" class="">Topics</i></h2>
 
 <div>
 <?php if (!empty($rows)): ?>
