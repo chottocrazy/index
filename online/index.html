@@ -38,6 +38,7 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 $("#about_coding").load("http://chottocrazy.pe.hu/2021/sample/coding.html");
 $("#about_org").load("http://chottocrazy.pe.hu/online/about_org.html");
 $("#howtocoding").load("http://chottocrazy.pe.hu/online/howtocoding.html");
+$("#donation").load("/donation.html");
 })
 </script>
 </head>
@@ -56,7 +57,6 @@ $("#howtocoding").load("http://chottocrazy.pe.hu/online/howtocoding.html");
 <p>ここに、これまでに制作した大 chotto crazy 関連のウェブサイトと、基となったウェブコードを公開します。</p>
 </div>
 <div id="more" class="online">
-<p><u>自分が熱狂した頃の面白かったインターネットをもう一度復活させたい。</u><br/>by <b id="sub" class="">Kazuma Sasajima</b></p>
 <div id="more_text">
 <h2>大 chotto crazy 関連のウェブコードを公開し、ウェブサイトづくりがどれだけ簡単で楽しいかってことを普及することに挑戦したい。</h2>
 <div id="howtocoding"></div>
@@ -70,20 +70,9 @@ $("#howtocoding").load("http://chottocrazy.pe.hu/online/howtocoding.html");
 <div id="about_map"></div>
 <div id="about_coding"></div>
 <br/>
-<div id="introduce">
-<div id="about_text" style="text-align:center;">
-<div id="title">
-<p id="jp_title" class="center">寄付</p>
-<i class="namae_by">Donation</i>
+<div id="more" class="online">
+<p><u>自分が熱狂した頃の面白かったインターネットをもう一度復活させたい。</u><br/>by <b id="sub" class="">Kazuma Sasajima</b></p>
 </div>
-<a id="link" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">
-<p>大 chotto crazy 運営資金のサポートを受け付けています。</p>
-</a>
-</div>
-</div>
-<div class="popup" id="support" style="display:none;">
-<p><iframe src="http://vg.pe.hu/jp/cm/support.html"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
-</div>
+<div id="donation"></div>
 </body>
 </html>
