@@ -120,9 +120,7 @@
 #programs ul {padding: 0; margin:0 0 0.5rem;}
 #programs li {list-style: none;}
 
-input[type="radio"] {
-  display: none;
-}
+input[type="radio"] {display: none;}
 input[type="radio"]:checked + label {
   background: #D24117;
   color: #fff;
