@@ -102,6 +102,7 @@ $("#update").load("update.html");
 </div>
 </div>
 </div>
+<br/>
 <div id="introduce">
 <div id="about_text" style="text-align:center;">
 <div id="title">
