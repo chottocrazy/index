@@ -147,12 +147,16 @@ b, h1, h3 {
 <div id="post" class="center">
 <p><span id="sub">記入例</span><br/>
 <span id="empty" style="pointer-events:auto;">
-ここをクリックすると、大 chotto crazy 2021 で ペフ が 実現したいことを記入した エントリー用紙を見ることが出来ます。
-<a id="link" href="/entry/2021/peaceforfuture.pdf" target="_parent"></a>
+ここをクリックすると、大 chotto crazy 2021 に集まった 実現したいことを記入した エントリー用紙を見ることが出来ます。
+<a id="link" onclick="obj=document.getElementById('plan').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </span>
 </p>
 </div>
 </div>
+</div>
+<div class="popup" id="plan" style="display:none;">
+<p><iframe width="100%" height="100%" src="/entry/2021/"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('plan').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 </body>
 </html>
