@@ -47,7 +47,7 @@ $("#").load("");
 <body>
 
 <div id="topics">
-<h2 id="top"><b id="date">お知らせ</b><i id="sub" class="">Topics</i></h2>
+<h2 id="top"><b id="date">お知らせ</b><i id="sub" class="">Printed Web</i></h2>
 
 <div>
 <?php if (!empty($rows)): ?>
