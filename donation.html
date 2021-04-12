@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<title>寄付 | 大 chotto crazy</title>
+<link rel="stylesheet" type="text/css" href="/css/programs.css" />
+<link rel="stylesheet" type="text/css" href="/css/popup.css" />
+<style type="text/css">
+</style>
+<script type="text/javascript">
+$(function(){
+$("#").load("");
+})
+</script>
+</head>
+<body>
+<div id="introduce">
+<div id="about_text" style="text-align:center;">
+<div id="title">
+<p id="jp_title" class="center">寄付</p>
+<i class="namae_by">Donation</i>
+</div>
+<a id="link" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">
+<p>大 chotto crazy 運営資金のサポートを受け付けています。</p>
+</a>
+</div>
+</div>
+<div class="popup" id="support" style="display:none;">
+<p><iframe src="http://vg.pe.hu/jp/cm/support.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+</body>
+</html>
