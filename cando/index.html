@@ -4,7 +4,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
-$("#sign").load("http://newlifecollection.pe.hu/sign/");
 $("#printedweb").load("/cando/printedweb/topics.php");
 $("#howtocoding").load("/online/workshop.php");
 })
@@ -35,11 +34,14 @@ $("#howtocoding").load("/online/workshop.php");
   font-size: 75%;
   color:#fff;
 }
-#sign {
+#sign  {
   position:absolute;
   top:0; left:0;
   width:100%; height:100%;
   z-index:100;
+  border:none;
+  pointer-events:none;
+  overflow:hidden;
 }
 #printedweb,
 #howtocoding
@@ -71,7 +73,7 @@ $("#howtocoding").load("/online/workshop.php");
 <span class="bg_fff"><b>We Can do what want to do.</b></span>
 </div>
 <div id="normal">
-<div id="sign"></div>
+<iframe id="sign" src="http://newlifecollection.pe.hu/sign/"></iframe>
 </div>
 <div id="main" style="background:#eee;">
 <div id="howtocoding"></div>
