@@ -145,7 +145,7 @@ body {margin:0; padding:0;}
   display:block;
   position:relative;
   width:95%;
-  margin:1.5rem auto 3rem;
+  margin: auto;
 }
 #topics h2 i {zoom:2;}
 #topics h2 b {zoom:0.75; margin-top:1.5rem; font-weight:500;}
