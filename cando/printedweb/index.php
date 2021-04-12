@@ -102,8 +102,8 @@ $("#update").load("update.html");
 </div>
 </div>
 <div id="introduce">
+<br/>
 <div id="about_text" style="text-align:center;">
-<hr/>
 <div id="title">
 <p id="jp_title" class="center">寄付</p>
 <i class="namae_by">Donation</i>
