@@ -35,7 +35,6 @@ fclose($fp);
 body {background:#eee;}
 .online u,
 #links a {background:#000}
-#topics h2 {margin-top:-2.5rem;}
 </style>
 <script type="text/javascript">
 $(function(){
