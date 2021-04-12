@@ -29,7 +29,6 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="ramdom.js"></script>
 <title>Printed Web | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
@@ -47,7 +46,9 @@ $("#").load("");
 <body>
 
 <div id="topics">
-<h2 id="top"><i id="sub" class="">Printed Web</i></h2>
+<h2 id="top" style="text-align:center;">
+<i id="sub" class="">Printed Web</i>
+</h2>
 
 <div>
 <?php if (!empty($rows)): ?>
