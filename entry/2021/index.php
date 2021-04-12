@@ -32,11 +32,22 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link href="/css/plan.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/about.css" />
 <title>大 chotto crazy 2021 | We Support your Amazing Ideas and Creative Challenges</title>
 <style type="text/css">
 </style>
 </head>
 <body>
+<div id="header">
+<a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
+<a>2020 - 2021</a>
+</div>
+<div id="programs">
+<div id="logo"><span class="dai">the</span><br/>
+<p id="message" class="center">公式プログラム一覧</p>
+<i class="on">Chotto Crazy Programs</i>
+</div>
+</div>
 <div id="plan">
 <ul id="public">
 <?php if (!empty($rows)): ?>
