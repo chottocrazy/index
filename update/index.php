@@ -34,16 +34,6 @@ fclose($fp);
 <style type="text/css">
 body {background:#eee;}
 .online u, #links a {background:#000}
-#topics #top {
-  position:fixed;
-  top:0; left:0;
-  padding:0 2.5%;
-  width:92.5%;
-}
-#news {
-  position:relative;
-  top:7.5rem;
-}
 </style>
 <script type="text/javascript">
 $(function(){
@@ -52,9 +42,10 @@ $("#").load("");
 </script>
 </head>
 <body>
-<div id="news">
 <div id="topics" class="online">
-<h2 id="top"><b id="date">お知らせ</b><i id="sub" class="">Topics</i></h2>
+<h2><b id="date">お知らせ</b><i id="sub" class="">Topics</i></h2>
+
+<div>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
 <div id="topics" class="online">
