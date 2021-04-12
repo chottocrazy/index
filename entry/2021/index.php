@@ -44,8 +44,8 @@ fclose($fp);
 </div>
 <div id="programs">
 <div id="logo"><span class="dai">the</span><br/>
-<p id="message" class="center">あなたの実現したいことは何ですか？</p>
-<i class="on">Entry sheets</i>
+<p id="message" class="center">エントリー一覧</p>
+<i class="on">PDF Library</i>
 </div>
 </div>
 <div id="plan">
