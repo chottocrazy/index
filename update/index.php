@@ -37,7 +37,8 @@ body {background:#eee;}
 #topics #top {
   position:fixed;
   top:0; left:0;
-  width:97.5%;
+  padding:0 2.5%;
+  width:92.5%;
 }
 #topics #news {
   margin-top:7.5rem;
