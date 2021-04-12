@@ -40,12 +40,12 @@ fclose($fp);
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a>2020 - 2021</a>
+<a>2021</a>
 </div>
 <div id="programs">
 <div id="logo"><span class="dai">the</span><br/>
-<p id="message" class="center">公式プログラム一覧</p>
-<i class="on">Chotto Crazy Programs</i>
+<p id="message" class="center">あなたの実現したいことは何ですか？</p>
+<i class="on">Entry sheets</i>
 </div>
 </div>
 <div id="plan">
