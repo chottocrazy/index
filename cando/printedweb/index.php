@@ -81,7 +81,6 @@ $("#update").load("update.html");
 </div>
 </div>
 
-<hr/>
 <div id="more" class="online">
 <p><u>Printed Web</u><br/>by <b id="sub" class="">Kazuma Sasajima</b></p>
 <div>
