@@ -89,10 +89,15 @@ $("#about_org").load("http://chottocrazy.pe.hu/online/about_org.html");
 <p id="jp_title" class="center">寄付</p>
 <i class="namae_by">Donation</i>
 </div>
-<a id="link" href="https://www.paypal.com/paypalme/chottocrazy" target="_parent">
+<a id="link" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">
 <p>PayPal.Me より、大 chotto crazy 運営資金のサポートを受け付けています。</p>
-<p>※ <u>PayPalアカウント(無料)</u> 必須。</p></a>
+<p>※ <u>PayPalアカウント(無料)</u> 必須。</p>
+</a>
 </div>
+</div>
+<div class="popup" id="support" style="display:none;">
+<p><iframe src="http://vg.pe.hu/jp/cm/support.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 </body>
 </html>
