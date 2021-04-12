@@ -60,11 +60,10 @@ $("#").load("");
 <span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/><span class="crazy"><b>chotto crazy</b></span>
 </p>
 <div id="about">
-<p>PayPal.Me より、大 chotto crazy 運営資金のサポートを受け付けています。</p>
-<p>※ <u>PayPalアカウント(無料)</u> 必須。</p>
+<p>大 chotto crazy への寄付を受け付けています。</p>
 </div>
 </div>
-<a id="link" href="https://www.paypal.com/paypalme/chottocrazy" target="_parent"></a>
+<a id="link" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 </div>
 <div id="full">
@@ -286,6 +285,11 @@ $("#").load("");
 </p>
 <a id="link" href="http://chottocrazy.pe.hu/" target="_parent"></a>
 </div>
+</div>
+
+<div class="popup" id="support" style="display:none;">
+<p><iframe src="http://vg.pe.hu/jp/cm/support.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div class="popup" id="info" style="display:;">
 <p><iframe width="100%" height="100%" src="info.html"></iframe></p>
