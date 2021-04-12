@@ -35,6 +35,7 @@ fclose($fp);
 <link rel="stylesheet" href="/css/about.css" />
 <title>大 chotto crazy 2021 | We Support your Amazing Ideas and Creative Challenges</title>
 <style type="text/css">
+.on {font-family:"Orchard";}
 </style>
 </head>
 <body>
