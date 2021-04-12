@@ -41,7 +41,7 @@ body {background:#eee;}
   width:92.5%;
 }
 #topics #news {
-  margin-top:7.5rem;
+  margin-top:10rem;
 }
 </style>
 <script type="text/javascript">
