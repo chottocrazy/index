@@ -40,8 +40,9 @@ body {background:#eee;}
   padding:0 2.5%;
   width:92.5%;
 }
-#topics #news {
-  margin-top:7.5rem;
+#news {
+  position:relative;
+  top:7.5rem;
 }
 </style>
 <script type="text/javascript">
@@ -51,10 +52,9 @@ $("#").load("");
 </script>
 </head>
 <body>
+<div id="news">
 <div id="topics" class="online">
 <h2 id="top"><b id="date">お知らせ</b><i id="sub" class="">Topics</i></h2>
-
-<div id="news">
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
 <div id="topics" class="online">
