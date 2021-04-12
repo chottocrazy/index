@@ -110,7 +110,7 @@ body {
   100% { left: 0; transform: translate(-100%); }
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1000px){
 #plan li {
   width:30vw; height:30vw;
 }
