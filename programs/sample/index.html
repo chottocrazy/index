@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="ramdom.js"></script>
+<title>Printed Web | 大 chotto crazy 2021</title>
+<link rel="stylesheet" type="text/css" href="/css/programs.css" />
+<link rel="stylesheet" type="text/css" href="/css/popup.css" />
+<style type="text/css">
+body {background:#eee;}
+.online u,
+#links a {background:#000}
+#topics h2 {margin-top:-2.5rem;}
+</style>
+<script type="text/javascript">
+$(function(){
+$("#about").load("about.html");
+$("#update").load("topics.php");
+$("#donation").load("/donation.html");
+})
+</script>
+</head>
+<body>
+<div id="header">
+<a href="/" target="_parent"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
+<a><b>2021</b></a>
+</div>
+<div id="introduce">
+<div id="title">
+<p id="jp_title" class="center">ウェブサイトを出力する</p>
+<i class="namae_by">Printed Web</i>
+</div>
+<div id="about_text">
+<h2>自分の好きなウェブサイトをPDFに出力する／印刷・製本する時間を作りたい。</h2>
+<p>まだインターネットが普及する前、自分の好きなものを集めたものを自分で作ってた。</p>
+<p>好きなウェブサイトをPDFに出力すること／印刷して冊子にすることが自分の習慣になるように、印刷・製本できる環境にパソコンを持ち寄って好きなものを作る時間を作りたい。</p>
+</div>
+<div id="update"></div>
+<div id="about"></div>
+</div>
+</div>
+<br/>
+<div id="donation"></div>
+</body>
+</html>
