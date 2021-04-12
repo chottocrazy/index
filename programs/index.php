@@ -85,6 +85,9 @@ fclose($fp);
 <li>
 <input type="radio" name="year" value="first" id="first">
 <label for="first" class="label">2020</label></li>
+<li>
+<input type="radio" name="year" value="second" id="second">
+<label for="second" class="label">2021</label></li>
 </ul>
 </div>
 <div class="search-box how">
