@@ -48,7 +48,7 @@ $("#").load("");
 <div id="topics">
 <h2 id="top">
 <i id="sub" class="">How to Coding</i>
-><b id="date">ワークショップ</b>
+<b id="date">ワークショップ</b>
 </h2>
 
 <div>
