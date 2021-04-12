@@ -32,6 +32,7 @@ fclose($fp);
 <script src="ramdom.js"></script>
 <title>Printed Web | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
+<link rel="stylesheet" type="text/css" href="/css/popup.css" />
 <style type="text/css">
 body {background:#eee;}
 .online u,
@@ -102,7 +103,6 @@ $("#update").load("update.html");
 </div>
 </div>
 <div id="introduce">
-<br/>
 <div id="about_text" style="text-align:center;">
 <div id="title">
 <p id="jp_title" class="center">寄付</p>
