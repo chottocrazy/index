@@ -32,6 +32,7 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link href="/css/plan.css" rel="stylesheet">
+<link href="/css/about.css" rel="stylesheet">
 <title>大 chotto crazy 2021 | We Support your Amazing Ideas and Creative Challenges</title>
 <style type="text/css">
 .on {font-family:"Orchard";}
