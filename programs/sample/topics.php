@@ -29,12 +29,10 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<title>Printed Web | 大 chotto crazy 2021</title>
+<title>プログラム名 | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
 body {background:#eee;}
-.online u,
-#links a {background:#000}
 #topics h2 {margin-top:-2.5rem;}
 </style>
 <script type="text/javascript">
@@ -47,8 +45,8 @@ $("#").load("");
 
 <div id="topics">
 <h2 id="top">
-<i id="sub" class="">Printed Web</i>
-<b id="date">ウェブサイトを出力する</b>
+<i id="sub" class="">Topics</i>
+<b id="date">お知らせ</b>
 </h2>
 
 <div>
