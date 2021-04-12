@@ -36,6 +36,12 @@ fclose($fp);
 <title>大 chotto crazy 2021 | We Support your Amazing Ideas and Creative Challenges</title>
 <style type="text/css">
 .on {font-family:"Orchard";}
+#plan ul {
+  padding:0; margin:0;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
 </style>
 </head>
 <body>
