@@ -1,3 +1,28 @@
+<?php
+
+function h($str) {
+    return htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
+}
+
+$date = (string)filter_input(INPUT_POST, 'date'); // $_POST['date']
+$title = (string)filter_input(INPUT_POST, 'title'); // $_POST['title']
+$text = (string)filter_input(INPUT_POST, 'text'); // $_POST['text']
+$link = (string)filter_input(INPUT_POST, 'link'); // $_POST['link']
+
+$fp = fopen('topics.csv', 'a+b');
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    flock($fp, LOCK_EX);
+    fputcsv($fp, [$date, $title, $text, $link]);
+    rewind($fp);
+}
+flock($fp, LOCK_SH);
+while ($row = fgetcsv($fp)) {
+    $rows[] = $row;
+}
+flock($fp, LOCK_UN);
+fclose($fp);
+
+?>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -11,6 +36,7 @@
 body {background:#eee;}
 .online u,
 #links a {background:#000}
+#topics h2 {margin-top:-2.5rem;}
 </style>
 <script type="text/javascript">
 $(function(){
@@ -32,6 +58,27 @@ $("#update").load("update.html");
 <h2>同じ内容・デザイン・制作方法でも印刷するほうが価値があるみたいな固定概念というか、考え方が気に食わない。</h2>
 <p>印刷したかったら自分で印刷しようと思うし、ただ持っていたかったらPDFでもいいと思う。</p>
 <p>といっても、まだその行動が自分の習慣にはなってないし、そんな文化が日本でも根付けば、デジタルとアナログの価値基準がもっとフラットになると思うから、まずはウェブサイトを出力することを自分の習慣にできるように印刷・製本できる場所でそんな時間を作りたい。</p>
+</div>
+
+<div id="topics">
+<h2 id="top"><b id="date">お知らせ</b><i id="sub" class="">Topics</i></h2>
+
+<div>
+<?php if (!empty($rows)): ?>
+<?php foreach ($rows as $row): ?>
+<div id="topics" class="online">
+<span id="date"><?=h($row[0])?></span>
+<p><u><?=h($row[1])?></u></p>
+<span id="sub"><?=h($row[2])?></span>
+<div id="links">
+<h2><a class="<?=h($row[3])?>" href="<?=h($row[3])?>" target="_blank" rel="noopener noreferrer">More Info</a>
+</h2>
+</div>
+</div>
+<?php endforeach; ?>
+<?php else: ?>
+<?php endif; ?>
+</div>
 </div>
 <div id="more" class="online">
 <p><u>Printed Web</u><br/>by <b id="sub" class="">Kazuma Sasajima</b></p>
