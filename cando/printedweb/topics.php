@@ -48,7 +48,7 @@ $("#").load("");
 <div id="topics">
 <h2 id="top">
 <i id="sub" class="">Printed Web</i>
-><b id="date">ウェブサイトを出力する</b>
+<b id="date">ウェブサイトを出力する</b>
 </h2>
 
 <div>
