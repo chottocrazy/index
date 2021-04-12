@@ -116,4 +116,7 @@ body {
 @media screen and (max-width: 950px){
 }
 @media screen and (max-width: 500px){
+#plan li {
+  width:75vw; height:75vw;
+}
 }
