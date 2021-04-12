@@ -101,5 +101,19 @@ $("#update").load("update.html");
 </div>
 </div>
 </div>
+<hr/>
+<div id="title">
+<p id="jp_title" class="center">寄付</p>
+<i class="namae_by">Donation</i>
+</div>
+<a id="link" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">
+<p>大 chotto crazy 運営資金のサポートを受け付けています。</p>
+</a>
+</div>
+</div>
+<div class="popup" id="support" style="display:none;">
+<p><iframe src="http://vg.pe.hu/jp/cm/support.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
 </body>
 </html>
