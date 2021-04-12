@@ -11,18 +11,15 @@ body {
 }
 #plan ul {
   padding:0; margin:0;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: space-evenly;
 }
 #plan li {
   position:relative;
   list-style: none;
   padding:0;
-  margin:0.5rem;
+  margin:1vw;
   font-size:0.75rem;
-  width:15rem;
-  height:15rem;
+  width:22vw;
+  height:22vw;
   background:#fff;
   border:0.1rem solid;
   border-radius:0.5rem;
@@ -114,6 +111,17 @@ body {
 }
 
 @media screen and (max-width: 950px){
+#plan li {
+  width:30vw; height:30vw;
+}
+}
+@media screen and (max-width: 750px){
+#plan li {
+  width:47vw; height:47vw;
+}
 }
 @media screen and (max-width: 500px){
+#plan li {
+  width:97vw; height:97vw;
+}
 }
