@@ -368,6 +368,25 @@ button:hover {
   100% { left: 0; transform: translate(-100%); }
 }
 
+@font-face {
+  font-family: "inscrutable";
+  src: url(/font/inscrutable.otf);
+}
+@font-face {
+  font-family: "Orchard";
+  src: url(/font/Orchard-Linear.otf);
+}
+@font-face {
+  font-family: "Quarantype";
+  src: url(/font/Quarantype-Regular.otf);
+}
+#weare #en
+{font-family:"Quarantype";}
+.bg_fff,
+.bg_font {
+  font-family:"inscrutable";
+}
+
 @media screen and (max-width: 500px){
   #information {zoom:0.75;}
 }
