@@ -37,30 +37,6 @@ html, body {padding:0; margin:0;}
 <body>
 <div id="marquee">
 
-<div id="inside">
-<div id="foot">
-<div class="inside">
-<h1><span id="rename"></span></h1>
-</div>
-</div>
-<script>
-var text = ["How","to","Coding" ];
-var counter = 0;
-var elem = document.getElementById("rename");
-var inst = setInterval(change, 750);
-
-elem.innerHTML = text[counter];
-
-function change() {
-  elem.innerHTML = text[counter];
-  counter++;
-  if (counter >= text.length) {
-    counter = 0;
-  }
-};
-</script>
-</div>
-
 <div id="top" class="outside">
 <ul id="s1" class="es">
 	<li>落書きしたり、鼻歌を歌うみなに、ウェブサイトを作りたい</li>
