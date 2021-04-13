@@ -45,6 +45,10 @@ $("#").load("");
 <body>
 
 <div id="topics">
+<h2 id="top">
+<i id="sub" class="">How to Coding</i>
+<b id="date">お知らせ</b>
+</h2>
 
 <div>
 <?php if (!empty($rows)): ?>
