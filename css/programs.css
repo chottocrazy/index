@@ -178,14 +178,14 @@ body {margin:0; padding:0;}
 #title h1 {
   font-family: "Kipper";
   margin:0;
-	font-size:1.25rem;
+  font-size:1.25rem;
   position:absolute;
   z-index:-1;
-	width:90%;
+  width:90%;
 }
 #more h1 {
   font-family: "floraandfauna";
-	font-size:2rem;
+  font-size:2rem;
   position:fixed;
   z-index:-1;
 }
@@ -193,17 +193,17 @@ body {margin:0; padding:0;}
 #more h1 {
   bottom:0; left:0;
   padding:0 5%;
-	display:block;
-	width:90%;
+  display:block;
+  width:90%;
 }
 #more_text h2,
 #about_text h2 {
-	display:block;
-	width:100%;
+  display:block;
+  width:100%;
   line-height:125%;
-	padding:3rem 0;
-	transform: scale(1, 2);
-	font-size:1.25rem;
+  padding:3rem 0;
+  transform: scale(1, 2);
+  font-size:1.25rem;
 }
 #links {font-size:1rem;}
 #links a {margin-left:0.5rem;}
