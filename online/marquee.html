@@ -53,13 +53,20 @@ html, body {padding:0; margin:0;}
   src: url(/font/Orchard-Linear.otf);
 }
 </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="http://creative-community.pe.hu/coding/js/randomcolor.js"></script>
+<script type="text/javascript">
+$(function(){
+	jQuery('body').css({'background':getRumRgba()});
+});
+</script>
 </head>
 <body>
 
 <div id="foot">
 <div class="inside">
 <h1><span id="rename"></span></h1>
-<p class="notice"><a href="http://creative-community.pe.hu/coding/">creative-community.pe.hu</a></p>
 </div>
 </div>
 <script>
