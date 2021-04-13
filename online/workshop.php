@@ -61,6 +61,9 @@ $("#").load("");
 <?php endforeach; ?>
 <?php else: ?>
 <?php endif; ?>
+<div id="topics" class="online">
+<p>by <b id="sub" class="">Kazuma Sasajima</b></p>
+</div>
 </div>
 
 <h2 id="top">
