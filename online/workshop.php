@@ -62,7 +62,6 @@ $("#").load("");
 <?php else: ?>
 <?php endif; ?>
 </div>
-<h2>by <b>Kazuma Sasajima</b></h2>
 </div>
 
 </body>
