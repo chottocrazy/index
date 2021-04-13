@@ -62,7 +62,7 @@ $("#").load("");
 <?php else: ?>
 <?php endif; ?>
 <div id="topics" class="online">
-<p>by <b id="sub" class="">Kazuma Sasajima</b></p>
+<h2>by <b>Kazuma Sasajima</b></h2>
 </div>
 </div>
 
