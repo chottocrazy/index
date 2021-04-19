@@ -56,6 +56,14 @@ fclose($fp);
 <?php endforeach; ?>
 <?php else: ?>
 <?php endif; ?>
+<li id="yes">
+<div>
+<p id="bg_000" class="title">
+<span>ウェブサイトを出力する エントリー用紙</span></p>
+<a href="http://chottocrazy.pe.hu/entry/2021/printedweb.pdf" target="_blank" rel="noopener noreferrer"></a>
+<img class="pdf" src="http://vg.pe.hu/merchandise/icon/pdf.png">
+</div>
+</li>
 </ul>
 </div>
 <script type="text/javascript">
