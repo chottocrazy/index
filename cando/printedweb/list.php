@@ -37,6 +37,7 @@ fclose($fp);
   flex-wrap:wrap;
   justify-content: space-evenly;
 }
+#plan .title {zoom:1.25;}
 </style>
 </head>
 <body>
