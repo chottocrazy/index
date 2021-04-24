@@ -131,7 +131,7 @@ $("#").load("");
 <span class="close" onclick="obj=document.getElementById('<?=h($row[0])?>_q').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div class="popup" id="<?=h($row[0])?>_v" style="display:none;">
-<p class=""><iframe src="value/<?=h($row[3])?>/<?=h($row[0])?>/"></iframe></p>
+<p class=""><iframe src="http://vg.pe.hu/publication/value/online/<?=h($row[3])?>/<?=h($row[0])?>/"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('<?=h($row[0])?>_v').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <?php endforeach; ?>
