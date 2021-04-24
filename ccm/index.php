@@ -127,7 +127,7 @@ $("#").load("");
 </div>
 </div>
 <div class="popup" id="<?=h($row[0])?>_q" style="display:none;">
-<p class="yes"><iframe src="10q/<?=h($row[3])?>/<?=h($row[0])?>/"></iframe></p>
+<p class="yes"><iframe src="http://ichoose.pe.hu/50q/cc2020/<?=h($row[3])?>/<?=h($row[0])?>/"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('<?=h($row[0])?>_q').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div class="popup" id="<?=h($row[0])?>_v" style="display:none;">
