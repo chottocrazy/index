@@ -13,18 +13,26 @@ body {padding:0; margin:0;}
     width:90%; height:75vh;
     top:0; left:0;
 }
-#hyphahypha img {
+#hyphahypha img,
+#hyphahypha span {
   position: absolute;
-  display: block;
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
-  width:100%; max-width:750px;
 }
 #hyphahypha .chotto {
   top:40%; left:50%;
+  width:100%; max-width:750px;
 }
 #hyphahypha .crazy {
   top:60%; left:50%;
+  width:100%; max-width:750px;
+}
+#hyphahypha .dai {
+  top:15%; left:15%;
+  font-size:4.5rem;
+}
+#hyphahypha .tool {
+  top:95%; left:50%;
 }
 #hyphahypha a {
   text-decoration:0;
@@ -37,9 +45,10 @@ body {padding:0; margin:0;}
 
 <body>
 <div id="hyphahypha">
+<span class="dai">大</span>
 <img class="chotto" src="/online/hyphahypha/chotto.png" alt="chotto">
 <img class="crazy" src="/online/hyphahypha/crazy.png" alt="crazy">
-Tool <a href="https://hyphahypha.com/" target="_blank" rel="noopener noreferrer">Hypha</a>
+<span class="tool">Tool <a href="https://hyphahypha.com/" target="_blank" rel="noopener noreferrer">Hypha</a></span>
 </div>
 </body>
 </html>
