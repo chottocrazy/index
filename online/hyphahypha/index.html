@@ -16,6 +16,7 @@ body {padding:0; margin:0;}
 }
 #hyphahypha img,
 #hyphahypha span {
+  pointer-events: none;
   position: absolute;
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
@@ -40,7 +41,7 @@ body {padding:0; margin:0;}
 </style>
 </head>
 
-<body>
+<body oncontextmenu="return false;">
 <div id="hyphahypha">
 <img class="chotto" src="/online/hyphahypha/chotto.png" alt="chotto">
 <img class="crazy" src="/online/hyphahypha/crazy.png" alt="crazy">
