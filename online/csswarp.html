@@ -15,6 +15,10 @@ body{
   font-family: "Orchard";
   src: url(/font/Orchard-Linear.otf);
 }
+@font-face {
+  font-family: "inscrutable";
+  src: url(/font/inscrutable.otf);
+}
 #csswarp {
   top:0;
   position:absolute;
@@ -34,6 +38,12 @@ body{
   font-family:"Orchard";
   font-size:1rem;
   white-space:pre;
+  animation:1s linear infinite alternate font;
+}
+@-webkit-keyframes font {
+  0% {font-family:"Orchard";}
+  50% {font-family: "inscrutable";}
+  100% { font-family: "Times New Roman", "Times", serif;;}
 }
                      #warped>span[class^=w]:nth-of-type(n+0){display:block; position:absolute;
                      -moz-transform-origin:50% 100%; -webkit-transform-origin:50% 100%; -o-transform-origin:50%
