@@ -8,21 +8,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-Q062EZET0M');
-
-  $(document).on('mousemove', function(e){
-    var hueraw = parseInt(255 - Math.round((e.pageY + 0.1) / ($(window).height()) * 255));
-    var hue = '"srff"' + hueraw;
-
-      $('#huecount').text(hueraw);
-      $('#lightnesscount').text(hueraw + '%');
-      $('#saturationcount').text(hueraw + '%');
-
-      if((e.pageX <= $(window).width()/1)){
-      var sraw = parseInt(100 - Math.round((e.pageX + 0.1) / ($(window).width()) * 100));
-        var lraw = parseInt(Math.round((e.pageX + 0.1) / ($(window).width()) * 100));
-        $('#rolling').css({'color': 'hsl(' + hueraw + ',' + sraw + '%,' + lraw + '%)'})
-    }
-  });
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="viewport" content="width=device-width">
