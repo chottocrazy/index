@@ -1,0 +1,45 @@
+#petit-beatbox {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px;
+	color: #fff;
+}
+#petit-beatbox div {
+	display: table-cell;
+	width: 120px;
+	height: 120px;
+	border-width: 1px;
+	border-style: solid;
+	line-height: 120px;
+	font-size: 24px;
+	text-align: center;
+	animation-duration: 0.3s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+@keyframes fade1 {
+	0% {
+		opacity: 0.7
+	}
+	100% {
+		opacity: 1
+	}
+}
+.kick {
+	color: #fff;
+	background: #ec6060;
+	border-color: #ec6060;
+	box-shadow: 5px 5px 0 rgb(255, 255, 255) inset, -5px -5px 0 rgb(255, 255, 255) inset;
+}
+.snare {
+	color: #fff;
+	background: #ecec60;
+	border-color: #ecec60;
+	box-shadow: 5px 5px 0 rgb(255, 255, 255) inset, -5px -5px 0 rgb(255, 255, 255) inset;
+}
+.hihat {
+	color: #fff;
+	background: #60ec60;
+	border-color: #60ec60;
+	box-shadow: 5px 5px 0 rgb(255, 255, 255) inset, -5px -5px 0 rgb(255, 255, 255) inset;
+}
