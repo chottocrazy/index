@@ -42,7 +42,6 @@ div{
 }
 
 .innertext:nth-child(odd){
-  color: blue;
      filter: hue-rotate(180deg);
 
 }
