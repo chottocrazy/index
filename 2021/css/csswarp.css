@@ -31,7 +31,7 @@ user-select: none;
 }
 #warped span{
 font-family:"Orchard";
-font-size:1rem;
+font-size:1.1rem;
 white-space:pre;
 animation:2s linear infinite alternate font;
 }
