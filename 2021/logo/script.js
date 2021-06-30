@@ -1,5 +1,5 @@
-const refreshRate = 1000/50; //frame rate
-const divTop = 10; //y value of where i'm dropping the blocks from
+const refreshRate = 1/5; //frame rate
+const divTop = 0; //y value of where i'm dropping the blocks from
 var toggle = true;
 var toggleG = true;
 
@@ -28,9 +28,9 @@ $(document).click(function(){
   console.log("clicked");
 });
 
-var synth = new Tone.Synth(1, Tone.Synth).toMaster();
-var notes = Tone.Frequency("E1").harmonize([10,15,12,7,20]);
-var noteIndex = 0;
+var synth = new Tone.FMSynth().toMaster();
+var notes = Tone.Frequency("A4").harmonize([1,4,6,10]);
+var noteIndex = 1;
 
 
 //matter.js initialization stuff
@@ -143,7 +143,7 @@ $("#toggleGravity").click(function(e){
 
 function addBlock(){
   var randNote = Math.floor(Math.random() * notes.length);
-  synth.triggerAttackRelease(notes[randNote], "2m");
+  synth.triggerAttackRelease(notes[randNote], "0.1");
 
   var randWidth = Math.floor(Math.random() * 300) + (width/2 - 150);
   var divLeft = randWidth;
