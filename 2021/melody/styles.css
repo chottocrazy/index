@@ -38,11 +38,12 @@ div{
 }
 
 .innertext:nth-child(even){
-  color: red;
+     filter: sepia();
 }
 
 .innertext:nth-child(odd){
   color: blue;
+     filter: hue-rotate(180deg);
 
 }
 
