@@ -37,8 +37,8 @@ body {
   animation:1s linear infinite alternate dai;
 }
 @-webkit-keyframes dai {
-0% {zoom:1;}
-100% {zoom:1.5;}
+0% {transform: scale(1);}
+100% {transform: scale(1.5);}
 }
 
 .btn:hover {
