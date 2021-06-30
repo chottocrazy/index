@@ -28,8 +28,8 @@ $(document).click(function(){
   console.log("clicked");
 });
 
-var synth = new Tone.PolySynth(5, Tone.Synth).toMaster();
-var notes = Tone.Frequency("C2").harmonize([10]);
+var synth = new Tone.Synth(1, Tone.Synth).toMaster();
+var notes = Tone.Frequency("E1").harmonize([10,15,12,7,20]);
 var noteIndex = 0;
 
 
