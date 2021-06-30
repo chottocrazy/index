@@ -20,7 +20,7 @@ src: url(/font/Quarantype-Regular.otf);
 }
 #csswarp {
 top:0;
-z-index:5;
+z-index:2;
 position:absolute;
 width:95vw;
 height:100vw;
