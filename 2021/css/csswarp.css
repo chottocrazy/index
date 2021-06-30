@@ -26,6 +26,8 @@ width:95vw;
 height:100vw;
 transform: rotate(90deg);
 float:right;
+pointer-events:none;
+user-select: none;
 }
 #warped span{
 font-family:"Orchard";
