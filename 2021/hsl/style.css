@@ -82,3 +82,14 @@ html, body {
   text-align: center;
   filter: invert();
 }
+
+.tool {
+  position:absolute;
+  bottom:0;
+}
+.tool a {
+text-decoration:0;
+background:#000;
+color:#fff;
+padding:0 0.25rem;
+}
