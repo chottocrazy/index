@@ -34,6 +34,11 @@ body {
   color:#D24117;
   -webkit-text-stroke: 0.1vw #FFF;
   text-stroke: 0.1vw #FFF;
+  animation:1s linear infinite alternate dai;
+}
+@-webkit-keyframes dai {
+0% {zoom:1;}
+100% {zoom:1.5;}
 }
 
 .btn:hover {
