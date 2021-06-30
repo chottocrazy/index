@@ -21,7 +21,6 @@ src: url(/font/Quarantype-Regular.otf);
 #csswarp {
 top:0;
 position:absolute;
-z-index:0;
 width:95vw;
 height:100vw;
 transform: rotate(90deg);
