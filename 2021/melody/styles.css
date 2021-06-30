@@ -38,7 +38,7 @@ div{
 }
 
 .innertext:nth-child(even){
-     filter: sepia();
+     filter: sepia(100%);
 }
 
 .innertext:nth-child(odd){
