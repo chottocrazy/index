@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Orchard";
+  src: url(/font/Orchard-Linear.otf);
+}
+#Gravity,
+#world {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#Gravity {
+  position: relative;
+  width:95%;
+  height: 95vh;
+  margin: auto;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    color: #000;
+}
+
+.btn {
+  position: fixed;
+  top:0; left:0;
+  font-size: 10vw;
+  margin-left: 10vw;
+  font-family: "Times New Roman", "Times", serif;
+  color:#D24117;
+  -webkit-text-stroke: 0.1vw #FFF;
+  text-stroke: 0.1vw #FFF;
+}
+
+#toggleGravity {
+  left: 20px;
+  top: 50px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.box {
+  font-family: "Orchard";
+  font-size: 20vw;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: -1;
+  box-sizing: border-box;
+  position: absolute;
+  text-align: center;
+}
+
+#world {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+}

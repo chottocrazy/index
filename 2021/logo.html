@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://tdingsun.github.io/dust/ -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <style>
+  body {padding:0; margin:0; overflow:hidden;}
+  #hyphahypha {
+      position:absolute;
+      z-index:10;
+      width:100%; height:100vh;
+      top:0; left:0;
+    pointer-events: none;
+    user-select: none;
+  }
+  #hyphahypha img,
+  #hyphahypha span {
+    position: absolute;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+  }
+  #hyphahypha .chotto {
+    top:40%; left:50%;
+    width:100%; max-width:750px;
+    pointer-events: none;
+    animation:1.25s linear infinite alternate chotto;
+    user-select: none;
+  }
+  #hyphahypha .crazy {
+    top:60%; left:50%;
+    width:100%; max-width:750px;
+    pointer-events: none;
+    animation:1.5s linear infinite alternate crazy;
+    user-select: none;
+  }
+  #hyphahypha .tool {
+    top:95%; left:50%;
+  }
+  #hyphahypha .dai {
+    top:25%; left:50%;
+    font-size: 5.5rem;
+    padding: 1vw;
+    font-family: "Times New Roman", "Times", serif;
+    color:#D24117;
+    -webkit-text-stroke: 0.1rem #FFF;
+    text-stroke: 0.1rem #FFF;
+  }
+  #hyphahypha .year {
+    font-size:2rem;
+    top:75%; left:50%;
+    display:block;
+    font-family: Arial;
+    color:#000;
+    width:75%;
+    text-align:right;
+    -webkit-text-stroke: 0.1rem #FFF;
+    text-stroke: 0.1rem #FFF;
+  }
+  #hyphahypha a {
+    text-decoration:0;
+    background:#000;
+    color:#fff;
+    padding:0 0.25rem;
+  }
+  @-webkit-keyframes chotto {
+    0% {
+    transform: skew(1deg, -1deg) translate(-50%,-50%);
+    }
+    100% {
+    transform: scale(1.05, 1.1) translate(-45%,-50%);
+    }
+  }
+  @-webkit-keyframes crazy {
+    0% {
+    transform: skew(-1deg, 1deg) translate(-40%,-50%);
+    }
+    100% {
+    transform: scale(1.1, 1) translate(-45%,-50%);
+    }
+  }
+
+  @media screen and (max-width: 750px){
+  #hyphahypha img {
+    zoom:1.75;
+  }
+  }
+  </style>
+    <script src="./logo/jquery.min.js"></script>
+    <script src="./logo/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="./logo/jquery.pause.min.js"></script>
+    <script src="./logo/matter.min.js"></script>
+    <script src="./logo/Tone.min.js"></script>
+    <script src="./logo/StartAudioContext.js"></script>
+    <link rel="stylesheet" href="./logo/styles.css">
+    <title>大 chotto crazy 2021</title>
+  </head>
+  <body>
+  <div id="hyphahypha">
+  <img class="chotto" src="/online/hyphahypha/chotto.png" alt="chotto">
+  <img class="crazy" src="/online/hyphahypha/crazy.png" alt="crazy">
+  <span class="year">2021</span>
+  <span class="tool">Tool <a href="https://hyphahypha.com/" target="_blank" rel="noopener noreferrer">Hypha</a></span>
+  </div>
+    <section id="Gravity" data-feedly-extension-follow-feed="1.0.3" cz-shortcut-listen="true">
+    <div id="toggleGravity" class="btn">大</div>
+    <canvas id="world" width="100%" height="100vh" style="width:100%; height:100vh;"></canvas>
+  </section>
+
+
+  <script src="./logo/script.js"></script>
+
+</body>
+</html>

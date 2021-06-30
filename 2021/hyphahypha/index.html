@@ -7,14 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-body {padding:0; margin:0;}
+body {padding:0; margin:0; overflow:hidden;}
 #hyphahypha {
     position:relative;
     z-index:10;
-    width:90%; height:45rem;
+    width:90%; height:100vh;
     top:0; left:0;
-    margin: auto;
-  overflow-x:hidden;
+  pointer-events: none;
+  user-select: none;
 }
 #hyphahypha img,
 #hyphahypha span {
@@ -94,8 +94,8 @@ body {padding:0; margin:0;}
 <body oncontextmenu="return false;">
 <div id="hyphahypha">
 <span class="dai">大</span>
-<img class="chotto" src="/online/hyphahypha/chotto.png" alt="chotto">
-<img class="crazy" src="/online/hyphahypha/crazy.png" alt="crazy">
+<img class="chotto" src="./hyphahypha/chotto.png" alt="chotto">
+<img class="crazy" src="./hyphahypha/crazy.png" alt="crazy">
 <span class="year">2021</span>
 <span class="tool">Tool <a href="https://hyphahypha.com/" target="_blank" rel="noopener noreferrer">Hypha</a></span>
 </div>
