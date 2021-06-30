@@ -20,12 +20,14 @@ src: url(/font/Quarantype-Regular.otf);
 }
 #csswarp {
 top:0;
+zoom:1.25;
 z-index:2;
 position:absolute;
 width:95vw;
 height:100vw;
 transform: rotate(90deg);
 float:right;
+overflow: hidden;
 pointer-events:none;
 user-select: none;
 }
