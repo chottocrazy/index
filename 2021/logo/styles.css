@@ -28,18 +28,12 @@ body {
 
 .btn {
   position: fixed;
-  top:0; left:0;
+  top:10vw; left:10vw;
   font-size: 10vw;
-  margin-left: 10vw;
   font-family: "Times New Roman", "Times", serif;
   color:#D24117;
   -webkit-text-stroke: 0.1vw #FFF;
   text-stroke: 0.1vw #FFF;
-}
-
-#toggleGravity {
-  left: 20px;
-  top: 50px;
 }
 
 .btn:hover {
@@ -48,7 +42,7 @@ body {
 
 .box {
   font-family: "Orchard";
-  font-size: 20vw;
+  font-size: 25vw;
   overflow: hidden;
   cursor: pointer;
   z-index: -1;
