@@ -26,7 +26,6 @@ width:95vw;
 height:100vw;
 transform: rotate(90deg);
 float:right;
-user-select: none;
 pointer-events: none;
 }
 #warped span{
