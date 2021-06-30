@@ -3,7 +3,7 @@ var sentences = str.split(".");
 var lastScrollTop = 0;
 var reverse = false;
 
-var synth = new Tone.Synth().toMaster();
+var synth = new Tone.FMSynth().toMaster();
 var autoFilter = new Tone.AutoFilter({
 }).connect(Tone.Master);
 
