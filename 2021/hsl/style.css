@@ -86,6 +86,8 @@ html, body {
 .tool {
   position:absolute;
   bottom:0;
+  font-size:0.75rem;
+  z-index:10;
 }
 .tool a {
 text-decoration:0;
