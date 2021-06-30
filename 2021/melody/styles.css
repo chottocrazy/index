@@ -19,7 +19,6 @@ body {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
-  background-color: white;
   animation:2.5s linear infinite alternate year;
 }
 div{
