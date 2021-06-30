@@ -29,7 +29,7 @@ $(document).click(function(){
 });
 
 var synth = new Tone.PolySynth(5, Tone.Synth).toMaster();
-var notes = Tone.Frequency("C2").harmonize([0]);
+var notes = Tone.Frequency("C2").harmonize([10]);
 var noteIndex = 0;
 
 
