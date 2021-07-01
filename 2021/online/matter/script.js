@@ -182,7 +182,7 @@ function addBlock(){
   World.add(engine.world, [body]);
 
   if(bodies_list.length < words_arr.length){
-      var t = setTimeout(addBlock, 1500);
+      var t = setTimeout(addBlock, 1400);
   }
 }
 
