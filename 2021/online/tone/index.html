@@ -13,6 +13,24 @@
       padding: 0;
     }
 
+    #logo {
+      position: relative;
+      z-index: 5;
+      bottom:0;
+      left:0;
+      width:75%; height:75vh;
+      zoom:0.45;
+    }
+    #logo iframe {
+      display:block;
+      width: 90%;
+      height: 90%;
+      background: #fff;
+      border:solid 0.25vw;
+      border-radius: 5rem;
+      margin:2.5vh auto;
+    }
+
     #menu {
       position:absolute;
       font-size:1rem;
@@ -31,6 +49,7 @@
   <div id="menu" class="tool">
   <p>Tool <a href="https://tonejs.github.io/" target="_blank" rel="noopener noreferrer">Tone.js</a></p>
   </div>
+  <div id="wheel" class="tool"><iframe src="http://chottocrazy.pe.hu/2021/online/blue/sample.html"></iframe></div>
   <div id="container"></div>
   <script src="/2021/online/tone/script.js"></script>
 </body>
