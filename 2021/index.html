@@ -66,6 +66,29 @@ $("#bg").load("/2021/sketch/");
 .lightnesswrap {
   display:none;
 }
+#footer {
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  padding: 0vw 1vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin:1.5vw 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#footer span {
+  padding: 1vw;
+}
+#footer a {
+  color: #000;
+  text-decoration: none;
+}
+#footer a:hover {
+  padding-bottom: 0.5vw;
+  border-bottom:solid 2px;
+}
 
 @media screen and (max-width: 750px){
 #sign {display:block;}
@@ -83,5 +106,14 @@ $("#bg").load("/2021/sketch/");
   Under construction
 <div id="logo"><iframe src="/2021/logo/"></iframe></div>
 <div id="menu"></div>
+
+<h1 id="footer">
+<span>主催
+<a href="http://vg.pe.hu/jp/" target="_blank" rel="noopener noreferrer">
+クリエイティブ・コミュニティスペース ペフ</a></span>
+<span>助成
+<a href="http://www.chishimatochi.info/found/" target="_blank" rel="noopener noreferrer">
+おおさか創造千島財団</a></span>
+</h1>
 </body>
 </html>
