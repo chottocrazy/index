@@ -161,7 +161,7 @@ function addBlock(){
   if(toggle){
     div.css({
       border: "none",
-      padding: "5vw"
+      padding: "2.5vw"
     });
   } else {
     div.css({
@@ -183,7 +183,7 @@ function addBlock(){
   World.add(engine.world, [body]);
 
   if(bodies_list.length < words_arr.length){
-      var t = setTimeout(addBlock, 5000);
+      var t = setTimeout(addBlock, 500);
   }
 }
 
