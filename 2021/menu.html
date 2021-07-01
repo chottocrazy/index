@@ -12,15 +12,12 @@
     margin:0;
   }
   #rolling {
-    position: relative;
-    padding:1.25vw;
-    margin:0;
-    display: flex;
-    font-size: 2vw;
-    height: 62.5vw;
-    max-height: 90vh;
-    overflow: hidden;
+    z-index:5;
+    transition: all 1s;
+  }
+  #rolling:hover {
     z-index:1;
+    transition: all 0.5s;
   }
   #rolling .blur {
     pointer-events: none;
