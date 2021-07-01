@@ -1,4 +1,4 @@
-const refreshRate = 2/5; //frame rate
+const refreshRate = 1/100; //frame rate
 const divTop = 0; //y value of where i'm dropping the blocks from
 var toggle = true;
 var toggleG = true;
@@ -161,7 +161,7 @@ function addBlock(){
   if(toggle){
     div.css({
       border: "none",
-      padding: "5vw"
+      padding: "2.5vw"
     });
   } else {
     div.css({
