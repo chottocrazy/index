@@ -37,12 +37,29 @@ $("#bg").load("/2021/sketch/");
   border-radius: 5rem;
   margin:2.5vw auto;
 }
+#sign {
+  position: fixed;
+  display:none;
+  z-index: 1;
+  top:0; left:0;
+  width:100%; height:100vh;
+}
+#sign iframe {
+  display:block;
+  width: 100%;
+  height: 100%;
+}
 .col {filter: invert();}
 .tool,
 .hue,
 .saturation,
 .lightnesswrap {
   display:none;
+}
+
+@media screen and (max-width: 500px){
+#sign {display:block;}
+#hsl {display:none;}
 }
 </style>
 <link rel="stylesheet" type="text/css" href="" />
@@ -51,6 +68,7 @@ $("#bg").load("/2021/sketch/");
 <body>
 <div id="hsl"></div>
 <div id="bg"></div>
+<div id="sign"><iframe src="http://newlifecollection.pe.hu/sign/"></iframe></div>
 <div id="melody"></div>
   Under construction
 <div id="logo"><iframe src="/2021/logo/"></iframe></div>
