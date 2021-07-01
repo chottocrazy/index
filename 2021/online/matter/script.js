@@ -29,7 +29,7 @@ $(document).click(function(){
 });
 
 var synth = new Tone.FMSynth().toMaster();
-var notes = Tone.Frequency("C4").harmonize([1,4,6,10]);
+var notes = Tone.Frequency("G4").harmonize([1,4,6,10]);
 var noteIndex = 1;
 
 
@@ -183,7 +183,7 @@ function addBlock(){
   World.add(engine.world, [body]);
 
   if(bodies_list.length < words_arr.length){
-      var t = setTimeout(addBlock, 500);
+      var t = setTimeout(addBlock, 5000);
   }
 }
 
