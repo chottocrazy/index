@@ -4,7 +4,7 @@ $(window).click(function(){
 });
 
 var click = new Tone.FMSynth(5, Tone.Synth).toMaster();
-var notes = Tone.Frequency("A3").harmonize([12, 15, 17, 20, 22, 25]);
+var notes = Tone.Frequency("G4").harmonize([12, 15, 17, 20, 22, 25]);
 var noteIndex = 0;
 
 $("body").click(function(e){
