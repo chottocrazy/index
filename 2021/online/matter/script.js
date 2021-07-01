@@ -29,7 +29,7 @@ $(document).click(function(){
 });
 
 var synth = new Tone.FMSynth().toMaster();
-var notes = Tone.Frequency("G4").harmonize([5,7,9,12,15]);
+var notes = Tone.Frequency("G4").harmonize([5,7,9,12]);
 var noteIndex = 1;
 
 
