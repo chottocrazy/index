@@ -4,9 +4,20 @@
 
   <style>
   body {padding:0; margin:0; overflow: hidden;}
+  .tool {
+    position: absolute;
+    z-index: 100;
+    top:0;
+  }
+  .tool a {
+    text-decoration:0;
+    background:#000;
+    color:#fff;
+    padding:0 0.25rem;
+  }
   </style>
     <script src="../js/jquery.min.js"></script>
-    <script src="../js/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="../js/jquery-ui.min.js" crossorigin="anonymous"></script>
     <script src="../js/Tone.min.js"></script>
     <script src="../js/StartAudioContext.js"></script>
     <script src="matter.min.js"></script>
@@ -17,6 +28,8 @@
     <section id="Gravity" data-feedly-extension-follow-feed="1.0.3" cz-shortcut-listen="true">
     <div id="toggleGravity" class="btn">大</div>
     <canvas id="world" width="100%" height="100vh" style="width:100%; height:100vh;"></canvas>
+    <span class="tool">Font <a href="https://rorykingetc.com/dasickfonts" target="_blank" rel="noopener noreferrer">Orchard Linear</a>
+    Tool <a href="https://brm.io/matter-js/" target="_blank" rel="noopener noreferrer">matter.js</a></span>
   </section>
 
 
