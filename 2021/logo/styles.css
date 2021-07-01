@@ -29,7 +29,7 @@ body {
 .btn {
   position: fixed;
   top:5vw; left:10vw;
-  font-size: 15vw;
+  font-size: 12.5vw;
   font-family: "Times New Roman", "Times", serif;
   color:#D24117;
   -webkit-text-stroke: 0.1vw #FFF;
