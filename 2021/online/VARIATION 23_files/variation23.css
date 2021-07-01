@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
 
 body {
@@ -12,11 +13,11 @@ body {
 
 @keyframes colorchange
 {
-  0%   {background: rgba(255,255,255, .0);}
-  25%  {background: rgba(125, 125, 215, .1);}
-  50%  {background: rgba(0, 0, 0, .2.5);}
-  75%  {background: rgba(125, 125, 125, .1);}
-  100% {background: rgba(255,255,255, .0);}
+  0%   {background: white;}
+  25%  {background: yellow;}
+  50%  {background: pink;}
+  75%  {background: cyan;}
+  100% {background: white;}
 }
 
 
