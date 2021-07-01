@@ -129,7 +129,7 @@
     var object = {};
 
     for ( var key in target ) {
-      
+
       if ( key === 'webkitMovementX' || key === 'webkitMovementY' )
         continue;
 
@@ -250,7 +250,7 @@
           if ( context.retina ) {
 
             context.save();
-            
+
             if (context.autoclear) {
               context.scale( ratio, ratio );
             }
