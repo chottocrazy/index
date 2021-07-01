@@ -1,4 +1,4 @@
-const refreshRate = 1/100; //frame rate
+const refreshRate = 1/5; //frame rate
 const divTop = 0; //y value of where i'm dropping the blocks from
 var toggle = true;
 var toggleG = true;
@@ -13,7 +13,7 @@ $("#world").css("height", height);
 // if (str == null){
 	var str = "c h o t t o c r a z y";
 //}
-var words_arr = str.split(" "); //split text into array
+var words_arr = str.split(""); //split text into array
 var wordIndex = 0; //initiallize index of words_arr
 var bodies_list = []; //initiallize array of bodies(rendered rectangles)
 
@@ -29,7 +29,7 @@ $(document).click(function(){
 });
 
 var synth = new Tone.FMSynth().toMaster();
-var notes = Tone.Frequency("G4").harmonize([1,4,6,10]);
+var notes = Tone.Frequency("G4").harmonize([3,5,9,12]);
 var noteIndex = 1;
 
 
@@ -44,7 +44,6 @@ var Engine = Matter.Engine,
     Events = Matter.Events;
 
 var engine = Engine.create();
-
 var render = Render.create({
   canvas: myCanvas,
   engine: engine,
@@ -68,11 +67,11 @@ Engine.run(engine);
 var mouseConstraint = MouseConstraint.create(engine, {
         element: myCanvas,
         constraint: {
-            stiffness: 1,
-            render: {
-                visible: true
-            }
-        }
+					stiffness: 1,
+					render: {
+						visible: true
+					}
+				}
 });
 
 World.add(engine.world, mouseConstraint);
