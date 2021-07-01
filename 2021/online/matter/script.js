@@ -1,4 +1,4 @@
-const refreshRate = 1000/500; //frame rate
+const refreshRate = 1/5; //frame rate
 const divTop = 0; //y value of where i'm dropping the blocks from
 var toggle = true;
 var toggleG = true;
@@ -142,7 +142,7 @@ $("#toggleGravity").click(function(e){
 
 function addBlock(){
   var randNote = Math.floor(Math.random() * notes.length);
-  synth.triggerAttackRelease(notes[randNote], "0.1");
+  synth.triggerAttackRelease(notes[randNote], "0.5");
 
   var randWidth = Math.floor(Math.random() * 300) + (width/2 - 150);
   var divLeft = randWidth;
@@ -160,7 +160,7 @@ function addBlock(){
   if(toggle){
     div.css({
       border: "none",
-      padding: "2.5vw"
+      padding: "1vw"
     });
   } else {
     div.css({
