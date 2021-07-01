@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <!-- saved from url=(0037)http://tdingsun.github.io/rubberband/ -->
 <html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <script src="/2021/online/tone/jquery.min.js"></script>
-  <script src="/2021/online/tone/jquery-ui.min.js" crossorigin="anonymous"></script>
-  <script src="/2021/online/tone/Tone.min.js"></script>
-  <script src="/2021/online/tone/StartAudioContext.js"></script>
-  <link rel="stylesheet" href="/2021/online/tone/styles.css">
   <title>Tone.js</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(function(){
+  $("#melody").load("./tone/2021.html");
+  })
+  </script>
   <style type="text/css">
     html, body {
       margin: 0
@@ -51,7 +52,6 @@
   <p>Tool <a href="https://tonejs.github.io/" target="_blank" rel="noopener noreferrer">Tone.js</a></p>
   </div>
   <div id="wheel" class="tool"><iframe src="http://chottocrazy.pe.hu/2021/online/blue/sample.html"></iframe></div>
-  <div id="container"></div>
-  <script src="/2021/online/tone/script.js"></script>
+  <div id="melody"></div>
 </body>
 </html>
