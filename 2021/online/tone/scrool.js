@@ -19,10 +19,10 @@ $(window).scroll(function(event){
   console.log(st);
   if (st > lastScrollTop){
   //scrolled down
-synth.triggerAttackRelease("C4", 1);
+synth.triggerAttackRelease("C4", 2);
   } else {
   //scrolled up
-    synth.triggerAttackRelease("G4", 1);
+    synth.triggerAttackRelease("G4", 2);
   }
   lastScrollTop = st;
 
