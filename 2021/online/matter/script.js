@@ -161,7 +161,7 @@ function addBlock(){
   if(toggle){
     div.css({
       border: "none",
-      padding: "2.5vw"
+      padding: "5vw"
     });
   } else {
     div.css({
