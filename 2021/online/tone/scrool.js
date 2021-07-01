@@ -3,7 +3,7 @@ var sentences = str.split(".");
 var lastScrollTop = 0;
 var reverse = false;
 
-var synth = new Tone.AMSynth().toMaster();
+var scrool = new Tone.AMSynth().toMaster();
 var autoFilter = new Tone.AutoFilter({
 }).connect(Tone.Master);
 
@@ -19,10 +19,10 @@ $(window).scroll(function(event){
   console.log(st);
   if (st > lastScrollTop){
   //scrolled down
-synth.triggerAttackRelease("C4", 2);
+scrool.triggerAttackRelease("C4", 2);
   } else {
   //scrolled up
-    synth.triggerAttackRelease("G4", 2);
+    scrool.triggerAttackRelease("G4", 2);
   }
   lastScrollTop = st;
 

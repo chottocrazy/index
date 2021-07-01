@@ -1,4 +1,4 @@
-var synth = new Tone.AMSynth(6, Tone.Synth).toMaster();
+var wheel = new Tone.AMSynth(6, Tone.Synth).toMaster();
 var notes = Tone.Frequency("G4").harmonize([1, 3, 6, 8, 10,
                                             3, 6, 8, 10, 13,
                                             6, 8, 10, 13, 15,
@@ -19,7 +19,7 @@ $(window).scroll(function(event){
 });
 
 function scrolling() {
-  synth.triggerAttackRelease(notes[noteIndex], "8n");
+  wheel.triggerAttackRelease(notes[noteIndex], "8n");
       noteIndex++;
       if(noteIndex >= notes.length){
         noteIndex = 0;
