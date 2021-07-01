@@ -1,4 +1,4 @@
-const refreshRate = 1/5; //frame rate
+const refreshRate = 2/5; //frame rate
 const divTop = 0; //y value of where i'm dropping the blocks from
 var toggle = true;
 var toggleG = true;
@@ -29,7 +29,7 @@ $(document).click(function(){
 });
 
 var synth = new Tone.FMSynth().toMaster();
-var notes = Tone.Frequency("A4").harmonize([1,4,6,10]);
+var notes = Tone.Frequency("C4").harmonize([1,4,6,10]);
 var noteIndex = 1;
 
 
