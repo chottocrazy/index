@@ -1,27 +1,36 @@
-var synth = new Tone.AMSynth(6, Tone.Synth).toMaster();
-var notes = Tone.Frequency("G4").harmonize([1, 3, 6, 8, 10,
-                                            3, 6, 8, 10, 13,
-                                            6, 8, 10, 13, 15,
-                                            8, 10, 13, 15, 18,
-                                            10, 13, 15, 18, 20,
-                                            13, 15, 18, 20, 22,
-                                            15, 18, 20, 22, 25]);
-var noteIndex = 0;
+var str = "";
+var sentences = str.split(".");
+var lastScrollTop = 0;
+var reverse = false;
 
+var synth = new Tone.AMSynth().toMaster();
+var autoFilter = new Tone.AutoFilter({
+}).connect(Tone.Master);
 
-$(document).ready(function(event){
-  window.addEventListener("wheel", scrolling, {passive: false});
-  timer();
+autoFilter.start()
+StartAudioContext(Tone.context, 'div');
+//have to click to start audio context
+$('div').click(function(){
+  Tone.start();
 });
 
 $(window).scroll(function(event){
-  scrolling();
+  var st = $(this).scrollTop();
+  console.log(st);
+  if (st > lastScrollTop){
+  //scrolled down
+synth.triggerAttackRelease("C4", 1);
+  } else {
+  //scrolled up
+    synth.triggerAttackRelease("G4", 1);
+  }
+  lastScrollTop = st;
+
 });
 
-function scrolling() {
-  synth.triggerAttackRelease(notes[noteIndex], "8n");
-      noteIndex++;
-      if(noteIndex >= notes.length){
-        noteIndex = 0;
-      }
-}
+
+
+$(window).resize(function(){
+  w = $(window).width();
+  h = $(window).height();
+});
