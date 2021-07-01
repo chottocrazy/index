@@ -28,7 +28,7 @@ $(document).click(function(){
   console.log("clicked");
 });
 
-var synth = new Tone.FMSynth().toMaster();
+var matter = new Tone.FMSynth().toMaster();
 var notes = Tone.Frequency("G4").harmonize([5,7,9,12]);
 var noteIndex = 1;
 
@@ -142,7 +142,7 @@ $("#toggleGravity").click(function(e){
 
 function addBlock(){
   var randNote = Math.floor(Math.random() * notes.length);
-  synth.triggerAttackRelease(notes[randNote], "0.1");
+  matter.triggerAttackRelease(notes[randNote], "0.1");
 
   var randWidth = Math.floor(Math.random() * 300) + (width/2 - 150);
   var divLeft = randWidth;
