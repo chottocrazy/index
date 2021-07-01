@@ -142,7 +142,7 @@ $("#toggleGravity").click(function(e){
 
 function addBlock(){
   var randNote = Math.floor(Math.random() * notes.length);
-  synth.triggerAttackRelease(notes[randNote], "0.5");
+  synth.triggerAttackRelease(notes[randNote], "0.1");
 
   var randWidth = Math.floor(Math.random() * 300) + (width/2 - 150);
   var divLeft = randWidth;
@@ -160,7 +160,7 @@ function addBlock(){
   if(toggle){
     div.css({
       border: "none",
-      padding: "1vw"
+      padding: "2.5vw"
     });
   } else {
     div.css({
@@ -182,7 +182,7 @@ function addBlock(){
   World.add(engine.world, [body]);
 
   if(bodies_list.length < words_arr.length){
-      var t = setTimeout(addBlock, 500);
+      var t = setTimeout(addBlock, 5);
   }
 }
 
