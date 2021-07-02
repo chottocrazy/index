@@ -6,7 +6,6 @@
 <script type="text/javascript">
 $(function(){
 $("#hsl").load("/2021/online/hsl/");
-$("#tone").load("/2021/online/tone/");
 })
 </script>
 <style type="text/css">
@@ -28,11 +27,6 @@ $("#tone").load("/2021/online/tone/");
   max-height: 700px;
   float:right;
 }
-#tone {
-  position: relative;
-  z-index: 5;
-  width:100%; height:100vh;
-}
 #logo iframe {
   display:block;
   width: 90%;
@@ -41,6 +35,17 @@ $("#tone").load("/2021/online/tone/");
   border:solid 0.25vw;
   border-radius: 5vw 5vw 0 0;
   margin: auto;
+}
+#tone {
+  position: relative;
+  z-index: 5;
+  width:100%; height:100vh;
+}
+#tone iframe {
+  display:block;
+  border:none;
+  width: 100%;
+  height: 100%;
 }
 
 #footer {
@@ -79,7 +84,7 @@ $("#tone").load("/2021/online/tone/");
 <div id="about">HTML graffiti</div>
 <div id="logo"><iframe src="/2021/online/p5/"></iframe></div>
 
-<div id="tone"></div>
+<div id="tone"><iframe src="/2021/online/tone/"></iframe></div>
 
 <h1 id="footer">
 <span>
