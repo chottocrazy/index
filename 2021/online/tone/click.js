@@ -4,7 +4,7 @@ $(window).click(function(){
 });
 
 var click = new Tone.PolySynth(5, Tone.Synth).toMaster();
-var notes = Tone.Frequency("D4").harmonize([
+var notes = Tone.Frequency("D2").harmonize([
   5,7,10,
   7,10,12,
   10,12,14,
