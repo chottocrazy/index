@@ -10,10 +10,11 @@ html, body {
 }
 
 canvas {
+  padding-top:2rem;
   display: block;
 }
 
-.sound-warning {
+#canvas {
   font-size:1.5em;
   line-height: 2em;
   cursor:pointer;
