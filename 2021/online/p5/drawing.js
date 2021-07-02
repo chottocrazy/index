@@ -41,7 +41,6 @@ for (let y = 0; y < H - (gridSpacing * 2); y += gridSpacing) {
       p.position(x, y)
       p.mousePressed(changeEmoji)
       p.mouseOver(changeEmoji)
-
     }
   }
 }
