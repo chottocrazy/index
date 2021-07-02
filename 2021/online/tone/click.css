@@ -6,6 +6,7 @@ body {margin: 0; padding: 0;}
   overflow: hidden;
   font-family: "Orchard";
   text-align: center;
+  background-color: #eee;
 }
 #click div {
   box-sizing: border-box;
@@ -13,7 +14,6 @@ body {margin: 0; padding: 0;}
   position: relative;
   word-wrap: break-word;
   word-break: break-all;
-  background-color: #eee;
 }
 #clickarea div::after {
   content: "chotto crazy";
