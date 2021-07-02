@@ -21,7 +21,7 @@ $(document).ready(function(){
 
   div.css("font-size", w/3.5);
 
-  div.addClass("leaf");
+  div.addClass("on");
   $("#click").append(div);
   div.append(words[count]);
   count++;
@@ -73,13 +73,13 @@ $(document).ready(function(){
       div.css("font-size", parenth/6);
       div_2.css("font-size", parenth/6);
 
-      div.addClass("leaf");
-      div_2.addClass("leaf");
+      div.addClass("on");
+      div_2.addClass("off");
 
       $(event.target).append(div);
       $(event.target).append(div_2);
-      $(event.target).removeClass("leaf");
-      $(event.target).addClass("branch");
+      $(event.target).removeClass("on");
+      $(event.target).addClass("off");
       event.stopPropagation();
     }
 });

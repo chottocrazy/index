@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "menlo";
+  src: url("fonts/Menlo-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: left;
+
+  background-color: gainsboro;
+  color: darkgoldenrod;
+}
+
+hr {
+  border: 0.5px solid darkgoldenrod;
+  width: 200%;
+  margin-left: -50%;
+}
+
+#title {
+  font-size: 6rem;
+  letter-spacing: -2px;
+  line-height: 0.9em;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  pointer-events: all;
+  transition: 0.25s;
+}
+
+#title:hover {
+  text-decoration: underline;
+}
+
+#container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding-top: 150px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+#text-container {
+  font-size: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+  letter-spacing: -0.2px;
+}
+
+span {
+  padding: 3px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.activated {
+  color: purple;
+  box-sizing: border-box;
+}
+
+#clockContainer {
+  width: 70px;
+  height: 70px;
+  bottom: 5px;
+  right: 5px;
+  position: fixed;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#vertical {
+  width: 12px;
+  height: 70px;
+  background-color: darkgoldenrod;
+  position: absolute;
+  left: 29px;
+}
+
+#horizontal{
+  width: 70px;
+  height: 12px;
+  position: absolute;
+  top: 29px;
+  background-color: darkgoldenrod;
+}
+
+
+#mute-btn {
+  color: darkgoldenrod;
+  position: fixed;
+  padding: 25px;
+  right: 0;
+  top: 0;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#mute-btn:hover {
+  color: white;
+  background-color: darkgoldenrod;
+}
+
+#nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 0px;
+  height: 100vh;
+  border: 0;
+  transition: 0.25s;
+  z-index: 1;
+  border-radius: 2px;
+}
+
+.showNav {
+  width: 400px!important;
+}
+
+.navClock {
+  background-color: cornsilk!important;
+}

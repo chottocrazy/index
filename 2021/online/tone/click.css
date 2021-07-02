@@ -22,12 +22,12 @@ body {margin: 0; padding: 0;}
   text-stroke: 0.1vw #FFF;
 }
 
-#clickarea .leaf {
+#clickarea .on {
   color: #000;
   transition:.5s all;
 }
 
-#clickarea .leaf:hover {
+#clickarea .on:hover {
   color: #eee;
   border-radius: 50%;
   transition:.25s all;

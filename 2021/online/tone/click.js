@@ -3,7 +3,8 @@ $(window).click(function(){
     Tone.context.resume();
 });
 
-var click = new Tone.PolySynth(5, Tone.Synth).toMaster();
+var volume = new Tone.Volume(10);
+var click = new Tone.PolySynth(10, Tone.Synth).chain(volume, Tone.Master);
 var notes = Tone.Frequency("D2").harmonize([
   5,7,10,
   7,10,12,
@@ -13,5 +14,5 @@ var noteIndex = 0;
 
 $("#click").click(function(e){
     var randNote = Math.floor(Math.random() * notes.length);
-    click.triggerAttackRelease(notes[randNote], "8n");
+    click.triggerAttackRelease(notes[randNote], "4n");
 });
