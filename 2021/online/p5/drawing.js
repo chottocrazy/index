@@ -23,7 +23,7 @@ function setup() {
   // reverb.process(delay, 4, 2);
 
 let i = 0;
-let cts = ['ℌ','𝔗','𝔐', '𝔏', '','𝔤', '𝔯', '𝔞','𝔣','𝔣', '𝔦', '𝔱','𝔦']]
+let cts = ['ℌ','𝔗','𝔐', '𝔏', '','𝔤', '𝔯', '𝔞','𝔣','𝔣', '𝔦', '𝔱','𝔦']
 
 for (let y = 0; y < H - (gridSpacing * 2); y += gridSpacing) {
   for (let x = gridSpacing; x < W - gridSpacing; x += gridSpacing) {
