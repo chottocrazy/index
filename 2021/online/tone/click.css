@@ -13,7 +13,7 @@ body {margin: 0; padding: 0;}
   position: relative;
   word-wrap: break-word;
   word-break: break-all;
-  background-color: white;
+  background-color: #eee;
 }
 #clickarea div::after {
   content: "chotto crazy";
