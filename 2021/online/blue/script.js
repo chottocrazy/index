@@ -31,19 +31,19 @@ $(window).scroll(function(event){
   if (st > lastScrollTop){
     //scrolled down
     if(blur < 100){
-      blur += 2;
+      blur += 1;
     }
     if(blur_r > 0){
-      blur_r -= 2;
+      blur_r -= 1;
     }
 
   } else {
     //scrolled up
     if(blur_r < 100){
-      blur_r += 2;
+      blur_r += 1;
     }
     if(blur > 0){
-      blur -= 2;
+      blur -= 1;
     }
   }
   lastScrollTop = st;

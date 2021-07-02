@@ -9,18 +9,41 @@ body {
   word-break: break-all;
   float: left;
   text-align: left;
+  color: rgba(0, 100, 100, 1);
 }
 
 #container p {
   font-size: 50%;
 }
+#container i {
+  font-family: serif;
+}
+#container a {
+  display: inline-block;
+  padding: 0 2.5vw;
+  transition:.5s all;
+}
+#container a:hover {
+  color:#fff;
+  background: rgba(0, 100, 100, 1);
+  transition:1s all;
+}
 
 .blurry {
   color: transparent;
   font-family: sans-serif;
+  transition:.5s all;
 }
-
 .blurry-r {
   color: transparent;
   font-family: serif;
+  transition:.5s all;
+}
+
+.blurry:hover,
+.blurry-r:hover {
+  color: #fff;
+  -webkit-text-stroke: 0.2vw rgba(0, 100, 100, 1);
+  text-stroke: 0.2vw rgba(0, 100, 100, 1);
+  transition:1s all;
 }
