@@ -14,9 +14,8 @@ canvas {
 }
 
 p {
-  font-size:2em;
-  line-height: 4.5em;
-  filter: invert();
+  font-size:1.5em;
+  line-height: 2em;
   cursor:pointer;
   font-family: "inscrutable","Times New Roman", "Times", serif;
   -webkit-touch-callout: none; /* iOS Safari */
