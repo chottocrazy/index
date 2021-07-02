@@ -17,6 +17,20 @@ var words_arr = str.split(""); //split text into array
 var wordIndex = 0; //initiallize index of words_arr
 var bodies_list = []; //initiallize array of bodies(rendered rectangles)
 
+StartAudioContext(Tone.context, window);
+$(window).click(function(){
+    Tone.context.resume();
+});
+
+var click = new Tone.FMSynth(5, Tone.Synth).toMaster();
+var notes = Tone.Frequency("A4").harmonize([7, 9, 12, 15]);
+var noteIndex = 0;
+
+$("body").click(function(e){
+    var randNote = Math.floor(Math.random() * notes.length);
+    click.triggerAttackRelease(notes[randNote], "8n");
+});
+
 StartAudioContext(Tone.context, 'canvas').then(function(){
   //started
   console.log("clicked");
