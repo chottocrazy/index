@@ -15,17 +15,10 @@ body {margin: 0; padding: 0;}
   word-break: break-all;
   background-color: white;
 }
-#clickarea div::before {
-  content: "大";
-  position: absolute;
-  top:0; left:0;
-  color:#D24117;
-  font-family: "Times New Roman", "Times", serif;
-  -webkit-text-stroke: 0.1vw #FFF;
-  text-stroke: 0.1vw #FFF;
-}
 #clickarea div::after {
   content: "chotto crazy";
+  -webkit-text-stroke: 0.1vw #FFF;
+  text-stroke: 0.1vw #FFF;
 }
 
 #clickarea .leaf {
