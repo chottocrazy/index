@@ -31,12 +31,12 @@ body {
 .blurry {
   color: transparent;
   font-family: sans-serif;
-  transition:.5s all;
+  transition:1s all;
 }
 .blurry-r {
   color: transparent;
   font-family: serif;
-  transition:.5s all;
+  transition:1s all;
 }
 
 .blurry:hover,
@@ -44,5 +44,5 @@ body {
   color: #fff;
   -webkit-text-stroke: 0.2vw rgba(0, 100, 100, 1);
   text-stroke: 0.2vw rgba(0, 100, 100, 1);
-  transition:1s all;
+  transition:.5s all;
 }
