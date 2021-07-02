@@ -14,8 +14,7 @@ canvas {
 }
 
 p {
-  font-size:1.5em;
-  line-height: 2em;
+  font-size:2em;
   filter: invert();
   cursor:pointer;
   font-family: "inscrutable","Times New Roman", "Times", serif;
