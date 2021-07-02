@@ -19,7 +19,7 @@ body {
   font-family: serif;
 }
 #container a {
-  padding: 0 1.25vw;
+  padding: 1.25vw;
   transition:.5s all;
 }
 #container a:hover {
