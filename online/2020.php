@@ -78,7 +78,6 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://chottocrazy.pe.hu/online/map/okayama/"></iframe>
 </div>
 <div id="normal">
-<a id="link" href="http://la.chottocrazy.pe.hu/" target="_blank" rel="noopener noreferrer"></a>
 <iframe id="sign" src="http://la.chottocrazy.pe.hu/"></iframe>
 </div>
 <div id="normal">
