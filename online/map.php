@@ -58,7 +58,6 @@ hr {clear: both; border: none;}
 <div id="howtocoding"></div>
 </div>
 </div>
-<hr/>
 <div id="full">
 <div id="main">
 <div id="workshop"></div>
