@@ -77,7 +77,7 @@ hr {clear: both; border: none;}
   </div>
   <div id="wide">
   <div id="about" class="center">
-  <p><u>ウェブサイト制作</u>・<u>ワークショップ開催</u> として <u>採用</u> のご依頼などのお問い合わせは、 <u>こちら</u> のフォームよりご連絡ください。</p>
+  <p><u>ウェブサイト制作</u>・<u>ワークショップ開催</u> のご依頼などのお問い合わせは、 <u>こちら</u> のフォームよりご連絡ください。</p>
   </div>
   <span class="bg_fff">Chotto Crazy Programs</span>
   </div>
