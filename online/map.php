@@ -37,7 +37,7 @@ $("#howtocoding").load("/online/howtocoding.html");
 {overflow:auto; height:23rem;}
 
 #howtocoding #introduce
-{zoom:0.75;}
+{zoom:0.70;}
 hr {clear: both; border: none;}
 @media screen and (max-width: 500px){
 #howtocoding #introduce
