@@ -77,6 +77,15 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
 </div>
 <div id="normal">
+<iframe id="sign" src="http://zayuunomei.chottocrazy.pe.hu/"></iframe>
+</div>
+<div id="normal">
+<iframe id="sign" src="http://chottocrazy.pe.hu/online/post/excuse/"></iframe>
+</div>
+<div id="normal">
+<iframe id="sign" src="http://zayuunomei.chottocrazy.pe.hu/"></iframe>
+</div>
+<div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
 </div>
 <div id="main">
