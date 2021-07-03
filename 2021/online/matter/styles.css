@@ -50,6 +50,7 @@ body {
   font-size: 25vw;
   overflow: hidden;
   cursor: pointer;
+  z-index: 0;
   box-sizing: border-box;
   position: absolute;
   text-align: center;
