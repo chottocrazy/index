@@ -6,8 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
-$("#creditonline").load("/online/map.php");
-$("#workshop").load("/online/workshop.php");
+$("#").load("");
 })
 </script>
 <style type="text/css">
