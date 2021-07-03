@@ -45,7 +45,6 @@ $("#").load("");
 <div id="topics">
 <h2 id="top">
 <i id="sub" class="">Topics</i>
-<b id="date">お知らせ</b>
 </h2>
 
 <div>
