@@ -99,9 +99,9 @@ hr {clear: both; border: none;}
 <span class="sub">CSS</span>
 <span class="sub">JS</span><br/>
 <span class="contents"><span class="by">creative, community space</span></span></h2>
-<a id="link" href="/2021/sample/" target="_parent"></a>
 </div>
 <span class="bg_fff">come on join us!</span>
+<a id="link" href="/2021/sample/" target="_parent"></a>
 </div>
 </div>
 </div>
