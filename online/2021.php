@@ -6,7 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
-$("#").load("");
+$("#order").load("http://creative-community.pe.hu/coding/submit/order/form.html");
 })
 </script>
 <style type="text/css">
@@ -74,24 +74,16 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://creative-community.pe.hu/coding/submit/contents.php"></iframe>
 </div>
 <div id="normal">
-<div id="wide">
-<h2 id="" class="center">
-<span class="sub">Download</span><br/>
-<span class="contents">地図見たいなウェブページ</span></h2>
-</div>
-<div id="wide">
-<h2 id="" class="center">
-<span class="sub">HTML</span>
-<span class="sub">CSS</span>
-<span class="sub">JS</span><br/>
-<span class="contents"><span class="by">creative, community space</span></span></h2>
-</div>
-<a id="link" href="/2021/sample/" target="_blank" rel="noopener noreferrer"></a>
+<div id="order"></div>
 <span class="bg_fff">come on join us!</span>
 </div>
 <div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
 </div>
+</div>
+<div class="popup" id="contactform" style="display:none;">
+<p><iframe src="http://creative-community.pe.hu/coding/submit/order/"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 </body>
 </html>
