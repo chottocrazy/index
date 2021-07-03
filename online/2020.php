@@ -55,7 +55,7 @@ hr {clear: both; border: none;}
 </div>
 <div id="full">
 <div id="normal">
-<a id="link" href="http://la.chottocrazy.pe.hu/" target="_parent"></a>
+<a id="link" href="http://la.chottocrazy.pe.hu/" target="_blank" rel="noopener noreferrer"></a>
 <iframe id="sign" src="http://la.chottocrazy.pe.hu/"></iframe>
 </div>
 <div id="normal">
