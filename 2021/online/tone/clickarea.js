@@ -74,7 +74,7 @@ $(document).ready(function(){
       div_2.css("font-size", parenth/6);
 
       div.addClass("on");
-      div_2.addClass("off");
+      div_2.addClass("on");
 
       $(event.target).append(div);
       $(event.target).append(div_2);
