@@ -10,7 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
   $(function(){
-  $("#logo").load("logo.html");
+  $("#main").load("logo.html");
   $("#bg").load("/2021/online/hsl/");
   })
   </script>
@@ -22,13 +22,17 @@
     }
     #bg {
       position:fixed;
-      top:0;
-      left:0;
+      top:0; left:0;
+    }
+    #main {
+      position:absolute;
+      top:0; left:0;
+      z-index:10;
     }
   </style>
 </head>
 <body data-feedly-extension-follow-feed="1.0.3" cz-shortcut-listen="true">
-  <div id="logo"></div>
+  <div id="main"></div>
   <div id="bg"></div>
 </body>
 </html>
