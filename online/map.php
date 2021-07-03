@@ -7,8 +7,6 @@
 <script type="text/javascript">
 $(function(){
 $("#howtocoding").load("/online/howtocoding.html");
-$("#workshop").load("/online/workshop.php");
-$("#first").load("/online/2020.php");
 })
 </script>
 <style type="text/css">
@@ -50,6 +48,7 @@ hr {clear: both; border: none;}
 <body>
 <div id="full">
 <div id="normal">
+<a id="link" href="/online/" target="_parent"></a>
 <iframe id="sign" src="/online/about.html"></iframe>
 </div>
 <div id="normal">
@@ -61,26 +60,5 @@ hr {clear: both; border: none;}
 </div>
 </div>
 <hr/>
-<div id="full" class="no_print">
-<h2 id="marquee">
-<span>We Support your Amazing Ideas and Creative Challenges</span>
-</h2>
-</div>
-<div id="full">
-<div id="main">
-<div id="workshop"></div>
-</div>
-<div id="normal">
-<a id="link" href="http://newlifecollection.pe.hu/" target="_parent"></a>
-<iframe id="sign" src="http://newlifecollection.pe.hu/sign/"></iframe>
-</div>
-<div id="normal" style="background:#fff;">
-<iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
-</div>
-<div id="normal">
-<iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
-</div>
-</div>
-<div id="first"></div>
 </body>
 </html>

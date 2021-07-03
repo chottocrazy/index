@@ -1,76 +1,86 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="ramdom.js"></script>
-<title>How to Coding | 大 chotto crazy</title>
-<link rel="stylesheet" type="text/css" href="/css/programs.css" />
-<link rel="stylesheet" type="text/css" href="/css/popup.css" />
-<style type="text/css">
-body {background:#eee;}
-.online u {background:#000}
-.online #sub {zoom:0.75;}
-#more_text {border-bottom:0.2rem solid #eee;}
-#link {color:#000; text-decoration:none;}
-#link:hover {color:#eee;}
-.online #more_text h2,
-.online #about_text h2 {
-	color:#fff;
-  -webkit-text-stroke: 0.05rem #000;
-  text-stroke: 0.05rem #000;
-}
-.pehu:after {
-  content:"∧° ┐";
-  font-size:125%;
-  font-family:"MS Mincho", serif;
-  margin-left:0.75rem;
-  font-style: normal;
-}
-hr {border:none;}
-</style>
 <script type="text/javascript">
 $(function(){
-$("#about_post").load("http://chottocrazy.pe.hu/online/post/about.php");
-$("#about_map").load("http://chottocrazy.pe.hu/online/map/thankyou.php");
-$("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
-$("#about_coding").load("http://chottocrazy.pe.hu/2021/sample/coding.html");
-$("#howtocoding").load("http://chottocrazy.pe.hu/online/howtocoding.html");
-$("#update").load("workshop.php");
-$("#donation").load("/donation.html");
+$("#howtocoding").load("/online/howtocoding.html");
+$("#workshop").load("/online/workshop.php");
+$("#first").load("/online/2020.php");
 })
 </script>
+<style type="text/css">
+@font-face {
+  font-family: "inscrutable";
+  src: url(/font/inscrutable.otf);
+}
+@font-face {
+  font-family: "Orchard";
+  src: url(/font/Orchard-Linear.otf);
+}
+.hold:before,
+.center b,
+#year,
+#marquee {
+  font-family:"Orchard";
+}
+.bg_fff,
+.bg_font {
+  font-family:"inscrutable";
+}
+#sign  {
+  width:100%; height:23.5rem;
+  border:none;
+  overflow:hidden;
+}
+#howtocoding, #workshop
+{overflow:auto; height:23.5rem;}
+
+#howtocoding #introduce
+{zoom:0.75;}
+hr {clear: both; border: none;}
+</style>
+<link rel="stylesheet" type="text/css" href="/css/map.css" />
+<link rel="stylesheet" type="text/css" href="/css/top.css" />
+<link rel="stylesheet" type="text/css" href="/css/popup.css" />
+<title>オンライン発表 | 大 chotto crazy</title>
 </head>
 <body>
-<div id="header">
-<a href="/" target="_parent"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>Online</b></a>
+<div id="full">
+<div id="normal">
+<iframe id="sign" src="/online/about.html"></iframe>
 </div>
-<div id="introduce">
-<div id="title">
-<p id="jp_title" class="center">オンライン発表</p>
-<i class="namae_by">How to Coding</i>
+<div id="normal">
+<a id="link" href="http://creative-community.pe.hu/coding/" target="_parent"></a>
+<iframe id="sign" src="/online/pehu.html"></iframe>
 </div>
-<div id="more">
+<div id="main">
 <div id="howtocoding"></div>
-<div id="update"></div>
-<div id="introduce">
-<div id="more">
-by <b id="sub" class="">Kazuma Sasajima</b><br/>
 </div>
 </div>
+<hr/>
+<div id="full" class="no_print">
+<h2 id="marquee">
+<span>We Support your Amazing Ideas and Creative Challenges</span>
+</h2>
 </div>
-<div id="about_text">
-<h2>大 chotto crazy では、実現したいことを実現するためのウェブサイトを制作し、オンライン発表により様々な実現したいことを実現することができます。</h2>
-<p>ここに、これまでに制作した大 chotto crazy 関連のウェブサイトと、基となったウェブコードを公開します。</p>
+<div id="full">
+<div id="main">
+<div id="workshop"></div>
+</div>
+<div id="normal">
+<a id="link" href="http://newlifecollection.pe.hu/" target="_parent"></a>
+<iframe id="sign" src="http://newlifecollection.pe.hu/sign/"></iframe>
+</div>
+<div id="normal" style="background:#fff;">
+<iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
+</div>
+<div id="normal">
+<iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
 </div>
 </div>
-<div id="about_post"></div>
-<div id="about_map"></div>
-<div id="about_q"></div>
-<div id="about_map"></div>
-<div id="about_coding"></div>
-<div id="donation"></div>
+<div id="first"></div>
 </body>
 </html>
