@@ -74,8 +74,12 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://creative-community.pe.hu/coding/submit/contents.php"></iframe>
 </div>
 <div id="normal">
-<div id="order"></div>
-<span class="bg_fff">come on join us!</span>
+  <div id="contents" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';">
+  <h1>Contact Form</h1>
+  <div id="main">
+  <span>このウェブサイトについての質問、ウェブサイト制作・ワークショップ開催のご依頼などのお問い合わせは、こちらのフォームよりご連絡ください。</span>
+  </div>
+  </div>
 </div>
 <div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
