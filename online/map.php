@@ -34,7 +34,9 @@ $("#howtocoding").load("/online/howtocoding.html");
   overflow:hidden;
 }
 #howtocoding
-{overflow:auto; padding:0; margin:0; height:23.5rem; zoom:0.75;}
+{overflow:auto; padding:0; margin:0; height:100%; zoom:0.75;}
+#howtocoding #introduce
+{}
 </style>
 <link rel="stylesheet" type="text/css" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
