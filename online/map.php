@@ -53,7 +53,9 @@ hr {clear: both; border: none;}
 </div>
 <div id="normal">
   <div id="wide">
-  <span id="message">お問い合わせ</span>
+  <p id="logo" class="center">
+  <span class="message">お問い合わせ</span>
+  </p>
   <div id="logo" class="center">
   <b class="on">Contact Form</b>
   </div>
