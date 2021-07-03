@@ -7,6 +7,7 @@
 <script type="text/javascript">
 $(function(){
 $("#howtocoding").load("/online/howtocoding.html");
+$("#workshop").load("/online/workshop.php");
 })
 </script>
 <style type="text/css">
@@ -32,8 +33,9 @@ $("#howtocoding").load("/online/howtocoding.html");
   border:none;
   overflow:hidden;
 }
-#howtocoding
+#howtocoding, #workshop
 {overflow:auto; height:23.5rem;}
+
 #howtocoding #introduce
 {zoom:0.75;}
 hr {clear: both; border: none;}
@@ -58,6 +60,9 @@ hr {clear: both; border: none;}
 </div>
 <hr/>
 <div id="full">
+<div id="main">
+<div id="workshop"></div>
+</div>
 <div id="normal" style="background:#fff;">
 <iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
 </div>
