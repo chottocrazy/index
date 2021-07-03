@@ -59,6 +59,11 @@ hr {clear: both; border: none;}
 </div>
 </div>
 <hr/>
+<div id="full" class="no_print">
+<h2 id="marquee">
+<span>We Support your Amazing Ideas and Creative Challenges</span>
+</h2>
+</div>
 <div id="full">
 <div id="main">
 <div id="workshop"></div>
