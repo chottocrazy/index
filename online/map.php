@@ -6,6 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
+$("#about").load("/online/about.html");
 $("#howtocoding").load("/online/workshop.php");
 })
 </script>
@@ -27,7 +28,7 @@ $("#howtocoding").load("/online/workshop.php");
 .bg_font {
   font-family:"inscrutable";
 }
-#about {
+#about  {
   width:100%; height:23.5rem;
   border:none;
   overflow:hidden;
@@ -44,7 +45,7 @@ $("#howtocoding").load("/online/workshop.php");
 <body>
 <div id="full">
 <div id="normal">
-<iframe id="about" src="/online/about.html"></iframe>
+<div id="about"></div>
 </div>
 <div id="normal">
 <a id="link" href="http://creative-community.pe.hu/coding/" target="_parent"></a>
