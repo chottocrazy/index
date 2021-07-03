@@ -55,7 +55,7 @@ hr {clear: both; border: none;}
 <div id="main">
 <iframe id="sign" src="/2021/online/tone/"></iframe>
 </div>
-<div id="normal">
+<div id="main">
 <a id="link" href="http://newlifecollection.pe.hu/" target="_parent"></a>
 <iframe id="sign" src="http://newlifecollection.pe.hu/sign/"></iframe>
 </div>
