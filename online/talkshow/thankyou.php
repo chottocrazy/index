@@ -4,8 +4,8 @@
 <meta name="viewport" content="width=device-width">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="../10q.css" />
-<link rel="stylesheet" type="text/css" href="../answer.css" />
+<link rel="stylesheet" type="text/css" href="./10q.css" />
+<link rel="stylesheet" type="text/css" href="./answer.css" />
 <link rel="stylesheet" type="text/css" href="http://ichoose.pe.hu/styles.css" />
 <title>暗闇でおしゃべりしたい | by ケニーペイン</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
