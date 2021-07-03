@@ -86,11 +86,11 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://chottocrazy.pe.hu/online/map/okayama/"></iframe>
 </div>
 <div id="normal">
+<a id="link" href="http://la.chottocrazy.pe.hu/" target="_parent"></a>
+<iframe id="sign" src="http://la.chottocrazy.pe.hu/"></iframe>
+</div>
+<div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
-</div>
-<div id="main">
-<div id="freetime"></div>
-</div>
 </div>
 </div>
 </body>
