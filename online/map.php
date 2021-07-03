@@ -52,8 +52,21 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="/online/about.html"></iframe>
 </div>
 <div id="normal">
-<a id="link" href="http://creative-community.pe.hu/coding/" target="_parent"></a>
-<iframe id="sign" src="/online/pehu.html"></iframe>
+<div id="wide">
+<h2 id="" class="center">
+<span class="sub">助成</span><br/>
+<span class="contents">おおさか創造千島財団</span></h2>
+<a id="link" href="http://www.chishimatochi.info/found/" target="_parent"></a>
+</div>
+<div id="wide">
+<h2 id="" class="center">
+<span class="sub">HTML</span>
+<span class="sub">CSS</span>
+<span class="sub">JS</span><br/>
+<span class="contents"><span class="by">creative, community space</span></span></h2>
+<a id="link" href="/2021/sample/" target="_parent"></a>
+</div>
+<span class="bg_fff">come on join us!</span>
 </div>
 <div id="main">
 <div id="howtocoding"></div>
