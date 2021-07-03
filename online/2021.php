@@ -74,7 +74,6 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://creative-community.pe.hu/coding/submit/contents.php"></iframe>
 </div>
 <div id="normal">
-
   <div id="wide">
   <span id="title">お問い合わせ</span>
   <div id="logo" class="center">

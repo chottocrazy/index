@@ -47,14 +47,33 @@ hr {clear: both; border: none;}
 </head>
 <body>
 <div id="full">
-<div id="main">
+<div id="normal">
 <a id="link" href="/online/" target="_parent"></a>
 <iframe id="sign" src="/online/about.html"></iframe>
+</div>
+<div id="normal">
+  <div id="wide">
+  <span id="title">お問い合わせ</span>
+  <div id="logo" class="center">
+  <b class="on">Contact Form</b>
+  </div>
+  </div>
+  <div id="wide">
+  <div id="about" class="center">
+  <p><u>ウェブサイト制作</u>・<u>ワークショップ開催</u> として <u>採用</u> のご依頼などのお問い合わせは、 <u>こちら</u> のフォームよりご連絡ください。</p>
+  </div>
+  <span class="bg_fff">Chotto Crazy Programs</span>
+  </div>
+  <a id="link" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 <div id="main">
 <div id="howtocoding"></div>
 </div>
 </div>
 <hr/>
+<div class="popup" id="contactform" style="display:none;">
+<p><iframe src="http://creative-community.pe.hu/coding/submit/order/"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
 </body>
 </html>
