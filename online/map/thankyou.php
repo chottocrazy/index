@@ -70,10 +70,10 @@ $("#").load("__");
 <a href="/online/map/" target="_parent">/online/map/</a>
 </h2>
 <h2>Download
-<a href="/online/map/download.zip"  target="_parent">/online/map/download.zip</a>
+<a href="/online/map/download.zip" target="_parent">/online/map/download.zip</a>
 </h2>
 <p>使用例
-<a href="/online/map/okayama/" target="_blank" rel="noopener noreferrer">岡山県オススメ60スポット</a>
+<a href="/online/map/" target="_blank" rel="noopener noreferrer">オススメを集める β ver.</a>
 <a href="http://vg.pe.hu/publication/value/online/" target="_blank" rel="noopener noreferrer">大切にすることを大切にするためのオンライン展</a>
 </p>
 <p>応用編
