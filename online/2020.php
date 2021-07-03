@@ -63,23 +63,23 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://chottocrazy.pe.hu/2020/otobuil/beta/"></iframe>
 </div>
 <div id="normal">
-<iframe id="sign" src="http://chottocrazy.pe.hu/2020/otobuil/"></iframe>
+<iframe id="sign" src="http://chottocrazy.pe.hu/2020/pre-event/"></iframe>
 </div>
 <div id="normal">
-<iframe id="sign" src="http://chottocrazy.pe.hu/2020/pre-event/"></iframe>
+<iframe id="sign" src="http://chottocrazy.pe.hu/online/post/excuse/"></iframe>
+</div>
+<div id="normal">
+<iframe id="sign" src="http://chottocrazy.pe.hu/online/map/okayama/"></iframe>
+</div>
+<div id="normal">
+<iframe id="sign" src="http://zayuunomei.chottocrazy.pe.hu/"></iframe>
 </div>
 <div id="normal">
 <a id="link" href="http://la.chottocrazy.pe.hu/" target="_blank" rel="noopener noreferrer"></a>
 <iframe id="sign" src="http://la.chottocrazy.pe.hu/"></iframe>
 </div>
 <div id="normal">
-<iframe id="sign" src="http://chottocrazy.pe.hu/online/post/excuse/"></iframe>
-</div>
-<div id="normal">
-<iframe id="sign" src="http://zayuunomei.chottocrazy.pe.hu/"></iframe>
-</div>
-<div id="normal">
-<iframe id="sign" src="http://chottocrazy.pe.hu/online/map/okayama/"></iframe>
+<iframe id="sign" src="http://chottocrazy.pe.hu/2020/otobuil/"></iframe>
 </div>
 <div id="normal">
 <div id="wide">
