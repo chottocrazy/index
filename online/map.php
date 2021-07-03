@@ -33,6 +33,7 @@ $("#workshop").load("/online/workshop.php");
   width:100%; height:23.5rem;
   border:none;
   overflow:hidden;
+  background: #fff;
 }
 #howtocoding, #workshop
 {overflow:auto; height:23.5rem;}
