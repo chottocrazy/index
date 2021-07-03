@@ -74,9 +74,6 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://creative-community.pe.hu/coding/submit/contents.php"></iframe>
 </div>
 <div id="normal">
-<iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
-</div>
-<div id="normal">
 <div id="wide">
 <h2 id="" class="center">
 <span class="sub">How to Coding</span><br/>
@@ -89,8 +86,11 @@ hr {clear: both; border: none;}
 <span class="sub">JS</span><br/>
 <span class="contents"><span class="by">creative, community space</span></span></h2>
 </div>
-<a id="link" href="/2021/sample/" target="_parent"></a>
+<a id="link" href="/2021/sample/" target="_blank" rel="noopener noreferrer"></a>
 <span class="bg_fff">come on join us!</span>
+</div>
+<div id="normal">
+<iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
 </div>
 </div>
 </body>
