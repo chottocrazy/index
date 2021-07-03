@@ -11,7 +11,7 @@
   <script type="text/javascript">
   $(function(){
   $("#logo").load("logo.html");
-  $("#hsl").load("/2021/online/hsl/");
+  $("#bg").load("/2021/online/hsl/");
   })
   </script>
   <style type="text/css">
@@ -20,10 +20,15 @@
       padding: 0;
       overflow: hidden;
     }
+    #bg {
+      position:fixed;
+      top:0;
+      left:0;
+    }
   </style>
 </head>
 <body data-feedly-extension-follow-feed="1.0.3" cz-shortcut-listen="true">
   <div id="logo"></div>
-  <div id="hsl"></div>
+  <div id="bg"></div>
 </body>
 </html>
