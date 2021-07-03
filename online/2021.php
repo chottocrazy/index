@@ -76,7 +76,7 @@ hr {clear: both; border: none;}
 <div id="normal">
 <div id="wide">
 <h2 id="" class="center">
-<span class="sub">How to Coding</span><br/>
+<span class="sub">Download</span><br/>
 <span class="contents">地図見たいなウェブページ</span></h2>
 </div>
 <div id="wide">
