@@ -47,10 +47,10 @@ hr {clear: both; border: none;}
 <body>
 <div id="full">
 <div id="normal">
-<iframe id="sign" src="/2021/online/p5/"></iframe>
+<iframe id="sign" src="/online/ichoose/topics.php"></iframe>
 </div>
 <div id="normal">
-<iframe id="sign" src="/online/ichoose/topics.php"></iframe>
+<iframe id="sign" src="/2021/online/p5/"></iframe>
 </div>
 <div id="main">
 <iframe id="sign" src="/2021/online/tone/"></iframe>
