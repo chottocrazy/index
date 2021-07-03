@@ -8,7 +8,6 @@
 $(function(){
 $("#creditonline").load("/online/map.php");
 $("#workshop").load("/online/workshop.php");
-$("#first").load("/online/2020.php");
 })
 </script>
 <style type="text/css">
@@ -65,6 +64,5 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
 </div>
 </div>
-<div id="first"></div>
 </body>
 </html>
