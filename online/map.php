@@ -47,8 +47,12 @@ hr {clear: both; border: none;}
 </head>
 <body>
 <div id="full">
-  <div id="normal">
-    <div id="wide">
+<div id="main">
+<div id="howtocoding"></div>
+</div>
+
+<div id="normal">
+  <div id="wide">
     <p id="logo" class="center">
     <span class="message">オンライン発表</span>
     </p>
@@ -59,11 +63,12 @@ hr {clear: both; border: none;}
     <div id="wide">
     <div id="about" class="center">
     <p>これまでに制作した大 chotto crazy 関連の<u>ウェブサイト</u>一覧</p>
-    </div>
-    <span class="bg_fff">Chotto Crazy Programs</span>
-    </div>
-    <a id="link" href="/online/" target="_parent"></a>
   </div>
+  <span class="bg_fff">Chotto Crazy Programs</span>
+</div>
+<a id="link" href="/online/" target="_parent"></a>
+</div>
+
 <div id="normal">
   <div id="wide">
   <p id="logo" class="center">
@@ -80,9 +85,6 @@ hr {clear: both; border: none;}
   <span class="bg_fff">Chotto Crazy Programs</span>
   </div>
   <a id="link" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';"></a>
-</div>
-<div id="main">
-<div id="howtocoding"></div>
 </div>
 </div>
 <hr/>
