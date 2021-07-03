@@ -6,9 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
-$("#howtocoding").load("/online/howtocoding.html");
-$("#workshop").load("/online/workshop.php");
-$("#first").load("/online/2020.php");
+$("#").load("");
 })
 </script>
 <style type="text/css">
@@ -34,6 +32,7 @@ $("#first").load("/online/2020.php");
   width:100%; height:23.5rem;
   border:none;
   overflow:hidden;
+  background: #fff;
 }
 #howtocoding, #workshop
 {overflow:auto; height:23.5rem;}
@@ -45,42 +44,28 @@ hr {clear: both; border: none;}
 <link rel="stylesheet" type="text/css" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
 <link rel="stylesheet" type="text/css" href="/css/popup.css" />
-<title>オンライン発表 | 大 chotto crazy</title>
+<title>オンライン発表 | 大 chotto crazy 2020</title>
 </head>
 <body>
-<div id="full">
-<div id="normal">
-<iframe id="sign" src="/online/about.html"></iframe>
-</div>
-<div id="normal">
-<a id="link" href="http://creative-community.pe.hu/coding/" target="_parent"></a>
-<iframe id="sign" src="/online/pehu.html"></iframe>
-</div>
-<div id="main">
-<div id="howtocoding"></div>
-</div>
-</div>
 <hr/>
 <div id="full" class="no_print">
 <h2 id="marquee">
-<span>We Support your Amazing Ideas and Creative Challenges</span>
+<span>List of the Websites for 大 chotto crazy 2020</span>
 </h2>
 </div>
 <div id="full">
-<div id="main">
-<div id="workshop"></div>
+<div id="normal">
+<a id="link" href="http://la.chottocrazy.pe.hu/" target="_parent"></a>
+<iframe id="sign" src="http://la.chottocrazy.pe.hu/"></iframe>
 </div>
 <div id="normal">
-<a id="link" href="http://newlifecollection.pe.hu/" target="_parent"></a>
-<iframe id="sign" src="http://newlifecollection.pe.hu/sign/"></iframe>
-</div>
-<div id="normal" style="background:#fff;">
-<iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
+<iframe id="sign" src="http://zayuunomei.chottocrazy.pe.hu/"></iframe>
 </div>
 <div id="normal">
-<iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
+<iframe id="sign" src="http://chottocrazy.pe.hu/online/post/excuse/"></iframe>
 </div>
-<div id="first">
+<div id="normal">
+<iframe id="sign" src="http://chottocrazy.pe.hu/online/map/okayama/"></iframe>
 </div>
 </div>
 </body>
