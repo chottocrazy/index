@@ -21,7 +21,8 @@ $("#workshop").load("/online/workshop.php");
 }
 .hold:before,
 .center b,
-#year {
+#year,
+#marquee {
   font-family:"Orchard";
 }
 .bg_fff,
@@ -58,7 +59,6 @@ hr {clear: both; border: none;}
 <div id="howtocoding"></div>
 </div>
 </div>
-<hr/>
 <div id="full" class="no_print">
 <h2 id="marquee">
 <span>We Support your Amazing Ideas and Creative Challenges</span>
