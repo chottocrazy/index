@@ -192,7 +192,7 @@ hr {border:none;}
 	position:absolute;
 	font-size:5vw;
 	display:block;
-	content:'â';
+	content:'✔️';
 	opacity:0;
 	-webkit-transform:translate(-50%,-50%);
 	transform:translate(-50%,-50%);

@@ -4,10 +4,9 @@
 <meta name="viewport" content="width=device-width">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="answer.css" />
-<link rel="stylesheet" type="text/css" href="/ccm/10q/styles.css" />
-<link rel="stylesheet" type="text/css" href="/ccm/10q/10q.css" />
-<link rel="stylesheet" type="text/css" href="/ccm/10q/print.css" />
+<link rel="stylesheet" type="text/css" href="../10q.css" />
+<link rel="stylesheet" type="text/css" href="../answer.css" />
+<link rel="stylesheet" type="text/css" href="http://ichoose.pe.hu/styles.css" />
 <title>暗闇でおしゃべりしたい | by ケニーペイン</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
@@ -42,18 +41,18 @@ $("#").load("");
 </div>
 </div>
 <div id="all">
-<div id="01"></div> 
+<div id="01"></div>
 <div id="02"></div>
-<div id="03"></div> 
-<div id="04"></div> 
-<div id="05"></div> 
-<div id="06"></div> 
-<div id="07"></div> 
-<div id="08"></div> 
-<div id="09"></div> 
-<div id="10"></div> 
-<div id="11"></div> 
-<div id="12"></div>  
+<div id="03"></div>
+<div id="04"></div>
+<div id="05"></div>
+<div id="06"></div>
+<div id="07"></div>
+<div id="08"></div>
+<div id="09"></div>
+<div id="10"></div>
+<div id="11"></div>
+<div id="12"></div>
 </div>
 </body>
 </html>
