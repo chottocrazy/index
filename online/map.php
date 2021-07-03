@@ -27,6 +27,13 @@ $("#howtocoding").load("/online/howtocoding.html");
 .bg_font {
   font-family:"inscrutable";
 }
+#normal {
+  position: relative;
+  top:0; left:0;
+  float:left;
+  padding:0; margin:0;
+
+}
 #sign  {
   position: relative;
   top:0; left:0;
