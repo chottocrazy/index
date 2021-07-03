@@ -29,12 +29,12 @@ $("#howtocoding").load("/online/howtocoding.html");
   font-family:"inscrutable";
 }
 #sign  {
-  width:100%; height:23.5rem;
+  width:100%; height:23rem;
   border:none;
   overflow:hidden;
 }
 #howtocoding, #workshop
-{overflow:auto; height:23.5rem;}
+{overflow:auto; height:23rem;}
 
 #howtocoding #introduce
 {zoom:0.75;}
