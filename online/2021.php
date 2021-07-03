@@ -61,7 +61,6 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://newlifecollection.pe.hu/sign/"></iframe>
 </div>
 <div id="normal" style="background:#fff;">
-<a id="link" href="http://vg.pe.hu/jp/" target="_blank" rel="noopener noreferrer"></a>
 <iframe id="sign" src="http://vg.pe.hu/jp/about/motto.html"></iframe>
 </div>
 <div id="normal" style="background:#fff;">
