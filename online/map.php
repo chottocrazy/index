@@ -47,25 +47,9 @@ hr {clear: both; border: none;}
 </head>
 <body>
 <div id="full">
-<div id="normal">
+<div id="main">
 <a id="link" href="/online/" target="_parent"></a>
 <iframe id="sign" src="/online/about.html"></iframe>
-</div>
-<div id="normal">
-<div id="wide">
-<h2 id="" class="center">
-<span class="sub">How to Coding</span><br/>
-<span class="contents">地図見たいなウェブページ</span></h2>
-</div>
-<div id="wide">
-<h2 id="" class="center">
-<span class="sub">HTML</span>
-<span class="sub">CSS</span>
-<span class="sub">JS</span><br/>
-<span class="contents"><span class="by">creative, community space</span></span></h2>
-</div>
-<a id="link" href="/2021/sample/" target="_parent"></a>
-<span class="bg_fff">come on join us!</span>
 </div>
 <div id="main">
 <div id="howtocoding"></div>
