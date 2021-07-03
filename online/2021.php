@@ -62,6 +62,9 @@ hr {clear: both; border: none;}
 <div id="normal" style="background:#fff;">
 <iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
 </div>
+<div id="main">
+<iframe id="sign" src="/online/ichoose/topics.php"></iframe>
+</div>
 </div>
 </body>
 </html>
