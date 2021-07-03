@@ -35,18 +35,18 @@ b, h1, h3 {
 <div id="full">
 <div id="normal">
 <div id="wide">
-<span id="title">公式プログラム一覧</span>
+<span id="title">寄付</span>
 <div id="logo" class="center">
-<b class="on">Chotto Crazy Programs</b>
+<b class="on">Support</b>
 </div>
 </div>
 <div id="wide">
 <div id="about" class="center">
-<p>2020年より開始した 一般公募で集まった <u>実現したいこと</u> から、<u>公式プログラム</u> として <u>採用</u> した、ちょっとクレイジーな <u>アイデア</u> や <u>チャレンジ</u> を紹介します。</p>
+<p>寄付</p>
 </div>
-<span class="bg_fff">Chotto Crazy Programs</span>
+<span class="bg_fff">Donation</span>
 </div>
-<a id="link" href="/programs/" target="_parent"></a>
+<a id="link" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 <div id="normal">
 <div id="wide">
@@ -95,6 +95,10 @@ b, h1, h3 {
 </div>
 <span class="bg_fff">come on join us!</span>
 </div>
+</div>
+<div class="popup" id="support" style="display:none;">
+<p><iframe src="http://vg.pe.hu/jp/cm/support.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div class="popup" id="videos" style="display:none;">
 <p><iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLNxErRQ8jPVbb-A1oets9-qSuAzGb0tWU;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
