@@ -47,7 +47,6 @@ hr {clear: both; border: none;}
 <title>オンライン発表 | 大 chotto crazy 2020</title>
 </head>
 <body>
-<hr/>
 <div id="full" class="no_print">
 <h2 id="marquee">
 <span>List of the Websites for 大 chotto crazy 2020</span>
