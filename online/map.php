@@ -45,15 +45,15 @@ $("#howtocoding").load("/online/howtocoding.html");
 </head>
 <body>
 <div id="full">
-<div id="main">
-<div id="howtocoding"></div>
-</div>
 <div id="normal">
 <iframe id="sign" src="/online/about.html"></iframe>
 </div>
 <div id="normal">
 <a id="link" href="http://creative-community.pe.hu/coding/" target="_parent"></a>
 <iframe id="sign" src="/online/marquee.html"></iframe>
+</div>
+<div id="main">
+<div id="howtocoding"></div>
 </div>
 <div id="normal" style="background:#fff;">
 <iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
