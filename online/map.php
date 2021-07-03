@@ -47,9 +47,6 @@ hr {clear: both; border: none;}
 </head>
 <body>
 <div id="full">
-<div id="main">
-<div id="howtocoding"></div>
-</div>
 
 <div id="normal">
   <div id="wide">
@@ -85,6 +82,10 @@ hr {clear: both; border: none;}
   <span class="bg_fff">Chotto Crazy Programs</span>
   </div>
   <a id="link" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';"></a>
+</div>
+
+<div id="main">
+<div id="howtocoding"></div>
 </div>
 </div>
 <hr/>
