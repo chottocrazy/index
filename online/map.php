@@ -29,6 +29,8 @@ $("#howtocoding").load("/online/howtocoding.html");
 }
 #sign  {
   position: relative;
+  top:0; left:0;
+  padding:0; margin:0;
   width:100%; height:23.5rem;
   border:none;
   overflow:hidden;
