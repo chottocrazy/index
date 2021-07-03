@@ -27,17 +27,7 @@ $("#howtocoding").load("/online/howtocoding.html");
 .bg_font {
   font-family:"inscrutable";
 }
-#normal {
-  position: relative;
-  top:0; left:0;
-  float:left;
-  padding:0; margin:0;
-
-}
 #sign  {
-  position: relative;
-  top:0; left:0;
-  padding:0; margin:0;
   width:100%; height:23.5rem;
   border:none;
   overflow:hidden;
@@ -64,6 +54,8 @@ $("#howtocoding").load("/online/howtocoding.html");
 <div id="main">
 <div id="howtocoding"></div>
 </div>
+</div>
+<div id="full">
 <div id="normal">
 <a id="link" href="http://creative-community.pe.hu/coding/" target="_parent"></a>
 <iframe id="sign" src="/online/marquee.html"></iframe>
