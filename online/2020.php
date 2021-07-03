@@ -54,6 +54,22 @@ hr {clear: both; border: none;}
 </div>
 <div id="full">
 <div id="normal">
+<div id="wide">
+<h2 id="" class="center">
+<span class="sub">Download</span><br/>
+<span class="contents">地図見たいなウェブページ</span></h2>
+</div>
+<div id="wide">
+<h2 id="" class="center">
+<span class="sub">HTML</span>
+<span class="sub">CSS</span>
+<span class="sub">JS</span><br/>
+<span class="contents"><span class="by">creative, community space</span></span></h2>
+</div>
+<a id="link" href="/2021/sample/" target="_blank" rel="noopener noreferrer"></a>
+<span class="bg_fff">come on join us!</span>
+</div>
+<div id="normal">
 <iframe id="sign" src="http://chottocrazy.pe.hu/2020/pre-event/"></iframe>
 </div>
 <div id="normal">
