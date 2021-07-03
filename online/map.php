@@ -54,8 +54,7 @@ hr {clear: both; border: none;}
 <div id="normal">
 <h2 id="" class="center">
 <span class="sub">How to Coding</span><br/>
-<span class="contents">自分が熱狂した頃の面白かったインターネットをもう一度復活させたい。</span></h2>
-<h2 id="" class="center">
+<span class="contents">自分が熱狂した頃の面白かったインターネットをもう一度復活させたい。</span><br/>
 <span class="sub">by</span><br/>
 <span class="contents"><span class="by">creative, community space</span></span></h2>
 <span class="bg_fff">come on join us!</span>
