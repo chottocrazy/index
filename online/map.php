@@ -82,8 +82,8 @@ hr {clear: both; border: none;}
 <div id="normal">
 <iframe id="sign" src="http://chottocrazy.pe.hu/online/post/excuse/"></iframe>
 </div>
-<div id="normal">
-<iframe id="sign" src="http://zayuunomei.chottocrazy.pe.hu/"></iframe>
+<div id="main">
+<iframe id="sign" src="http://chottocrazy.pe.hu/online/map/okayama/"></iframe>
 </div>
 <div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
