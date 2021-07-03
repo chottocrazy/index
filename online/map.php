@@ -36,6 +36,7 @@ $("#howtocoding").load("/online/howtocoding.html");
 {overflow:auto; height:23.5rem;}
 #howtocoding #introduce
 {zoom:0.75;}
+hr {clear: both; border: none;}
 </style>
 <link rel="stylesheet" type="text/css" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
@@ -55,6 +56,7 @@ $("#howtocoding").load("/online/howtocoding.html");
 <div id="howtocoding"></div>
 </div>
 </div>
+<hr/>
 <div id="full">
 <div id="normal">
 <a id="link" href="http://creative-community.pe.hu/coding/" target="_parent"></a>
