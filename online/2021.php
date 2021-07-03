@@ -74,24 +74,24 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://creative-community.pe.hu/coding/submit/contents.php"></iframe>
 </div>
 <div id="normal">
+<iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
+</div>
+<div id="normal">
 <div id="wide">
-<span id="title">映像集</span>
-<div id="logo" class="center">
-<b class="on">How to Coding</b>
-</div>
+<h2 id="" class="center">
+<span class="sub">How to Coding</span><br/>
+<span class="contents">地図見たいなウェブページ</span></h2>
 </div>
 <div id="wide">
-<div id="about" class="center">
-<p><u>ウェブサイトの作り方</u> を紹介する映像を <u>YouTube</u> に公開します。</p>
+<h2 id="" class="center">
+<span class="sub">HTML</span>
+<span class="sub">CSS</span>
+<span class="sub">JS</span><br/>
+<span class="contents"><span class="by">creative, community space</span></span></h2>
 </div>
+<a id="link" href="/2021/sample/" target="_parent"></a>
+<span class="bg_fff">come on join us!</span>
 </div>
-<span class="bg_fff">How to Coding Videos</span>
-<a id="link" onclick="obj=document.getElementById('videos').style; obj.display=(obj.display=='none')?'block':'none';"></a>
-</div>
-</div>
-<div class="popup" id="videos" style="display:none;">
-<p><iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLNxErRQ8jPVauFoKkIC1eME0G7t-97RdK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<span class="close" onclick="obj=document.getElementById('videos').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 </body>
 </html>
