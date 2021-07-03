@@ -54,6 +54,15 @@ hr {clear: both; border: none;}
 </div>
 <div id="full">
 <div id="normal">
+<iframe id="sign" src="http://chottocrazy.pe.hu/2020/pre-event/"></iframe>
+</div>
+<div id="normal">
+<iframe id="sign" src="http://chottocrazy.pe.hu/2020/otobuil/max/"></iframe>
+</div>
+<div id="normal">
+<iframe id="sign" src="http://chottocrazy.pe.hu/2020/otobuil/"></iframe>
+</div>
+<div id="normal">
 <a id="link" href="http://la.chottocrazy.pe.hu/" target="_blank" rel="noopener noreferrer"></a>
 <iframe id="sign" src="http://la.chottocrazy.pe.hu/"></iframe>
 </div>
