@@ -44,7 +44,7 @@ $("#").load("");
 
 <div id="topics">
 <h2 id="top">
-<i id="sub" class="">Topics</i>
+<i id="sub" class="">Update</i>
 </h2>
 
 <div>
