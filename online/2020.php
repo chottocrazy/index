@@ -84,8 +84,8 @@ hr {clear: both; border: none;}
 <div id="normal">
 <iframe id="sign" src="http://chottocrazy.pe.hu/2020/otobuil/"></iframe>
 </div>
-<div id="main">
-<iframe id="sign" src="http://chottocrazy.pe.hu/2020/"></iframe>
+<div id="normal">
+<iframe id="sign" src="http://chottocrazy.pe.hu/online/post/"></iframe>
 </div>
 </div>
 </body>
