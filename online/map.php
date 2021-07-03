@@ -29,7 +29,7 @@ $("#howtocoding").load("/online/howtocoding.html");
 }
 #sign  {
   position: relative;
-  width:100%; height:23.5rem;
+  width:100%; height:100%;
   border:none;
   overflow:hidden;
 }
