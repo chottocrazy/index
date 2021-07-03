@@ -38,7 +38,7 @@ $("#hsl").load("/2021/online/hsl/");
 }
 #tone {
   position: relative;
-  z-index: 5;
+  z-index: 4;
   width:100%; height:100vh;
   margin-bottom:3vw;
 }
@@ -49,10 +49,9 @@ $("#hsl").load("/2021/online/hsl/");
   height: 100%;
 }
 
-#footer {
-  bottom:0;
-  position: fixed;
-  z-index: 10;
+#top {
+  position: relative;
+  z-index: 1;
   background: #fff;
   padding: 0;
   font-size: 1.5vw;
@@ -63,14 +62,14 @@ $("#hsl").load("/2021/online/hsl/");
   flex-direction: row;
   justify-content: space-between;
 }
-#footer span {
+#top span {
   padding: 1vw 2vw;
 }
-#footer a {
+#top a {
   color: #000;
   text-decoration: none;
 }
-#footer a:hover {
+#top a:hover {
   padding-bottom: 0.5vw;
   border-bottom:solid 2px;
 }
@@ -81,13 +80,7 @@ $("#hsl").load("/2021/online/hsl/");
 <title>HTML graffiti | 大 chotto crazy 2021</title>
 </head>
 <body>
-<div id="hsl"></div>
-<div id="about">
-  <h1>HTML graffiti</h1>
-</div>
-<div id="logo"><iframe src="/2021/online/p5/"></iframe></div>
-
-<h1 id="footer">
+<h1 id="top">
 <span>
 <a href="http://chottocrazy.pe.hu/2021/" target="_blank" rel="noopener noreferrer">
 大 chotto crazy</a>
@@ -97,5 +90,12 @@ $("#hsl").load("/2021/online/hsl/");
 2021</a>
 </span>
 </h1>
+<div id="hsl"></div>
+<div id="about">
+  <h1>HTML graffiti</h1>
+</div>
+<div id="logo"><iframe src="/2021/online/p5/"></iframe></div>
+
+<div id="tone"><iframe src="/2021/online/tone/"></iframe></div>
 </body>
 </html>
