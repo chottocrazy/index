@@ -40,6 +40,7 @@ $("#").load("");
 {zoom:0.75;}
 hr {clear: both; border: none;}
 </style>
+<link rel="stylesheet" type="text/css" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
 <link rel="stylesheet" type="text/css" href="/css/popup.css" />
 <title>オンライン発表 | 大 chotto crazy 2021</title>
