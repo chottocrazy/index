@@ -47,10 +47,23 @@ hr {clear: both; border: none;}
 </head>
 <body>
 <div id="full">
-<div id="normal">
-<a id="link" href="/online/" target="_parent"></a>
-<iframe id="sign" src="/online/about.html"></iframe>
-</div>
+  <div id="normal">
+    <div id="wide">
+    <p id="logo" class="center">
+    <span class="message">オンライン発表</span>
+    </p>
+    <div id="logo" class="center">
+    <b class="on">How to Coding</b>
+    </div>
+    </div>
+    <div id="wide">
+    <div id="about" class="center">
+    <p>これまでに制作した大 chotto crazy 関連の<u>ウェブサイト</u>一覧</p>
+    </div>
+    <span class="bg_fff">Chotto Crazy Programs</span>
+    </div>
+    <a id="link" href="/online/" target="_parent"></a>
+  </div>
 <div id="normal">
   <div id="wide">
   <p id="logo" class="center">
