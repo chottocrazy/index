@@ -27,9 +27,8 @@ $("#howtocoding").load("/online/workshop.php");
 .bg_font {
   font-family:"inscrutable";
 }
-#sign  {
+#about {
   width:100%; height:23.5rem;
-  z-index:100;
   border:none;
   overflow:hidden;
 }
@@ -44,8 +43,8 @@ $("#howtocoding").load("/online/workshop.php");
 </head>
 <body>
 <div id="full">
-<div id="normal" style="background:#fff;">
-<iframe id="sign" src="/online/about.html"></iframe>
+<div id="normal">
+<iframe id="about" src="/online/about.html"></iframe>
 </div>
 <div id="normal">
 <a id="link" href="http://creative-community.pe.hu/coding/" target="_parent"></a>
