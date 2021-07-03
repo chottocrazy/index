@@ -54,9 +54,9 @@ hr {clear: both; border: none;}
 <div id="normal">
 <div id="wide">
 <h2 id="" class="center">
-<span class="sub">助成</span><br/>
-<span class="contents">おおさか創造千島財団</span></h2>
-<a id="link" href="http://www.chishimatochi.info/found/" target="_parent"></a>
+<span class="sub">How to Coding</span><br/>
+<span class="contents">地図見たいなウェブページ</span></h2>
+<a id="link" href="/2021/sample/" target="_parent"></a>
 </div>
 <div id="wide">
 <h2 id="" class="center">
