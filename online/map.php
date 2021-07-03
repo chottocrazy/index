@@ -56,7 +56,6 @@ hr {clear: both; border: none;}
 <h2 id="" class="center">
 <span class="sub">How to Coding</span><br/>
 <span class="contents">地図見たいなウェブページ</span></h2>
-<a id="link" href="/2021/sample/" target="_parent"></a>
 </div>
 <div id="wide">
 <h2 id="" class="center">
@@ -64,8 +63,8 @@ hr {clear: both; border: none;}
 <span class="sub">CSS</span>
 <span class="sub">JS</span><br/>
 <span class="contents"><span class="by">creative, community space</span></span></h2>
-<a id="link" href="/2021/sample/" target="_parent"></a>
 </div>
+<a id="link" href="/2021/sample/" target="_parent"></a>
 <span class="bg_fff">come on join us!</span>
 </div>
 <div id="main">
