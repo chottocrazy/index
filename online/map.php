@@ -69,15 +69,15 @@ hr {clear: both; border: none;}
 <div id="main">
 <div id="workshop"></div>
 </div>
+<div id="main">
+<a id="link" href="http://newlifecollection.pe.hu/" target="_parent"></a>
+<iframe id="sign" src="http://newlifecollection.pe.hu/sign/"></iframe>
+</div>
 <div id="normal" style="background:#fff;">
 <iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
 </div>
 <div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
-</div>
-<div id="main">
-<a id="link" href="http://newlifecollection.pe.hu/" target="_parent"></a>
-<iframe id="sign" src="http://newlifecollection.pe.hu/"></iframe>
 </div>
 <div id="main">
 <div id="freetime"></div>
