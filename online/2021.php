@@ -74,12 +74,20 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://creative-community.pe.hu/coding/submit/contents.php"></iframe>
 </div>
 <div id="normal">
-  <div id="contents" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';">
-  <h1>Contact Form</h1>
-  <div id="main">
-  <span>このウェブサイトについての質問、ウェブサイト制作・ワークショップ開催のご依頼などのお問い合わせは、こちらのフォームよりご連絡ください。</span>
+
+  <div id="wide">
+  <span id="title">お問い合わせ</span>
+  <div id="logo" class="center">
+  <b class="on">Contact Form</b>
   </div>
   </div>
+  <div id="wide">
+  <div id="about" class="center">
+  <p><u>ウェブサイト制作</u>・<u>ワークショップ開催</u> として <u>採用</u> のご依頼などのお問い合わせは、 <u>こちら</u> のフォームよりご連絡ください。</p>
+  </div>
+  <span class="bg_fff">Chotto Crazy Programs</span>
+  </div>
+  <a id="link" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 <div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
