@@ -39,6 +39,10 @@ $("#howtocoding").load("/online/howtocoding.html");
 #howtocoding #introduce
 {zoom:0.75;}
 hr {clear: both; border: none;}
+@media screen and (max-width: 500px){
+#howtocoding #introduce
+{zoom:0.55;}
+}
 </style>
 <link rel="stylesheet" type="text/css" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
