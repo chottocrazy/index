@@ -25,8 +25,8 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="../answer.css" />
 <link rel="stylesheet" type="text/css" href="../10q.css" />
+<link rel="stylesheet" type="text/css" href="../answer.css" />
 <link rel="stylesheet" type="text/css" href="http://ichoose.pe.hu/styles.css" />
 <title>10 Questions | by ケニーペイン</title>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
