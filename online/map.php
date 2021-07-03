@@ -33,7 +33,7 @@ $("#howtocoding").load("/online/howtocoding.html");
   overflow:hidden;
 }
 #howtocoding
-{overflow:auto; padding:0; margin:0; height:23.5rem;}
+{overflow:auto; height:23.5rem;}
 #howtocoding #introduce
 {zoom:0.75;}
 </style>
