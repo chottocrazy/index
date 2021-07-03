@@ -33,9 +33,8 @@ $("#howtocoding").load("/online/howtocoding.html");
   border:none;
   overflow:hidden;
 }
-#printedweb,
 #howtocoding
-{overflow:auto; padding:0; margin:0; height:23.5rem;}
+{overflow:auto; padding:0; margin:0; height:23.5rem; zoom:0.75;}
 </style>
 <link rel="stylesheet" type="text/css" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
@@ -44,15 +43,15 @@ $("#howtocoding").load("/online/howtocoding.html");
 </head>
 <body>
 <div id="full">
+<div id="main">
+<div id="howtocoding"></div>
+</div>
 <div id="normal">
 <iframe id="sign" src="/online/about.html"></iframe>
 </div>
 <div id="normal">
 <a id="link" href="http://creative-community.pe.hu/coding/" target="_parent"></a>
 <iframe id="sign" src="/online/marquee.html"></iframe>
-</div>
-<div id="main">
-<div id="howtocoding"></div>
 </div>
 <div id="normal" style="background:#fff;">
 <iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
