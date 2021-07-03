@@ -75,8 +75,7 @@ hr {clear: both; border: none;}
 </div>
 <div id="normal">
   <div id="wide">
-  <span id="title">ハウトゥーコーディング
-  </span>
+  <span id="title">ハウ・トゥー・コーディング</span>
   <div id="logo" class="center">
   <b class="on">Contact Form</b>
   </div>
