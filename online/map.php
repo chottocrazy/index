@@ -28,6 +28,7 @@ $("#howtocoding").load("/online/workshop.php");
   font-family:"inscrutable";
 }
 #sign  {
+  position: relative;
   width:100%; height:23.5rem;
   border:none;
   overflow:hidden;
