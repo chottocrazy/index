@@ -87,6 +87,23 @@ hr {clear: both; border: none;}
 <div id="normal">
 <iframe id="sign" src="http://chottocrazy.pe.hu/online/post/"></iframe>
 </div>
+<div id="normal">
+<div id="wide">
+<h2 id="" class="center">
+<span class="sub">Download</span><br/>
+<span class="contents">地図見たいなウェブサイト</span></h2>
+</div>
+<div id="wide">
+<h2 id="" class="center">
+<span class="sub">HTML</span>
+<span class="sub">CSS</span>
+<span class="sub">JS</span><br/>
+<span class="contents"><span class="by">creative, community space</span></span></h2>
+<a id="link" href="/2021/sample/" target="_parent"></a>
+</div>
+<span class="bg_fff">come on join us!</span>
+</div>
+</div>
 </div>
 </body>
 </html>
