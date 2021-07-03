@@ -52,11 +52,19 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="/online/about.html"></iframe>
 </div>
 <div id="normal">
+<div id="wide">
 <h2 id="" class="center">
 <span class="sub">How to Coding</span><br/>
-<span class="contents">自分が熱狂した頃の面白かったインターネットをもう一度復活させたい。</span><br/>
-<span class="sub">by</span><br/>
+<span class="contents">地図見たいなウェブページ</span></h2>
+</div>
+<div id="wide">
+<h2 id="" class="center">
+<span class="sub">HTML</span>
+<span class="sub">CSS</span>
+<span class="sub">JS</span><br/>
 <span class="contents"><span class="by">creative, community space</span></span></h2>
+</div>
+<a id="link" href="/2021/sample/" target="_parent"></a>
 <span class="bg_fff">come on join us!</span>
 </div>
 <div id="main">
