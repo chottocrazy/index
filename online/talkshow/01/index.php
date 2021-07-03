@@ -26,8 +26,8 @@ fclose($fp);
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="../answer.css" />
+<link rel="stylesheet" type="text/css" href="../10q.css" />
 <link rel="stylesheet" type="text/css" href="http://ichoose.pe.hu/10q/styles.css" />
-<link rel="stylesheet" type="text/css" href="http://ichoose.pe.hu/10q/10q.css" />
 <title>暗闇でおしゃべり | by ケニーペイン</title>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
