@@ -80,8 +80,7 @@ hr {clear: both; border: none;}
 <div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
 </div>
-<div id="first">
 </div>
-</div>
+<div id="first"></div>
 </body>
 </html>
