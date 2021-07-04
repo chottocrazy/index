@@ -57,7 +57,7 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="/2021/online/tone/"></iframe>
 </div>
 <div id="main">
-<a id="link" href="http://newlifecollection.pe.hu/" target="_blank" rel="noopener noreferrer"></a>
+<a id="link" href="/online/sign/" target="_blank" rel="noopener noreferrer"></a>
 <iframe id="sign" src="http://newlifecollection.pe.hu/sign/"></iframe>
 </div>
 <div id="normal" style="background:#fff;">
@@ -67,7 +67,7 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
 </div>
 <div id="normal" style="background:#fff;">
-<a id="link" href="http://creative-community.pe.hu/coding/submit/org/" target="_blank" rel="noopener noreferrer"></a>
+<a id="link" href="/online/org/" target="_blank" rel="noopener noreferrer"></a>
 <iframe id="sign" src="http://creative-community.pe.hu/coding/submit/org/demo.php"></iframe>
 </div>
 <div id="normal" style="background:#fff;">
