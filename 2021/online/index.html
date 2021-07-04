@@ -3,6 +3,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="http://creative-community.pe.hu/coding/js/randomcolor.js"></script>
+<script type="text/javascript">
+$(function(){
+	jQuery('#update').css({'background':getRumRgba()});
+});
+$(function(){
+$("#update").load("topics.php");
+})
+</script>
 <script type="text/javascript">
 $(function(){
 $("#hsl").load("/2021/online/hsl/");
@@ -17,6 +26,13 @@ body {padding:0; margin:0;}
   top:0; left:0;
   z-index:5;
   float:left;
+}
+#update {
+  position:relative;
+  z-index:5;
+  width: 75%;
+  margin:2.5rem auto 0;
+  border: 0.125rem solid;
 }
 #logo {
   position:relative;
@@ -52,11 +68,13 @@ body {padding:0; margin:0;}
 }
 </style>
 <link rel="stylesheet" type="text/css" href="" />
+<link rel="stylesheet" type="text/css" href="http://creative-community.pe.hu/coding/css/radius.css" />
 <title>HTML graffiti | 大 chotto crazy 2021</title>
 </head>
 <body>
 <div id="hsl"></div>
 <div id="about"></div>
+<div id="update" class="radius"></div>
 <div id="logo"><iframe src="/2021/online/p5/"></iframe></div>
 <div id="tone"><iframe src="/2021/online/tone/"></iframe></div>
 </body>
