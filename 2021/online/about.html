@@ -8,9 +8,16 @@
 <link rel="stylesheet" type="text/css" href="/css/programs.css"/>
 <link rel="stylesheet" type="text/css" href="/css/popup.css" />
 <style type="text/css">
+#update {
+  position:relative;
+  z-index:5;
+  border: 1px solid;
+  background: #fff;
+}
 </style>
 <script type="text/javascript">
 $(function(){
+$("#update").load("topics.php");
 })
 </script>
 </head>
@@ -24,6 +31,7 @@ $(function(){
 <p id="jp_title" class="center">HTML graffiti</p>
 <i class="namae_by">How to Coding</i>
 </div>
+<div id="update"></div>
 </div>
 </div>
 </body>
