@@ -13,11 +13,14 @@
   z-index:5;
   width: 75%;
   margin:2.5rem auto 0;
-  border: 0.15rem solid;
-  background: #fff;
+  border: 0.125rem solid;
 }
 </style>
+<script src="http://creative-community.pe.hu/coding/js/randomcolor.js"></script>
 <script type="text/javascript">
+$(function(){
+	jQuery('#update').css({'background':getRumRgba()});
+});
 $(function(){
 $("#update").load("topics.php");
 })
