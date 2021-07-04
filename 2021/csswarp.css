@@ -33,6 +33,8 @@ font-family:"Orchard";
 font-size:1.25rem;
 white-space:pre;
 animation:2s linear infinite alternate font;
+pointer-events:none;
+user-select: none;
 }
 @-webkit-keyframes font {
 0% {font-family:"Orchard";}
