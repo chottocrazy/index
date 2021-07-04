@@ -32,8 +32,9 @@ fclose($fp);
 <title>自分の気持ちを知る・表す | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
-body {background:#eee;}
 #topics h2 {margin-top:-2.5rem;}
+#topics a,
+#topics u {background: #000}
 </style>
 <script type="text/javascript">
 $(function(){
@@ -57,8 +58,7 @@ $("#").load("");
 <p><u><?=h($row[1])?></u></p>
 <span id="sub"><?=h($row[2])?></span>
 <div id="links">
-<h2><a class="<?=h($row[3])?>" href="<?=h($row[3])?>" target="_blank" rel="noopener noreferrer">More Info</a>
-</h2>
+<h2><a class="<?=h($row[3])?>" href="<?=h($row[3])?>" target="_blank" rel="noopener noreferrer">More Info</a></h2>
 </div>
 </div>
 <?php endforeach; ?>
