@@ -31,7 +31,7 @@ overflow: hidden;
 #warped span{
 font-family:"Orchard";
 font-size:1.25rem;
-font-weight: 900;
+font-weight: 777;
 white-space:pre;
 animation:2s linear infinite alternate font;
 pointer-events:none;
