@@ -10,7 +10,7 @@ $info = (string)filter_input(INPUT_POST, 'info');
 $state = (string)filter_input(INPUT_POST, 'state');
 $more = (string)filter_input(INPUT_POST, 'more');
 
-$fp = fopen('pehu.csv', 'a+b');
+$fp = fopen('submit.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$how, $what, $year, $date, $info, $state, $more]);
@@ -30,7 +30,7 @@ fclose($fp);
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>大 chotto crazy by Pehu</title>
+<title>大 chotto crazy | 実現したいことを実現する</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/js/programs.js"></script>
 <link rel="stylesheet" href="http://chottocrazy.pe.hu/css/about.css" />
@@ -123,7 +123,7 @@ input[type="email"] {
   実現したいこと
   <p><input type="text" name="date" placeholder="名前" required></p>
   <p><input type="text" name="what" placeholder="実現したいこと" required></p>
-  <p><input type="text" name="date" placeholder="いつ実現したいですか？" required></p>
+  <p><input type="text" name="year" placeholder="いつ実現したいですか？" required></p>
 
   <div class="search-box how">
   <ul>
@@ -132,10 +132,13 @@ input[type="email"] {
   <label for="max" class="label">展覧会・アトラクション</label></li>
   <li>
   <input type="radio" name="how" value="communication" id="oneday">
-  <label for="oneday" class="label">一回限り</label></li>
+  <label for="oneday" class="label">限定開催</label></li>
   <li>
   <input type="radio" name="how" value="creation" id="series">
-  <label for="series" class="label">継続的に</label></li>
+  <label for="series" class="label">定例会</label></li>
+  <li>
+  <input type="radio" name="how" value="online" id="online">
+  <label for="online" class="label">オンライン</label></li>
   </ul>
   </div>
   <p><input type="email" name="state" placeholder="メールアドレス" required></p>
