@@ -117,6 +117,7 @@ $("#").load("");
 <span id="question" class="<?=h($row[4])?>" onclick="obj=document.getElementById('<?=h($row[0])?>_q').style; obj.display=(obj.display=='none')?'block':'none';">10の質問</span>
 <span id="value" class="<?=h($row[5])?>" onclick="obj=document.getElementById('<?=h($row[0])?>_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
+<p id="link"><?=h($row[6])?></p>
 <p id="link">
 <a class="<?=h($row[8])?>" href="<?=h($row[8])?>" target="_blank">Website</a>
 <a class="<?=h($row[9])?>" href="https://www.twitter.com/<?=h($row[9])?>/" target="_blank">Twitter</a>
@@ -145,6 +146,7 @@ $("#").load("");
 <span id="question" class="yes" onclick="obj=document.getElementById('id_q').style; obj.display=(obj.display=='none')?'block':'none';">10の質問</span>
 <span id="value" class="yes" onclick="obj=document.getElementById('id_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
+<p id="link">自己紹介</p>
 <p id="link">
 <a class="<?=h($row[8])?>" href="<?=h($row[8])?>" target="_blank">Website</a>
 <a class="<?=h($row[9])?>" href="https://www.twitter.com/<?=h($row[9])?>/" target="_blank">Twitter</a>
