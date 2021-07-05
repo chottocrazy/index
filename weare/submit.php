@@ -135,7 +135,7 @@ input[type="email"] {
   <label for="oneday" class="label">限定開催</label></li>
   <li>
   <input type="radio" name="how" value="creation" id="series">
-  <label for="series" class="label">定例会</label></li>
+  <label for="series" class="label">定期開催</label></li>
   <li>
   <input type="radio" name="how" value="online" id="online">
   <label for="online" class="label">オンライン</label></li>
