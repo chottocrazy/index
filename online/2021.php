@@ -74,20 +74,13 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://creative-community.pe.hu/coding/submit/contents.php"></iframe>
 </div>
 <div id="normal">
-  <div id="wide">
-  <p id="logo" class="center">
-  <span class="message">ウェブサイトを作る</span>
-  </p>
-  <div id="logo" class="center">
-  <b class="on">Workshop</b>
-  </div>
-  </div>
-  <div id="wide">
-  <div id="about" class="center">
-  <p>More Info Soon</p>
-  </div>
-  <span class="bg_fff">Chotto Crazy Programs</span>
-  </div>
+<h2 id="" class="center">
+<span class="sub">How to Coding</span><br/>
+<span class="contents">自分が熱狂した頃の面白かったインターネットをもう一度復活させたい。</span><br/>
+<span class="sub">by</span><br/>
+<span class="contents"><span class="by">creative, community space</span></span></h2>
+<span class="bg_fff">come on join us!</span>
+<a id="link" href="http://newlifecollection.com/ca80/1141/p-r80-s/" target="_blank" rel="noopener noreferrer"></a>
 </div>
 <div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
