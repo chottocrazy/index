@@ -115,7 +115,7 @@
   color:#fff;
   -webkit-text-stroke: 0.05rem #000;
   text-stroke: 0.01rem #000;
-  
+
 }
 #programs ul {padding: 0; margin:0 0 0.5rem;}
 #programs li {list-style: none;}
@@ -258,14 +258,17 @@ button:hover {
   border-radius:0.5em;
 }
 .list #active a {
+  color:#fff;
   background:#25AF5A;
 }
 .list #tobe a {
+  color:#fff;
   background:#f6d435;
 }
 .list a:hover,
 .list #active a:hover,
 .list #tobe a:hover {
+  color:#fff;
   background:#D24117;
 }
 .is-hide,
