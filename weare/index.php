@@ -95,7 +95,6 @@ body {background:#eee;}
 <i class="on">Chotto Crazy</i>
 </div>
 <div id="about">
-<p>jjjjjj</p>
 </div>
 <form id="information">
 <div class="org">
