@@ -194,8 +194,8 @@ button:hover {
   position:relative;
   z-index:2;
   color:#fff;
-  -webkit-text-stroke: 0.025rem #000;
-  text-stroke: 0.025rem #000;
+  -webkit-text-stroke: 0.045rem #000;
+  text-stroke: 0.045rem #000;
   pointer-events:none;
 }
 .list .date {
@@ -259,8 +259,8 @@ button:hover {
 }
 .list #active .what,
 .list #tobe .what {
--webkit-text-stroke: 0.025rem #fff;
-text-stroke: 0.025rem #fff;
+-webkit-text-stroke: 0.045rem #fff;
+text-stroke: 0.045rem #fff;
 }
 .list #active a {
   background:#25AF5A;
