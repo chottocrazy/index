@@ -96,10 +96,10 @@ input[type="email"] {
   width:100%; height:10rem;
 }
 #submit button {
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor:pointer;
   width:100%;
-  padding:0.5rem 0;
+  padding:1rem 0;
   background: #fff;
   color: #000;
   border-radius:2.5rem;
