@@ -33,6 +33,12 @@ fclose($fp);
 <title>大 chotto crazy by Pehu</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="http://creative-community.pe.hu/coding/js/org.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$("#").load("");
+})
+</script>
 <link rel="stylesheet" href="/css/about.css" />
 <style type="text/css">
 #header b,
@@ -87,6 +93,9 @@ body {background:#eee;}
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
 <p id="message" class="center"><span class="by">creative, community space</span></p>
 <i class="on">Chotto Crazy</i>
+</div>
+<div id="about">
+<p>jjjjjj</p>
 </div>
 <form id="information">
 <div class="org">
