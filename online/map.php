@@ -69,7 +69,7 @@ hr {clear: both; border: none;}
 <div id="normal">
   <div id="wide">
   <p id="logo" class="center">
-  <span class="message">ハウ・トゥー・コーディング</span>
+  <span class="message">ウェブサイトを作る</span>
   </p>
   <div id="logo" class="center">
   <b class="on">Workshop</b>
