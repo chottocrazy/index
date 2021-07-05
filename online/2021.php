@@ -75,18 +75,19 @@ hr {clear: both; border: none;}
 </div>
 <div id="normal">
   <div id="wide">
-  <span id="title">ハウ・トゥー・コーディング</span>
+  <p id="logo" class="center">
+  <span class="message">ハウ・トゥー・コーディング</span>
+  </p>
   <div id="logo" class="center">
-  <b class="on">Contact Form</b>
+  <b class="on">Workshop</b>
   </div>
   </div>
   <div id="wide">
   <div id="about" class="center">
-  <p><u>ウェブサイト制作</u>・<u>ワークショップ開催</u> のご依頼などのお問い合わせは、 <u>こちら</u> のフォームよりご連絡ください。</p>
+  <p>More Info Soon</p>
   </div>
   <span class="bg_fff">Chotto Crazy Programs</span>
   </div>
-  <a id="link" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 <div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>

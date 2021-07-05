@@ -72,16 +72,15 @@ hr {clear: both; border: none;}
   <span class="message">ハウ・トゥー・コーディング</span>
   </p>
   <div id="logo" class="center">
-  <b class="on">Contact Form</b>
+  <b class="on">Workshop</b>
   </div>
   </div>
   <div id="wide">
   <div id="about" class="center">
-  <p><u>ウェブサイト制作</u>・<u>ワークショップ開催</u> のご依頼などのお問い合わせは、 <u>こちら</u> のフォームよりご連絡ください。</p>
+  <p>More Info Soon</p>
   </div>
   <span class="bg_fff">Chotto Crazy Programs</span>
   </div>
-  <a id="link" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 
 <div id="main">
