@@ -110,9 +110,6 @@ body {background:#eee;}
 <h2 class="search-box_label">How to</h2>
 <ul>
 <li>
-<input type="radio" name="how" value="max" id="max">
-<label for="max" class="label">展覧会・アトラクション</label></li>
-<li>
 <input type="radio" name="how" value="oneday" id="oneday">
 <label for="oneday" class="label">限定開催</label></li>
 <li>
