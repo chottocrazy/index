@@ -104,7 +104,7 @@ fclose($fp);
 <label for="series" class="label">定期開催</label></li>
 <li>
 <input type="radio" name="how" value="online" id="online">
-<label for="online" class="label">オンライン</label></li>
+<label for="online" class="label">オンライン発表</label></li>
 </ul>
 </div>
 <div class="search-box state">
