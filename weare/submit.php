@@ -72,17 +72,19 @@ fclose($fp);
   font-size:125%;
   margin-left:0.5rem;
   font-style: normal;
-}#title {
+}
+#org h2 {position:relative; z-index:100;}
+#title {
   margin-bottom:1.25rem;
 }
 input[type="text"],
-#submit input[type="url"] {
+input[type="email"] {
   display:block;
-  padding:0.5rem;
+  padding:1.5%;
 	font-size:1rem;
   border:0.1rem solid;
   border-radius:0.5rem;
-  width:100%;
+  width:97%;
 }
 #submit textarea {
   display:block;
@@ -105,86 +107,49 @@ input[type="text"],
 </style>
 </head>
 <body>
-<div id="header">
-<a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>by pehu</b></a>
-</div>
-<div id="programs">
-<div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
-<p id="message" class="center"><span class="by">creative, community space</span></p>
-<i class="on">Chotto Crazy</i>
-</div>
-<section id="submit">
-<form id="information" action="complete.php" method="post">
-<div class="org">
-<input type="date" name="date">
-<p id="title">
-<input type="text" name="what" placeholder="タイトル" required></p>
-<div class="search-box year">
-<h2 class="search-box_label">Year</h2>
-<ul>
-<li>
-<input type="radio" name="year" value="one" id="one" required>
-<label for="one" class="label">2017</label></li>
-<li>
-<input type="radio" name="year" value="two" id="two" required>
-<label for="two" class="label">2018</label></li>
-<li>
-<input type="radio" name="year" value="three" id="three" required>
-<label for="three" class="label">2019</label></li>
-<li>
-<input type="radio" name="year" value="four" id="four" required>
-<label for="four" class="label">2020</label></li>
-<li>
-<input type="radio" name="year" value="five" id="five" required>
-<label for="five" class="label">2021</label></li>
-</ul>
-</div>
-<div class="search-box how">
-<h2 class="search-box_label">How to</h2>
-<ul>
-<li>
-<input type="radio" name="how" value="max" id="max">
-<label for="max" class="label">展覧会・アトラクション</label></li>
-<li>
-<input type="radio" name="how" value="communication" id="oneday">
-<label for="oneday" class="label">限定開催</label></li>
-<li>
-<input type="radio" name="how" value="creation" id="series">
-<label for="series" class="label">定例会</label></li>
-<li>
-<input type="radio" name="how" value="online" id="online">
-<label for="online" class="label">オンライン</label></li>
-</ul>
-</div>
-<div class="search-box state">
-<h2 class="search-box_label">Status</h2>
-<ul>
-<li>
-<input type="radio" name="state" value="tobe" id="tobe" required>
-<label for="tobe" class="label">Announcement</label></li>
-<li>
-<input type="radio" name="state" value="active" id="active" required>
-<label for="active" class="label">Open</label></li>
-<li>
-<input type="radio" name="state" value="want" id="want" required>
-<label for="tba" class="label">Work in Progress</label></li>
-<li>
-<input type="radio" name="state" value="complete" id="complete" required>
-<label for="complete" class="label">Complete</label></li>
-</ul>
-</div>
-</div>
-<div class="list">
-<ul>
-<input type="text" name="more" placeholder="URL (リンクがない場合は none と入力)" required>
-<textarea name="info" placeholder="説明文" required></textarea>
-</ul>
-</div>
-<button type="submit">Submit</button>
-</form>
-</section>
-</div>
+
+  <div id="header">
+  <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
+  <a><b>Submit</b></a>
+  </div>
+  <div id="programs">
+  <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
+  <p id="message" class="center"><span class="by">creative, community space</span></p>
+  <i class="on">Chotto Crazy</i>
+  </div>
+  <section id="submit">
+  <form id="information" action="complete.php" method="post">
+  <div class="org">
+  実現したいこと
+  <p><input type="text" name="date" placeholder="名前" required></p>
+  <p><input type="text" name="what" placeholder="実現したいこと" required></p>
+  <p><input type="text" name="date" placeholder="いつ実現したいですか？" required></p>
+
+  <div class="search-box how">
+  <ul>
+  <li>
+  <input type="radio" name="how" value="max" id="max">
+  <label for="max" class="label">展覧会・アトラクション</label></li>
+  <li>
+  <input type="radio" name="how" value="communication" id="oneday">
+  <label for="oneday" class="label">一回限り</label></li>
+  <li>
+  <input type="radio" name="how" value="creation" id="series">
+  <label for="series" class="label">継続的に</label></li>
+  </ul>
+  </div>
+  <p><input type="email" name="state" placeholder="メールアドレス" required></p>
+  </div>
+  <div class="list">
+  <ul>
+  <textarea name="info" placeholder="説明文" required></textarea>
+  </ul>
+  </div>
+  <button type="submit">Submit</button>
+  </form>
+  </section>
+  </div>
+  
 <p id="marquee"><span>ちょっとクレイジーな素晴らしいアイデアや、ちょっとクレイジーな創造的チャレンジを、様々な方法で実現します。</span></p>
 </body>
 </html>
