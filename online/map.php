@@ -59,7 +59,7 @@ hr {clear: both; border: none;}
     </div>
     <div id="wide">
     <div id="about" class="center">
-    <p>実現したいことを実現するために制作した大 chotto crazy 関連の <u>ウェブサイト</u> 一覧</p>
+    <p>実現したいことを実現するために制作した、大 chotto crazy 関連の <u>ウェブサイト</u> 一覧</p>
   </div>
   <span class="bg_fff">Chotto Crazy Programs</span>
 </div>
