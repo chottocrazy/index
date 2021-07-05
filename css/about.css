@@ -259,8 +259,8 @@ button:hover {
 }
 .list #active .what,
 .list #tobe .what {
--webkit-text-stroke: 0.05rem #000;
-text-stroke: 0.01rem #000;
+-webkit-text-stroke: 0.05rem #fff;
+text-stroke: 0.01rem #fff;
 }
 .list #active a {
   background:#25AF5A;
