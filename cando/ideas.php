@@ -128,10 +128,6 @@ body {background:#eee;}
 <li class="list_item list_toggle" data-year="<?=h($row[2])?>" data-how="<?=h($row[0])?>">
 <p class="what"><?=h($row[1])?></p>
 <span class="date"><?=h($row[3])?></span>
-<div class="info">
-<span><?=h($row[4])?></span>
-<a class="<?=h($row[6])?>" href="<?=h($row[6])?>" target="_blank"></a>
-</div>
 </li>
 
 <?php endforeach; ?>
