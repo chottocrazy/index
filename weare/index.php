@@ -129,7 +129,7 @@ body {background:#eee;}
 <ul>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
-<li id="<?=h($row[5])?>" class="list_item list_toggle" data-year="<?=h($row[2])?>" data-how="<?=h($row[0])?>" data-state="<?=h($row[5])?>">
+<li class="list_item list_toggle" data-year="<?=h($row[2])?>" data-how="<?=h($row[0])?>">
 <p class="what"><?=h($row[1])?></p>
 <span class="date"><?=h($row[3])?></span>
 <div class="info">
@@ -139,7 +139,7 @@ body {background:#eee;}
 </li>
 <?php endforeach; ?>
 <?php else: ?>
-<li id="<?=h($row[5])?>" class="list_item list_toggle" data-year="<?=h($row[2])?>" data-how="<?=h($row[0])?>" data-state="<?=h($row[5])?>">
+<li class="list_item list_toggle" data-year="<?=h($row[2])?>" data-how="<?=h($row[0])?>">
 <p class="what">プログラム名 row[1]</p>
 <span class="date">0000.00.00 row[3]</span>
 <div class="info">
