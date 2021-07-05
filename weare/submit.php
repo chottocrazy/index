@@ -96,10 +96,10 @@ input[type="email"] {
   width:100%; height:10rem;
 }
 #submit button {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   cursor:pointer;
   width:100%;
-  padding:0.25rem 0;
+  padding:0.5rem 0;
   background: #fff;
   color: #000;
   border-radius:2.5rem;
@@ -149,7 +149,7 @@ input[type="email"] {
   </form>
   </section>
   </div>
-  
+
 <p id="marquee"><span>ちょっとクレイジーな素晴らしいアイデアや、ちょっとクレイジーな創造的チャレンジを、様々な方法で実現します。</span></p>
 </body>
 </html>
