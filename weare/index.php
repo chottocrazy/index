@@ -10,7 +10,7 @@ $info = (string)filter_input(INPUT_POST, 'info');
 $state = (string)filter_input(INPUT_POST, 'state');
 $more = (string)filter_input(INPUT_POST, 'more');
 
-$fp = fopen('pehu.csv', 'a+b');
+$fp = fopen('past.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$how, $what, $year, $date, $info, $state, $more]);
@@ -81,7 +81,7 @@ body {background:#eee;}
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>by pehu</b></a>
+<a><b>2017 - 2019</b></a>
 </div>
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
@@ -90,6 +90,7 @@ body {background:#eee;}
 </div>
 <form id="information">
 <div class="org">
+
 <div class="search-box year">
 <h2 class="search-box_label">Year</h2>
 <ul>
@@ -102,46 +103,24 @@ body {background:#eee;}
 <li>
 <input type="radio" name="year" value="three" id="three">
 <label for="three" class="label">2019</label></li>
-<li>
-<input type="radio" name="year" value="four" id="four">
-<label for="four" class="label">2020</label></li>
-<li>
-<input type="radio" name="year" value="five" id="five">
-<label for="five" class="label">2021</label></li>
 </ul>
 </div>
+
 <div class="search-box how">
 <h2 class="search-box_label">How to</h2>
 <ul>
 <li>
-<input type="radio" name="how" value="Activity" id="Activity">
-<label for="Activity" class="label">Activity</label></li>
+<input type="radio" name="how" value="max" id="max">
+<label for="max" class="label">展覧会・アトラクション</label></li>
 <li>
-<input type="radio" name="how" value="Challenge" id="Challenge">
-<label for="Challenge" class="label">Challenge</label></li>
+<input type="radio" name="how" value="communication" id="oneday">
+<label for="oneday" class="label">限定開催</label></li>
 <li>
-<input type="radio" name="how" value="Idea" id="Idea">
-<label for="Idea" class="label">Idea</label></li>
+<input type="radio" name="how" value="creation" id="series">
+<label for="series" class="label">定例会</label></li>
 <li>
-<input type="radio" name="how" value="Web" id="Web">
-<label for="Web" class="label">Web</label></li>
-</ul>
-</div>
-<div class="search-box state">
-<h2 class="search-box_label">Status</h2>
-<ul>
-<li>
-<input type="radio" name="state" value="tobe" id="tobe">
-<label for="tobe" class="label">To Be</label></li>
-<li>
-<input type="radio" name="state" value="active" id="active">
-<label for="active" class="label">In Progress</label></li>
-<li>
-<input type="radio" name="state" value="want" id="want">
-<label for="want" class="label">Want to do</label></li>
-<li>
-<input type="radio" name="state" value="complete" id="complete">
-<label for="complete" class="label">Complete</label></li>
+<input type="radio" name="how" value="online" id="online">
+<label for="online" class="label">オンライン</label></li>
 </ul>
 </div>
 <div class="reset">
@@ -175,6 +154,6 @@ body {background:#eee;}
 </ul>
 </div>
 </div>
-<p id="marquee"><span>ペフが、これまでに実現した／今、実現している／今後実現したい、ちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
+<p id="marquee"><span>大 chotto crazy を開始する以前に、ペフが実現したちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
 </body>
 </html>

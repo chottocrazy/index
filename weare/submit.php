@@ -144,17 +144,17 @@ input[type="text"],
 <h2 class="search-box_label">How to</h2>
 <ul>
 <li>
-<input type="radio" name="how" value="Activity" id="Activity" required>
-<label for="Activity" class="label">Activity</label></li>
+<input type="radio" name="how" value="max" id="max">
+<label for="max" class="label">展覧会・アトラクション</label></li>
 <li>
-<input type="radio" name="how" value="Challenge" id="Challenge" required>
-<label for="Challenge" class="label">Challenge</label></li>
+<input type="radio" name="how" value="communication" id="oneday">
+<label for="oneday" class="label">限定開催</label></li>
 <li>
-<input type="radio" name="how" value="Idea" id="Idea" required>
-<label for="Idea" class="label">Idea</label></li>
+<input type="radio" name="how" value="creation" id="series">
+<label for="series" class="label">定例会</label></li>
 <li>
-<input type="radio" name="how" value="Web" id="Web" required>
-<label for="Web" class="label">Web</label></li>
+<input type="radio" name="how" value="online" id="online">
+<label for="online" class="label">オンライン</label></li>
 </ul>
 </div>
 <div class="search-box state">
@@ -162,13 +162,13 @@ input[type="text"],
 <ul>
 <li>
 <input type="radio" name="state" value="tobe" id="tobe" required>
-<label for="tobe" class="label">To Be</label></li>
+<label for="tobe" class="label">Announcement</label></li>
 <li>
 <input type="radio" name="state" value="active" id="active" required>
-<label for="active" class="label">In Progress</label></li>
+<label for="active" class="label">Open</label></li>
 <li>
 <input type="radio" name="state" value="want" id="want" required>
-<label for="want" class="label">Want to do</label></li>
+<label for="tba" class="label">Work in Progress</label></li>
 <li>
 <input type="radio" name="state" value="complete" id="complete" required>
 <label for="complete" class="label">Complete</label></li>
