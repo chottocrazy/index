@@ -58,7 +58,7 @@ content:"ちょっとクレイジーな";
 }
 #about .big {
   font-size: 3.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0 0;
   font-family: "Times New Roman", "Times", serif;
   color:#D24117;
   -webkit-text-stroke: 0.1rem #FFF;
