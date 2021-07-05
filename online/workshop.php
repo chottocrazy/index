@@ -47,7 +47,7 @@ $("#").load("");
 <div id="topics">
 <h2 id="top">
 <i id="sub" class="">Workshop</i>
-<b id="date">ウェブサイトを作ろう</b>
+<b id="date">ウェブサイトを作る</b>
 </h2>
 
 <div>
