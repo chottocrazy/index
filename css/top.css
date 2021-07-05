@@ -35,7 +35,7 @@
 #about .yes:after {content:"けど、できない";}
 #about .no:after {content:"けど、気になる";}
 #about .or:after {content:"けど、やってみたい";}
-#about .chotto {position:relative; width:100%;} 
+#about .chotto {position:relative; width:100%;}
 #about .chotto:before {
 content:"ちょっとクレイジーな";
   color:#eee;
@@ -171,6 +171,11 @@ content:"ちょっとクレイジーな";
   position:relative;
   z-index:1;
   font-family: Arial;
+}
+#normal h2,
+#normal p {
+	pointer-events: none;
+	user-select: none;
 }
 .bg_font {
   pointer-events:none;
