@@ -47,7 +47,7 @@ hr {clear: both; border: none;}
 </head>
 <body>
 <div id="full">
-<div id="normal">
+<div id="normal" style="background:#fff;">
 <iframe id="sign" src="/2021/online/matter/"></iframe>
 </div>
 <div id="normal">
