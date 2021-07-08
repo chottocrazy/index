@@ -11,7 +11,7 @@ $("#world").css("height", height);
 //text
 // var str = prompt("enter your text or click 'cancel' to read mine");
 // if (str == null){
-	var str = "𝓗𝓣𝓜𝓛 𝓰𝓻𝓪𝓯𝓯𝓲𝓽𝓲";
+	var str = "HTML graffiti";
 //}
 var words_arr = str.split(""); //split text into array
 var wordIndex = 0; //initiallize index of words_arr
