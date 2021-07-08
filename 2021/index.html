@@ -36,6 +36,30 @@ $("#melody").load("/2021/online/tone/2021.html");
   border:solid 0.25vw;
   border-radius: 5rem;
   margin:2.5vw auto;
+  animation: radius 10s linear infinite;
+}
+
+@keyframes radius {
+  0% {
+    border-radius: 5rem;
+    transform: scale(1);
+  }
+  25% {
+    border-radius: 2.5rem 5rem;
+    transform: scale(1.02);
+  }
+  50% {
+    border-radius: 5rem;
+    transform: scale(1);
+  }
+  75% {
+  border-radius: 5rem 2.5rem;
+    transform: scale(0.98);
+  }
+  100% {
+    border-radius: 5rem;
+    transform: scale(1);
+  }
 }
 #sign {
   position: fixed;
