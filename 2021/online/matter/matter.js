@@ -1,4 +1,4 @@
-const refreshRate = 1/5; //frame rate
+const refreshRate = 1/2.5; //frame rate
 const divTop = 0; //y value of where i'm dropping the blocks from
 var toggle = true;
 var toggleG = true;
