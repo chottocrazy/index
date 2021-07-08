@@ -10,7 +10,39 @@
   }
   .btn {
     zoom:50%;
+    z-index: 100;
   }
+  #credit {
+    color:#000;
+    font-size:7.5vw;
+    padding:0.5rem;
+    padding:0;
+    margin:0;
+    font-family: monospace;
+    position:absolute;
+    top:0;
+    z-index:50;
+    width:100%;
+    transition:.5s all;
+  }
+      #credit p {
+        color:#000;
+        font-size:10vw;
+        padding:1rem;
+        margin: 0;
+        font-family: monospace;
+        transform   : scale(1, 1.5);
+      }
+      #credit a {
+        text-decoration:0;
+        background:#000;
+        color:#fff;
+        padding:0 0.25rem;
+      }
+      #credit span {
+        padding:0.5rem 1rem;
+        display: inline-block;
+      }
   </style>
     <script src="../tone/jquery.min.js"></script>
     <script src="../tone/jquery-ui.min.js"></script>
@@ -22,8 +54,26 @@
     <title>HTML graffiti with matter.js</title>
   </head>
   <body>
+
+    <div id="credit" style="display:none;">
+    <span>HTML graffiti</span>
+    <p>
+      <a href="/2021/online/" target="_blank" rel="noopener noreferrer">/2021/online/</a>
+    </p>
+    <br/>
+    <span>
+      Tool
+      <a href="https://brm.io/matter-js/" target="_blank" rel="noopener noreferrer">matter.js</a>
+    </span>
+    <br/>
+    <span>
+      Fonts
+      <a href="/font/" target="_blank" rel="noopener noreferrer">/font/</a>
+    </span>
+    </div>
+
   <section id="Gravity" data-feedly-extension-follow-feed="1.0.3" cz-shortcut-listen="true">
-    <div id="toggleGravity" class="btn">‍🎨</div>
+    <div id="toggleGravity" class="btn" onclick="obj=document.getElementById('credit').style; obj.display=(obj.display=='none')?'block':'none';">‍🎨</div>
     <canvas id="world" width="100%" height="100vh" style="width:100%; height:100vh;"></canvas>
   </section>
 
