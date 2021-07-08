@@ -1,3 +1,6 @@
+.fontmotion {
+  animation:1s linear infinite fontmotion;
+}
 
 @font-face {
   font-family: "Quarantype-Oblique";
