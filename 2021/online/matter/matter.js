@@ -22,8 +22,8 @@ $(window).click(function(){
     Tone.context.resume();
 });
 
-var click = new Tone.PolySynth(5, Tone.Synth).toMaster();
-var notes = Tone.Frequency("E4").harmonize([5, 7, 10, 12]);
+var click = new Tone.AMSynth(5, Tone.Synth).toMaster();
+var notes = Tone.Frequency("E7").harmonize([5, 7, 10, 12]);
 var noteIndex = 0;
 
 $("body").click(function(e){
@@ -42,8 +42,8 @@ $(document).click(function(){
   console.log("clicked");
 });
 
-var matter = new Tone.FMSynth().toMaster();
-var notes = Tone.Frequency("G4").harmonize([3,5,7,10]);
+var matter = new Tone.AMSynth().toMaster();
+var notes = Tone.Frequency("G7").harmonize([3,5,7,10]);
 var noteIndex = 1;
 
 
