@@ -11,7 +11,7 @@ $("#world").css("height", height);
 //text
 // var str = prompt("enter your text or click 'cancel' to read mine");
 // if (str == null){
-	var str = "ı̣ʇı̣ɟɟɐɹƃ ꓶWꓕH";
+	var str = "HTML graffiti";
 //}
 var words_arr = str.split(""); //split text into array
 var wordIndex = 0; //initiallize index of words_arr
@@ -22,8 +22,8 @@ $(window).click(function(){
     Tone.context.resume();
 });
 
-var click = new Tone.FMSynth(5, Tone.Synth).toMaster();
-var notes = Tone.Frequency("A4").harmonize([7, 9, 12, 15]);
+var click = new Tone.PolySynth(5, Tone.Synth).toMaster();
+var notes = Tone.Frequency("E4").harmonize([5, 7, 10, 12]);
 var noteIndex = 0;
 
 $("body").click(function(e){
@@ -43,7 +43,7 @@ $(document).click(function(){
 });
 
 var matter = new Tone.FMSynth().toMaster();
-var notes = Tone.Frequency("A4").harmonize([5,7,9,12]);
+var notes = Tone.Frequency("G4").harmonize([3,5,7,10]);
 var noteIndex = 1;
 
 
