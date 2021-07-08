@@ -2,10 +2,6 @@ body {
   margin: 0;
   padding: 0;
 }
-@font-face {
-  font-family: "Orchard";
-  src: url(/font/Orchard-Linear.otf);
-}
 #Gravity,
 #world {
   margin: 0;
@@ -30,15 +26,6 @@ body {
   position: fixed;
   top:5vw; left:10vw;
   font-size: 12.5vw;
-  font-family: "Times New Roman", "Times", serif;
-  color:#D24117;
-  -webkit-text-stroke: 0.1vw #FFF;
-  text-stroke: 0.1vw #FFF;
-  animation:1s linear infinite alternate dai;
-}
-@-webkit-keyframes dai {
-0% {transform: scale(1);}
-100% {transform: scale(1.5);}
 }
 
 .btn:hover {
@@ -46,8 +33,6 @@ body {
 }
 
 .box {
-  font-family: "Orchard";
-  font-size: 25vw;
   overflow: hidden;
   cursor: pointer;
   z-index: -1;

@@ -4,6 +4,25 @@
 
   <style>
   body {padding:0; margin:0; overflow: hidden;}
+  @font-face {
+    font-family: "Orchard";
+    src: url(/font/Orchard-Linear.otf);
+  }
+  .box {
+    font-family: "Orchard";
+    font-size: 25vw;
+  }
+  .btn {
+    font-family: "Times New Roman", "Times", serif;
+    color:#D24117;
+    -webkit-text-stroke: 0.1vw #FFF;
+    text-stroke: 0.1vw #FFF;
+    animation:1s linear infinite alternate dai;
+  }
+  @-webkit-keyframes dai {
+  0% {transform: scale(1);}
+  100% {transform: scale(1.5);}
+  }
   </style>
     <script src="../tone/jquery.min.js"></script>
     <script src="../tone/jquery-ui.min.js"></script>
