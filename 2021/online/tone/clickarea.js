@@ -19,7 +19,7 @@ $(document).ready(function(){
     width: '100vw',
   });
 
-  div.css("font-size", w/3.5);
+  div.css("font-size", w/5);
 
   div.addClass("on");
   $("#click").append(div);
