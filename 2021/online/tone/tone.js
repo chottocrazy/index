@@ -14,7 +14,7 @@ var currInterval = 550;
 var numDivs = 1;
 var divisor = 2;
 var intervalDelta = 0.95;
-var synth = new Tone.AMSynth(100, Tone.Synth).toMaster();
+var synth = new Tone.FMSynth(100, Tone.Synth).toMaster();
 var notes = Tone.Frequency("G2").harmonize([5, 7, 10, 12, 15, 17]);
 
 StartAudioContext(Tone.context, 'div').then(function(){
