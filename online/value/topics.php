@@ -33,6 +33,8 @@ fclose($fp);
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
 body {background:#eee;}
+.online u,
+#links a {background:#000}
 </style>
 <script type="text/javascript">
 $(function(){
