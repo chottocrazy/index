@@ -46,7 +46,7 @@ $("#").load("");
 
 <div id="topics">
 <h2 id="top">
-<i id="sub" class="">ichoose</i>
+<i id="sub" class="">Update</i>
 <b id="date">更新履歴</b>
 </h2>
 
