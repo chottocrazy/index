@@ -29,7 +29,7 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<title>プログラム名 | 大 chotto crazy 2021</title>
+<title>昼と夜の風景の重ね合わせ | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
 body {background:#eee;}
@@ -45,8 +45,8 @@ $("#").load("");
 
 <div id="topics">
 <h2 id="top">
-<i id="sub" class="">Topics</i>
-<b id="date">お知らせ</b>
+<i id="sub" class="">Update</i>
+<b id="date">更新履歴</b>
 </h2>
 
 <div>
@@ -57,7 +57,7 @@ $("#").load("");
 <p><u><?=h($row[1])?></u></p>
 <span id="sub"><?=h($row[2])?></span>
 <div id="links">
-<h2><a class="<?=h($row[3])?>" href="<?=h($row[3])?>" target="_blank" rel="noopener noreferrer">More Info</a>
+<h2><a class="<?=h($row[3])?>" href="<?=h($row[3])?>" target="_blank" rel="noopener noreferrer">Watch the Superposition</a>
 </h2>
 </div>
 </div>
