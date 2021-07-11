@@ -80,7 +80,7 @@ hr {clear: both; border: none;}
 <span class="sub">by</span><br/>
 <span class="contents"><span class="by">creative, community space</span></span></h2>
 <span class="bg_fff">come on join us!</span>
-<a id="link" href="http://newlifecollection.com/ca80/520/p-r-s/" target="_blank" rel="noopener noreferrer"></a>
+<a id="link" href="http://newlifecollection.com/ca80/1141/p-r-s/" target="_blank" rel="noopener noreferrer"></a>
 </div>
 <div id="normal">
 <iframe id="sign" src="http://newlifecollection.pe.hu/beta/special.php"></iframe>
