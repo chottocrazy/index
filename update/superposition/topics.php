@@ -34,6 +34,8 @@ fclose($fp);
 <style type="text/css">
 body {background:#eee;}
 #topics h2 {margin-top:-2.5rem;}
+.online u,
+#links a {background:#000}
 </style>
 <script type="text/javascript">
 $(function(){
