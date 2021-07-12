@@ -67,7 +67,6 @@ hr {clear: both; border: none;}
 <iframe id="sign" src="http://vg.pe.hu/jp/cm/kaochomex/think/list.php"></iframe>
 </div>
 <div id="normal" style="background:#fff;">
-<a id="link" href="/cando/org/" target="_blank" rel="noopener noreferrer"></a>
 <iframe id="sign" src="http://creative-community.pe.hu/coding/submit/org/think.php"></iframe>
 </div>
 <div id="normal" style="background:#fff;">
