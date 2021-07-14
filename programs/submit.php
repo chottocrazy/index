@@ -139,6 +139,9 @@ input[type="email"] {
   <li>
   <input type="radio" name="how" value="online" id="online">
   <label for="online" class="label">オンライン発表</label></li>
+<li>
+<input type="radio" name="how" value="cando" id="cando">
+<label for="cando" class="label">Can☆Do</label></li>
   </ul>
   </div>
   <p><input type="email" name="state" placeholder="メールアドレス" required></p>
