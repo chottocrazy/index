@@ -45,7 +45,7 @@ fclose($fp);
   letter-spacing: 0rem;
 }
 .hold:before {
-  content:"hold";
+  content:"can☆do";
   color:#555;
   font-style:italic;
   position:absolute;
