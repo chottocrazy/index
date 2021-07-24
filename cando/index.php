@@ -91,9 +91,6 @@ hr {border:none; margin:1rem 0;}
 <p id="message" class="center"><span class="by">あなたの実現したいことは何ですか？</span></p>
 <i class="on">Chotto Crazy</i>
 </div>
-<div id="about">
-<div id="form"></div>
-</div>
 
 <form id="information">
 <div class="org">
@@ -123,6 +120,10 @@ hr {border:none; margin:1rem 0;}
 </div>
 </div>
 </form>
+
+<div id="about">
+<div id="form"></div>
+</div>
 
 <div class="list">
 <ul>
