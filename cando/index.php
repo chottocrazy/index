@@ -133,6 +133,11 @@ hr {border:none; margin:1rem 0;}
 <div class="search-box how">
 <ul>
 <li>
+<div class="reset">
+<input type="reset" name="reset" value="全部見る" class="reset-button">
+</div>
+</li>
+<li>
 <input type="radio" name="how" value="think" id="think">
 <label for="think" class="label">思考</label></li>
 <li>
@@ -147,11 +152,6 @@ hr {border:none; margin:1rem 0;}
 <li>
 <input type="radio" name="how" value="refresh" id="refresh">
 <label for="refresh" class="label">休憩</label></li>
-<li>
-<div class="reset">
-<input type="reset" name="reset" value="全部見る" class="reset-button">
-</div>
-</li>
 </ul>
 </div>
 </div>
