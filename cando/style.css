@@ -189,7 +189,7 @@ button:hover {
 }
 
 .list {
-  padding: 1.25%;
+  padding: 1.25% 1.25% 2.5%;
 }
 .list ul {
   display: -webkit-flex;
