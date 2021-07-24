@@ -1,3 +1,43 @@
+#programs {
+  top:0; left:0;
+  padding:2.5rem 0;
+  margin:0;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#header {
+  position:fixed;
+  z-index:5;
+  top:0; left:0;
+  font-size:1rem;
+  padding:0;
+  margin:1.5% 2.5%;
+  width:95%;
+  display:flex;
+  z-index:100;
+  flex-direction:row;
+  justify-content:space-between;
+}
+#header a {
+  color:#000;
+  text-decoration:none;
+}
+#header .dai:before {
+  content:"大";
+  position:absolute;
+  margin: 0;
+  font-size: 200%;
+  font-family: "Times New Roman", "Times", serif;
+  color:#D24117;
+}
+.on,
+.hold:before,
+.dai:before,
+.dai:after {
+  -webkit-text-stroke: 0.001rem #FFF;
+  text-stroke: 0.001rem #FFF;
+}
+
 @font-face {
   font-family: "inscrutable";
   src: url(/font/inscrutable.otf);
