@@ -147,7 +147,7 @@ input[type="email"] {
 <input type="radio" name="link" value="none" id="link_none">
 <label for="link_none" class="label">いいえ</label>
 </p>
-  <p><input type="url" name="url" placeholder="リンク" required></p>
+  <p><input type="url" name="url" placeholder="リンク"></p>
   </div>
   <button type="submit">Submit</button>
   </form>
