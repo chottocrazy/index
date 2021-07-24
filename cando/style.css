@@ -176,6 +176,8 @@
     justify-content: flex-end;
     -webkit-flex-direction: row-reverse;
     flex-direction: row-reverse;
+    -webkit-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
   }
   .list li {
     font-size:1rem;
