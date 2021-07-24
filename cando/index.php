@@ -83,12 +83,22 @@ hr {border:none; margin:1rem 0;}
 #about {
   position: fixed;
   top:0; left:0;
-  display:none;
   width:100%;
   height: 100vh;
 }
-#form {
+#about .close {
   position:absolute;
+  font-size:5vw;
+  padding:1% 2.5%;
+  top:0; right:0;
+}
+#about .close:hover {
+  cursor:pointer;
+  color:#D24117;
+}
+#about #form {
+  position:absolute;
+  z-index: 100;
   top:50%; left:50%;
   z-index:10;
   pointer-events:none;
@@ -96,6 +106,9 @@ hr {border:none; margin:1rem 0;}
   -webkit-transform:translate(-50%,-50%);
   padding:0 1.25%;
   margin: auto;
+  width:90%;
+  height:90%;
+  max-width:750px;
   background:#fff;
   border:2px solid #000;
   border-radius:0.5rem;
@@ -143,6 +156,7 @@ hr {border:none; margin:1rem 0;}
 </form>
 
 <div id="about">
+<span class="close" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 <div id="form"></div>
 </div>
 
