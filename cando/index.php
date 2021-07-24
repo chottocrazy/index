@@ -54,7 +54,7 @@ $("#form").load("submit.php");
   letter-spacing: 0rem;
 }
 .hold:before {
-  content:"Can ☆ Do";
+  content:"are";
   color:#555;
   font-style:italic;
   position:absolute;
@@ -119,7 +119,7 @@ hr {border:none; margin:1rem 0;}
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>2020 - 2021</b></a>
+<a><b>Can ☆ Do</b></a>
 </div>
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
@@ -129,8 +129,11 @@ hr {border:none; margin:1rem 0;}
 
 <form id="information">
 <div class="org">
-<h1>ここに、大 chotto crazy に集まったちょっとクレイジーな素晴らしいアイデアや創造的チャレンジを紹介します。</h1>
-<p>ここに、大 chotto crazy に集まったちょっとクレイジーな素晴らしいアイデアや創造的チャレンジを紹介します。</p>
+<p>
+<span class="red yes">やりたい</span>
+<span class="red no">やりたくない</span>
+<span class="red or">やらなくてもいい</span></p>
+<h1>大 chotto crazy に集まった さまざまな人たちの 実現したいこと を 紹介します。</h1>
 <div class="search-box how">
 <ul>
 <li>
@@ -186,7 +189,7 @@ hr {border:none; margin:1rem 0;}
 <?php else: ?>
 <li class="list_item list_toggle" data-how="<?=h($row[0])?>" onclick="obj=document.getElementById('id').style; obj.display=(obj.display=='none')?'block':'none';">
 <p class="what">実現したいこと</p>
-<div id="id" class="more" style="display:;">
+<div id="id" class="more" style="display:none;">
 <p class="what">実現したいこと</p>
 <p class="info" style="display:;">詳細</p>
 <hr/>
@@ -202,6 +205,16 @@ hr {border:none; margin:1rem 0;}
 </ul>
 </div>
 </div>
-<p id="marquee"><span>Copyright © You. All Right Reserved</span></p>
+<p><span>Copyright © You. All Right Reserved</span></p>
+<div id="marquee">
+<p>
+<span class="chotto">素晴らしいアイデア</span>
+や
+<span class="chotto">創造的チャレンジ</span>
+を
+<span class="red">実現</span>
+します。
+</p>
+</div>
 </body>
 </html>

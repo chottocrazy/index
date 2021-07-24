@@ -39,14 +39,51 @@
   font-family: "Times New Roman", "Times", serif;
   color:#D24117;
 }
-.on,
-.hold:before,
-.dai:before,
-.dai:after {
-  -webkit-text-stroke: 0.001rem #FFF;
-  text-stroke: 0.001rem #FFF;
-}
 
+.red {
+  font-size:125%;
+  color:#eee;
+  -webkit-text-stroke: 0.05rem #D24117;
+  text-stroke: 0.05rem #D24117;
+}
+.yes:after,
+.no:after,
+.or:after {
+  position:relative;
+  padding: 0 0.25rem;
+  font-size:75%;
+  color:#eee;
+  -webkit-text-stroke: 0.05rem #000;
+  text-stroke: 0.05rem #000;
+}
+.yes:after {content:"けど、できない";}
+.no:after {content:"けど、気になる";}
+.or:after {content:"けど、やってみたい";}
+
+.chotto {
+  padding: 0.25rem;
+  position:relative;}
+
+.chotto:before {
+  content:"ちょっとクレイジーな";
+  color:#eee;
+  font-size:125%;
+  padding-right: 0.5rem;
+  position:relative;
+  font-family:"MS Serif";
+  -webkit-text-stroke: 0.025rem #25AF5A;
+  text-stroke: 0.025rem #25AF5A;
+}
+.chotto:after {
+  content:"あなたの";
+  font-size: 150%;
+  color:#eee;
+  position:absolute;
+  top:-0.5rem; left:2.5rem;
+  width:7rem;
+  -webkit-text-stroke: 0.05rem #f6d435;
+  text-stroke: 0.05rem #f6d435;
+}
 .namae,
 #programs .on {
   font-family:"Orchard";
@@ -134,7 +171,7 @@ input[type="radio"]:checked + label {
 }
 .org h1 {
   font-weight: 555;
-  padding:3rem 1.25%;
+  padding:3rem 2.5%;
   margin: 0;
   pointer-events: none;
   line-height:125%;
@@ -142,16 +179,16 @@ input[type="radio"]:checked + label {
   font-size:1.25rem;
 }
 .org p {
-  padding: 1.25%;
-  margin: 0;
+  margin:0;
+  padding:2.5%;
   font-size:1.25rem;
 }
 .org .label,
 .org .reset-button {
   display: inline-block;
-  margin: 0.5rem;
-  padding:0.5rem 1.25rem;
-  font-size:1.25rem;
+  margin: 0.25rem;
+  padding:0.5rem 1rem;
+  font-size:1rem;
 }
 
 form ul {
@@ -314,26 +351,16 @@ button:hover {
   color:#fff;
   background:#000;
 }
-#marquee b {
-  position:absolute;
-  right:0;
-  bottom:0;
-  width:100%;
-  text-align:center;
-  padding:1.5% 0;
-  font-size:1.25rem;
-  color:#eee;
-  font-family:"Orchard";
-}
 #marquee::after {
   content: "";
   white-space: nowrap;
   display: inline-block;
 }
-#marquee > span {
+#marquee > p {
   position: absolute;
-  padding:0.25rem;
-  font-size:1.5rem;
+  margin:0;
+  padding:0.25rem 0;
+  font-size:1.25rem;
   white-space: nowrap;
   animation-name: marquee;
   animation-timing-function: linear;
