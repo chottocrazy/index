@@ -135,7 +135,7 @@ hr {border:none; margin:0.5rem;}
 <p class="what"><?=h($row[1])?></p>
 <p class="info" style="display:<?=h($row[4])?>;"><?=h($row[3])?></p>
 <hr/>
-<span class="date"><?=h($row[2])?></span>
+<span class="date">これは<b><?=h($row[2])?></b>の実現したいことです</span>
 <p class="pro" style="display:<?=h($row[6])?>;"><?=h($row[5])?></p>
 <p class="link" style="display:<?=h($row[7])?>;">
   <a href="<?=h($row[8])?>" target="_blank" rel="noopener noreferrer">Link</a>
