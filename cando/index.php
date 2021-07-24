@@ -79,6 +79,27 @@ $("#form").load("submit.php");
 body {background:#eee;}
 .reset-button {background:#fff;}
 hr {border:none; margin:1rem 0;}
+
+#about {
+  position: fixed;
+  top:0; left:0;
+  display:none;
+  width:100%;
+  height: 100vh;
+}
+#form {
+  position:absolute;
+  top:50%; left:50%;
+  z-index:10;
+  pointer-events:none;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  padding:0 1.25%;
+  margin: auto;
+  background:#fff;
+  border:2px solid #000;
+  border-radius:0.5rem;
+}
 </style>
 </head>
 <body>

@@ -96,16 +96,6 @@
   background:#fff;
 }
 
-#about {
-  display:block;
-  width:90%;
-  max-width:750px;
-  padding:0 1.25%;
-  background:#fff;
-  margin: auto;
-  border:2px solid #000;
-  border-radius:0.5rem;
-}
 #information {
   padding:1rem;
   border-radius:1rem;
