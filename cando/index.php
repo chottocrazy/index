@@ -108,6 +108,7 @@ hr {border:none; margin:1rem 0;}
   margin: auto;
   width:90%;
   height:90%;
+  overflow: auto;
   max-width:750px;
   background:#fff;
   border:2px solid #000;
