@@ -142,6 +142,12 @@ input[type="radio"]:checked + label {
   border:2px solid #000;
   border-radius:0.5rem;
 }
+.org .label {
+  display: inline-block;
+  margin: 0.5rem;
+  padding:0.5rem 1rem;
+  font-size:2rem;
+}
 
 form ul {
   display: flex;
