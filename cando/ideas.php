@@ -4,16 +4,19 @@ function h($str) {
 }
 $how = (string)filter_input(INPUT_POST, 'how');
 $what = (string)filter_input(INPUT_POST, 'what');
-$year = (string)filter_input(INPUT_POST, 'year');
 $date = (string)filter_input(INPUT_POST, 'date');
 $info = (string)filter_input(INPUT_POST, 'info');
-$state = (string)filter_input(INPUT_POST, 'state');
-$more = (string)filter_input(INPUT_POST, 'more');
+$info_more = (string)filter_input(INPUT_POST, 'info_more');
+$pro = (string)filter_input(INPUT_POST, 'pro');
+$pro_more = (string)filter_input(INPUT_POST, 'pro_more');
+$link = (string)filter_input(INPUT_POST, 'link');
+$url = (string)filter_input(INPUT_POST, 'url');
+$id = (string)filter_input(INPUT_POST, 'id');
 
 $fp = fopen('submit.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
-    fputcsv($fp, [$how, $what, $year, $date, $info, $state, $more]);
+    fputcsv($fp, [$how, $what, $date, $info, $info_more, $pro, $pro_more, $link, $url, $id]);
     rewind($fp);
 }
 
@@ -32,14 +35,14 @@ fclose($fp);
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>大 chotto crazy | 実現したいことを実現する</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="http://creative-community.pe.hu/coding/js/org.js"></script>
+<script src="http://creative-community.pe.hu/coding/submit/org/org.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
 $("#").load("");
 })
 </script>
-<link rel="stylesheet" href="/css/about.css" />
+<link rel="stylesheet" href="style.css" />
 <style type="text/css">
 #header b,
 .hold:before,
@@ -51,7 +54,7 @@ $("#").load("");
   letter-spacing: 0rem;
 }
 .hold:before {
-  content:"hold";
+  content:"Can Do";
   color:#555;
   font-style:italic;
   position:absolute;
@@ -87,7 +90,7 @@ body {background:#eee;}
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>Ideas</b></a>
+<a><b>Can☆Do</b></a>
 </div>
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
@@ -98,26 +101,30 @@ body {background:#eee;}
 </div>
 <form id="information">
 <div class="org">
-
+<p><span>ここに 大 chotto crazy に集まった、ちょっとクレイジーな素晴らしいアイデアや創造的チャレンジを紹介します。</span></p>
 <div class="search-box how">
-<h2 class="search-box_label">How to</h2>
 <ul>
 <li>
-<input type="radio" name="how" value="max" id="max">
-<label for="max" class="label">展覧会・アトラクション</label></li>
+<input type="radio" name="how" value="think" id="think">
+<label for="think" class="label">思考</label></li>
 <li>
-<input type="radio" name="how" value="communication" id="oneday">
-<label for="oneday" class="label">限定開催</label></li>
+<input type="radio" name="how" value="organize" id="organize">
+<label for="organize" class="label">整理</label></li>
 <li>
-<input type="radio" name="how" value="creation" id="series">
-<label for="series" class="label">定期開催</label></li>
+<input type="radio" name="how" value="communication" id="communication">
+<label for="communication" class="label">交流</label></li>
 <li>
-<input type="radio" name="how" value="online" id="online">
-<label for="online" class="label">オンライン発表</label></li>
-</ul>
-</div>
+<input type="radio" name="how" value="create" id="create">
+<label for="create" class="label">制作</label></li>
+<li>
+<input type="radio" name="how" value="refresh" id="refresh">
+<label for="refresh" class="label">休憩</label></li>
+<li>
 <div class="reset">
-<input type="reset" name="reset" value="RESET" class="reset-button">
+<input type="reset" name="reset" value="全部見る" class="reset-button">
+</div>
+</li>
+</ul>
 </div>
 </div>
 </form>
@@ -125,22 +132,43 @@ body {background:#eee;}
 <ul>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
-<li class="list_item list_toggle" data-year="<?=h($row[2])?>" data-how="<?=h($row[0])?>">
+<li class="list_item list_toggle" data-how="<?=h($row[0])?>">
 <p class="what"><?=h($row[1])?></p>
 <span class="date"><?=h($row[3])?></span>
 </li>
 
+<li class="list_item list_toggle" data-how="<?=h($row[0])?>" onclick="obj=document.getElementById('<?=h($row[7])?>').style; obj.display=(obj.display=='none')?'block':'none';">
+<p class="what"><?=h($row[0])?></p>
+<div id="<?=h($row[7])?>" class="more" style="display:none;">
+<span class="date"><?=h($row[1])?></span>
+<p class="what"><?=h($row[0])?></p>
+<p class="info" style="display:<?=h($row[2])?>;"><?=h($row[3])?></p>
+<p class="info" style="display:<?=h($row[4])?>;"><?=h($row[5])?></p>
+<p class="link">
+  <a href="<?=h($row[6])?>" target="_blank" rel="noopener noreferrer">Link</a>
+</p>
+</div>
+</li>
+
 <?php endforeach; ?>
 <?php else: ?>
-<li class="list_item list_toggle" data-how="<?=h($row[0])?>">
-<p class="what">プログラム名 row[1]</p>
-<span class="date">名前 row[3]</span>
+<li class="list_item list_toggle" data-how="<?=h($row[0])?>" onclick="obj=document.getElementById('id').style; obj.display=(obj.display=='none')?'block':'none';">
+<p class="what">実現したいこと</p>
+<div id="id" class="more" style="display:none;">
+<span class="date">名前</span>
+<p class="what">実現したいこと</p>
+<p class="info" style="display:;">詳細</p>
+<p class="info" style="display:;">自己紹介</p>
+<p class="link">
+  <a>Link</a>
+</p>
+</div>
 </li>
 <?php endif; ?>
 
 </ul>
 </div>
 </div>
-<p id="marquee"><span>大 chotto crazy を開始する以前に、ペフが実現したちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
+<p id="marquee"><span>ここに 大 chotto crazy に集まった、ちょっとクレイジーな素晴らしいアイデアや創造的チャレンジを紹介します。</span></p>
 </body>
 </html>
