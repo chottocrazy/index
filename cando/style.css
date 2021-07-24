@@ -212,9 +212,10 @@ button:hover {
   pointer-events:none;
 }
 .list .info {
-  font-size:75%;
+  font-size:1rem;
   color:#000;
   padding:0.5rem 0 0;
+  white-space:pre-wrap;
 }
 .list .pro {
   font-size:75%;
@@ -223,6 +224,7 @@ button:hover {
   margin:1rem 0 0;
   border: 1px solid #000;
   border-radius:0.5em;
+  white-space:pre-wrap;
 }
 .list .link {
   position:absolute;
