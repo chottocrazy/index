@@ -81,6 +81,7 @@ body {background:#eee;}
 hr {border:none; margin:1rem 0;}
 
 #about {
+  display:none;
   position: fixed;
   z-index: 100;
   top:0; left:0;
