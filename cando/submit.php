@@ -43,10 +43,6 @@ fclose($fp);
 .on {
   font-family:"Orchard";
 }
-.hold, .dai {
-  color:#eee;
-  letter-spacing: 0rem;
-}
 .hold:before {
   content:"can☆do";
   color:#555;
@@ -55,9 +51,6 @@ fclose($fp);
   font-weight: 555;
   margin-top:0.5rem;
   margin-left:-0.5rem;
-}
-.on {
-  padding-left:0.75rem;
 }
 .on,
 .hold:before,
@@ -70,18 +63,14 @@ fclose($fp);
   font-size:0.75rem;
   font-family:"MS Mincho", serif;
 }
-.by:after {
-  content:"∧°┐";
-  font-size:125%;
-  margin-left:0.5rem;
-  font-style: normal;
-}
-#org h2 {position:relative; z-index:100;}
-#title {
-  margin-bottom:1.25rem;
-}
+
+hr {border:none; margin:0.5rem;}
+
+.how {padding:0 1.25%;}
+
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="url"] {
   display:block;
   padding:1.5%;
 	font-size:1rem;
@@ -91,28 +80,18 @@ input[type="email"] {
 }
 #submit textarea {
   display:block;
-  padding:0.5rem;
-  margin:1rem 0;
-	font-size:1.25rem;
+  padding:1.5%;
+	font-size:0.95rem;
   border:0.1rem solid;
   border-radius:0.5rem;
-  width:100%; height:10rem;
-}
-#submit button {
-  font-size: 2rem;
-  cursor:pointer;
-  width:100%;
-  padding:1rem 0;
-  background: #fff;
-  color: #000;
-  border-radius:2.5rem;
+  width:97%; height:10rem;
 }
 </style>
 </head>
 <body>
 
   <div id="header">
-  <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
+  <a href="/cando/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
   <a><b>Submit</b></a>
   </div>
   <div id="programs">
@@ -123,39 +102,34 @@ input[type="email"] {
   <section id="submit">
   <form id="information" action="complete.php" method="post">
   <div class="org">
-  実現したいこと
-  <p><input type="text" name="date" placeholder="名前" required></p>
   <p><input type="text" name="what" placeholder="実現したいこと" required></p>
-  <p><input type="text" name="year" placeholder="いつ実現したいですか？" required></p>
-
   <div class="search-box how">
   <ul>
-  <li>
-  <input type="radio" name="how" value="max" id="max">
-  <label for="max" class="label">展覧会・アトラクション</label></li>
-  <li>
-  <input type="radio" name="how" value="communication" id="oneday">
-  <label for="oneday" class="label">限定開催</label></li>
-  <li>
-  <input type="radio" name="how" value="creation" id="series">
-  <label for="series" class="label">定期開催</label></li>
-  <li>
-  <input type="radio" name="how" value="online" id="online">
-  <label for="online" class="label">オンライン発表</label></li>
+<li>
+<input type="radio" name="how" value="think" id="think">
+<label for="think" class="label">思考</label></li>
+<li>
+<input type="radio" name="how" value="organize" id="organize">
+<label for="organize" class="label">整理</label></li>
+<li>
+<input type="radio" name="how" value="communication" id="communication">
+<label for="communication" class="label">交流</label></li>
+<li>
+<input type="radio" name="how" value="create" id="create">
+<label for="create" class="label">制作</label></li>
+<li>
+<input type="radio" name="how" value="refresh" id="refresh">
+<label for="refresh" class="label">休憩</label></li>
   </ul>
   </div>
-  <p><input type="email" name="state" placeholder="メールアドレス" required></p>
-  </div>
-  <div class="list">
-  <ul>
-  <textarea name="info" placeholder="説明文" required></textarea>
-  </ul>
+  <p><textarea name="info" placeholder="もっと詳しく"></textarea></p>
+<hr/>
+  <p><input type="text" name="date" placeholder="あなたの名前" required></p>
+  <p><input type="email" name="id" placeholder="メールアドレス" required></p>
   </div>
   <button type="submit">Submit</button>
   </form>
   </section>
   </div>
-
-<p id="marquee"><span>ちょっとクレイジーな素晴らしいアイデアや、ちょっとクレイジーな創造的チャレンジを、様々な方法で実現します。</span></p>
 </body>
 </html>
