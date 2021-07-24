@@ -81,11 +81,10 @@ input[type="email"] {
 #submit textarea {
   display:block;
   padding:1.5%;
-  margin:0 2.5%;
 	font-size:0.95rem;
   border:0.1rem solid;
   border-radius:0.5rem;
-  width:92%; height:10rem;
+  width:97%; height:10rem;
 }
 </style>
 </head>
