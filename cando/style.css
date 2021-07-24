@@ -204,26 +204,29 @@ button:hover {
 .list .more .what {
   font-size: 2rem;
 }
-.list .date {
-  font-size:85%;
-  position:absolute;
-  top:0.5rem;
-  right:0.5rem;
-  background:#fff;
-  z-index:3;
-  pointer-events:none;
-}
 .list .info {
   font-size:1rem;
   color:#000;
   padding:0.5rem 0 0;
   white-space:pre-wrap;
 }
+.list .date {
+  font-size:85%;
+  z-index:3;
+}
+.list .date b {
+  font-size:110%;
+  background:#f6d435;
+  color:#D24117;
+  padding:0.25rem;
+  margin:0.25rem;
+  z-index:3;
+}
 .list .pro {
   font-size:75%;
   color:#000;
   padding:0.5rem;
-  margin:1rem 0 0;
+  margin:0.5rem 0 0;
   border: 1px solid #000;
   border-radius:0.5em;
   white-space:pre-wrap;
@@ -232,11 +235,11 @@ button:hover {
   position:absolute;
   bottom:1.25%;
   right:2.5%;
-  margin:0.25rem 0;
+  margin:0.5rem 0;
   z-index:3;
 }
 .list .link a {
-  font-size:75%;
+  font-size:1rem;
   text-decoration:none;
   display: inline-block;
   padding:0.25rem 0.5rem;

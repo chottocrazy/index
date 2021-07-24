@@ -79,6 +79,7 @@ $("#").load("");
 body {background:#eee;}
 .org {background:#fff;}
 .reset-button {background:#fff;}
+hr {border:none; margin:0.5rem;}
 </style>
 </head>
 <body>
@@ -131,9 +132,10 @@ body {background:#eee;}
 <li class="list_item list_toggle" data-how="<?=h($row[0])?>" onclick="obj=document.getElementById('<?=h($row[9])?>').style; obj.display=(obj.display=='none')?'block':'none';">
 <p class="what"><?=h($row[1])?></p>
 <div id="<?=h($row[9])?>" class="more" style="display:none;">
-<span class="date"><?=h($row[2])?></span>
 <p class="what"><?=h($row[1])?></p>
 <p class="info" style="display:<?=h($row[4])?>;"><?=h($row[3])?></p>
+<hr/>
+<span class="date"><?=h($row[2])?></span>
 <p class="pro" style="display:<?=h($row[6])?>;"><?=h($row[5])?></p>
 <p class="link" style="display:<?=h($row[7])?>;">
   <a href="<?=h($row[8])?>" target="_blank" rel="noopener noreferrer">Link</a>
@@ -145,10 +147,11 @@ body {background:#eee;}
 <?php else: ?>
 <li class="list_item list_toggle" data-how="<?=h($row[0])?>" onclick="obj=document.getElementById('id').style; obj.display=(obj.display=='none')?'block':'none';">
 <p class="what">実現したいこと</p>
-<div id="id" class="more" style="display:none;">
-<span class="date">名前</span>
+<div id="id" class="more" style="display:;">
 <p class="what">実現したいこと</p>
 <p class="info" style="display:;">詳細</p>
+<hr/>
+<span class="date">これは<b>名前</b>の実現したいことです</span>
 <p class="pro" style="display:;">自己紹介</p>
 <p class="link">
   <a>Link</a>
