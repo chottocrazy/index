@@ -101,13 +101,12 @@ hr {border:none; margin:1rem 0;}
   position:absolute;
   top:50%; left:50%;
   z-index:10;
-  pointer-events:none;
   transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
-  padding:0 1.25%;
-  margin: auto;
   width:90%;
   height:90%;
+  padding:0 1.25%;
+  margin: auto;
   overflow: auto;
   max-width:750px;
   background:#fff;
