@@ -84,6 +84,16 @@
   transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
 }
+#message {
+  display:inline-block;
+  z-index:-1;
+  font-size:1rem;
+  padding:0.25rem 0.5rem;
+  border:0.1rem solid;
+  border-radius:0.5rem;
+  width:15rem;
+  background:#fff;
+}
 
 #information {
   padding:1rem;

@@ -63,8 +63,8 @@ input[type="email"] {
 </head>
 <body>
 
-  <section id="submit">
-  <form id="information" action="complete.php" method="post">
+<section id="submit">
+<form id="information" action="complete.php" method="post">
 <p>あなたの実現したいことは何ですか？<br/><input type="text" name="what" placeholder="実現したいこと" required></p>
 <p>実現したいことを詳しく説明できますか？<br/>
 <input type="radio" name="info_more" value="block" id="block">
