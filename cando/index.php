@@ -204,8 +204,8 @@ hr {border:none; margin:1rem 0;}
 
 </ul>
 </div>
-</div>
 <p><span>Copyright © You. All Right Reserved</span></p>
+</div>
 <div id="marquee">
 <p>
 <span class="chotto">素晴らしいアイデア</span>
