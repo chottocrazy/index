@@ -180,12 +180,18 @@ button:hover {
   transition: all 500ms ease;
   cursor:pointer;
 }
-.list li .more {
+.list .what {
+  margin:0;
+  color:#fff;
+  -webkit-text-stroke: 0.025rem #000;
+  text-stroke: 0.025rem #000;
+  pointer-events:none;
+}
+.list .more {
   position:fixed;
   top:0; left:0;
   z-index:100;
   padding:5vh 2.5% 7.5vh;
-  font-size: 2.5vw;
   width:75%;
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
@@ -193,14 +199,8 @@ button:hover {
   box-shadow:#ccc 0 0 0.5rem 0.25rem;
   background-color:rgba(255,255,255,0.95);
 }
-.list .what {
-  margin:0;
-  position:relative;
-  z-index:2;
-  color:#fff;
-  -webkit-text-stroke: 0.025rem #000;
-  text-stroke: 0.025rem #000;
-  pointer-events:none;
+.list .more .what {
+  font-size: 5vw;
 }
 .list .date {
   font-size:85%;
