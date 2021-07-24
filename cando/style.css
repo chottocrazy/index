@@ -224,7 +224,7 @@ button:hover {
   pointer-events:none;
 }
 .list .more {
-  position:fixed;
+  position:absolute;
   top:0; left:0;
   z-index:100;
   padding:5vh 2.5% 7.5vh;
