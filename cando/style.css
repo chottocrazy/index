@@ -271,7 +271,7 @@ button:hover {
   position:fixed;
   bottom:1.25%;
   right:2.5%;
-  margin:0.5rem 0;
+  margin:0;
   z-index:3;
 }
 .list .link a {
