@@ -82,6 +82,7 @@ hr {border:none; margin:1rem 0;}
 
 #about {
   position: fixed;
+  z-index: 100;
   top:0; left:0;
   width:100%;
   height: 100vh;
@@ -98,7 +99,6 @@ hr {border:none; margin:1rem 0;}
 }
 #about #form {
   position:absolute;
-  z-index: 100;
   top:50%; left:50%;
   z-index:10;
   pointer-events:none;
