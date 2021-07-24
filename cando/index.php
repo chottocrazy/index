@@ -79,7 +79,7 @@ $("#").load("");
 body {background:#eee;}
 .org {background:#fff;}
 .reset-button {background:#fff;}
-hr {border:none; margin:0.5rem;}
+hr {border:none; margin:1rem 0;}
 </style>
 </head>
 <body>
