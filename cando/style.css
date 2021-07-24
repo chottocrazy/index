@@ -136,7 +136,6 @@ input[type="radio"]:checked + label {
 .org {
   width:90%;
   max-width:750px;
-  text-align: center;
   padding:1.25%;
   margin: auto;
   background:#fff;
