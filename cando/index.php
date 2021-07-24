@@ -133,15 +133,15 @@ body {background:#eee;}
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
 
-<li class="list_item list_toggle" data-how="<?=h($row[0])?>" onclick="obj=document.getElementById('<?=h($row[7])?>').style; obj.display=(obj.display=='none')?'block':'none';">
+<li class="list_item list_toggle" data-how="<?=h($row[0])?>" onclick="obj=document.getElementById('<?=h($row[9])?>').style; obj.display=(obj.display=='none')?'block':'none';">
+<p class="what"><?=h($row[1])?></p>
+<div id="<?=h($row[9])?>" class="more" style="display:none;">
+<span class="date"><?=h($row[2])?></span>
 <p class="what"><?=h($row[0])?></p>
-<div id="<?=h($row[7])?>" class="more" style="display:none;">
-<span class="date"><?=h($row[1])?></span>
-<p class="what"><?=h($row[0])?></p>
-<p class="info" style="display:<?=h($row[2])?>;"><?=h($row[3])?></p>
-<p class="info" style="display:<?=h($row[4])?>;"><?=h($row[5])?></p>
-<p class="link">
-  <a href="<?=h($row[6])?>" target="_blank" rel="noopener noreferrer">Link</a>
+<p class="info" style="display:<?=h($row[4])?>;"><?=h($row[3])?></p>
+<p class="info" style="display:<?=h($row[6])?>;"><?=h($row[5])?></p>
+<p class="link" style="display:<?=h($row[7])?>;">
+  <a href="<?=h($row[8])?>" target="_blank" rel="noopener noreferrer">Link</a>
 </p>
 </div>
 </li>
