@@ -134,12 +134,16 @@ input[type="radio"]:checked + label {
 }
 .org h1 {
   font-weight: 555;
-  padding: 1.25%;
+  padding:3rem 1.25%;
   margin: 0;
   pointer-events: none;
   line-height:125%;
-  padding:3rem 0;
   transform: scale(1, 2);
+  font-size:1.25rem;
+}
+.org p {
+  padding: 1.25%;
+  margin: 0;
   font-size:1.25rem;
 }
 .org .label,

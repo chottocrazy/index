@@ -130,6 +130,7 @@ hr {border:none; margin:1rem 0;}
 <form id="information">
 <div class="org">
 <h1>ここに、大 chotto crazy に集まったちょっとクレイジーな素晴らしいアイデアや創造的チャレンジを紹介します。</h1>
+<p>ここに、大 chotto crazy に集まったちょっとクレイジーな素晴らしいアイデアや創造的チャレンジを紹介します。</p>
 <div class="search-box how">
 <ul>
 <li>
