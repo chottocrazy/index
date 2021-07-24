@@ -135,18 +135,18 @@ input[type="email"] {
   <textarea name="info" placeholder="実現したいことの詳しい説明"></textarea>
 <hr/>
 <p>実現したいこと一覧ページにプロフィールを掲載しますか？<br/>
-<input type="radio" name="pro_more" value="block" id="block">
-<label for="block" class="label">はい</label>
-<input type="radio" name="pro_more" value="none" id="none">
-<label for="none" class="label">いいえ</label>
+<input type="radio" name="pro_more" value="block" id="pro_block">
+<label for="pro_block" class="label">はい</label>
+<input type="radio" name="pro_more" value="none" id="pro_none">
+<label for="pro_none" class="label">いいえ</label>
 </p>
   <textarea name="pro" placeholder="プロフィール"></textarea>
 <hr/>
 <p>ウェブサイトやSNSのリンクを掲載しますか？<br/>
-<input type="radio" name="link" value="block" id="block">
-<label for="block" class="label">はい</label>
-<input type="radio" name="link" value="none" id="none">
-<label for="none" class="label">いいえ</label>
+<input type="radio" name="link" value="block" id="link_block">
+<label for="link_block" class="label">はい</label>
+<input type="radio" name="link" value="none" id="link_none">
+<label for="link_none" class="label">いいえ</label>
 </p>
   <p><input type="url" name="url" placeholder="リンク" required></p>
   </div>
