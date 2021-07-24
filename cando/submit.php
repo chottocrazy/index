@@ -154,7 +154,5 @@ input[type="email"] {
   </form>
   </section>
   </div>
-
-<p id="marquee"><span>ちょっとクレイジーな素晴らしいアイデアや、ちょっとクレイジーな創造的チャレンジを、様々な方法で実現します。</span></p>
 </body>
 </html>
