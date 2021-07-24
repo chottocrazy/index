@@ -194,7 +194,7 @@ button:hover {
 .list .more {
   position:fixed;
   top:0; left:0;
-  z-index:100;
+  z-index:10;
   padding:5vh 2.5% 7.5vh;
   width:75%;
   max-height: 75vh;
