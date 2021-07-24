@@ -129,6 +129,7 @@ hr {border:none; margin:1rem 0;}
 
 <form id="information">
 <div class="org">
+<p>あなたの実現したいことは何ですか？</p>
 <div class="search-box how">
 <ul>
 <li>
