@@ -119,7 +119,7 @@ hr {border:none; margin:1rem 0;}
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>2020-2021</b></a>
+<a><b>2020 - 2021</b></a>
 </div>
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
