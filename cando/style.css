@@ -166,7 +166,7 @@ button:hover {
   flex-wrap: wrap-reverse;
 }
 .list li {
-  font-size:1.25rem;
+  font-size:1rem;
     padding:0.5rem 1rem;
     margin:0.5rem;
   border:2px solid #000;
