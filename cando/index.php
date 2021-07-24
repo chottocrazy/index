@@ -163,6 +163,6 @@ hr {border:none; margin:1rem 0;}
 </ul>
 </div>
 </div>
-<p id="marquee"><span>ここに 大 chotto crazy に集まった、ちょっとクレイジーな素晴らしいアイデアや創造的チャレンジを紹介します。</span></p>
+<p id="marquee"><span>Copyright © 2020-2021 You. All Right Reserved</span></p>
 </body>
 </html>
