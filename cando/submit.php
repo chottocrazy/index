@@ -36,7 +36,7 @@ fclose($fp);
 <title>大 chotto crazy | 実現したいことを実現する</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/js/programs.js"></script>
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="http://chottocrazy.pe.hu/css/about.css" />
 <style type="text/css">
 #header b,
 .hold:before,
@@ -69,8 +69,8 @@ hr {border:none; margin:0.5rem;}
 .how {padding:0 1.25%;}
 
 input[type="text"],
-input[type="email"],
-input[type="url"] {
+input[type="url"],
+input[type="email"] {
   display:block;
   padding:1.5%;
 	font-size:1rem;
@@ -81,10 +81,11 @@ input[type="url"] {
 #submit textarea {
   display:block;
   padding:1.5%;
+  margin:0 2.5%;
 	font-size:0.95rem;
   border:0.1rem solid;
   border-radius:0.5rem;
-  width:97%; height:10rem;
+  width:92%; height:10rem;
 }
 </style>
 </head>
@@ -102,7 +103,9 @@ input[type="url"] {
   <section id="submit">
   <form id="information" action="complete.php" method="post">
   <div class="org">
-  <p><input type="text" name="what" placeholder="実現したいこと" required></p>
+  <p><input type="text" name="date" placeholder="名前" required></p>
+  <p><input type="email" name="id" placeholder="メールアドレス" required></p>
+<hr/>
   <div class="search-box how">
   <ul>
 <li>
@@ -122,14 +125,36 @@ input[type="url"] {
 <label for="refresh" class="label">休憩</label></li>
   </ul>
   </div>
-  <p><textarea name="info" placeholder="もっと詳しく"></textarea></p>
+<p><input type="text" name="what" placeholder="実現したいこと" required></p>
+<p>実現したいことを詳しく説明できますか？<br/>
+<input type="radio" name="info_more" value="block" id="block">
+<label for="block" class="label">はい</label>
+<input type="radio" name="info_more" value="none" id="none">
+<label for="none" class="label">いいえ</label>
+</p>
+  <textarea name="info" placeholder="実現したいことの詳しい説明"></textarea>
 <hr/>
-  <p><input type="text" name="date" placeholder="あなたの名前" required></p>
-  <p><input type="email" name="id" placeholder="メールアドレス" required></p>
+<p>実現したいこと一覧ページにプロフィールを掲載しますか？<br/>
+<input type="radio" name="pro_more" value="block" id="block">
+<label for="block" class="label">はい</label>
+<input type="radio" name="pro_more" value="none" id="none">
+<label for="none" class="label">いいえ</label>
+</p>
+  <textarea name="pro" placeholder="プロフィール"></textarea>
+<hr/>
+<p>ウェブサイトやSNSのリンクを掲載しますか？<br/>
+<input type="radio" name="link" value="block" id="block">
+<label for="block" class="label">はい</label>
+<input type="radio" name="link" value="none" id="none">
+<label for="none" class="label">いいえ</label>
+</p>
+  <p><input type="url" name="url" placeholder="リンク" required></p>
   </div>
   <button type="submit">Submit</button>
   </form>
   </section>
   </div>
+
+<p id="marquee"><span>ちょっとクレイジーな素晴らしいアイデアや、ちょっとクレイジーな創造的チャレンジを、様々な方法で実現します。</span></p>
 </body>
 </html>
