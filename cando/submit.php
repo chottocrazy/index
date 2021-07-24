@@ -36,36 +36,9 @@ fclose($fp);
 <title>大 chotto crazy | 実現したいことを実現する</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/js/programs.js"></script>
-<link rel="stylesheet" href="http://chottocrazy.pe.hu/css/about.css" />
+<link rel="stylesheet" href="style.css" />
 <style type="text/css">
-#header b,
-.hold:before,
-.on {
-  font-family:"Orchard";
-}
-.hold:before {
-  content:"can☆do";
-  color:#555;
-  font-style:italic;
-  position:absolute;
-  font-weight: 555;
-  margin-top:0.5rem;
-  margin-left:-0.5rem;
-}
-.on,
-.hold:before,
-.dai:before,
-.dai:after {
-  -webkit-text-stroke: 0.001rem #FFF;
-  text-stroke: 0.001rem #FFF;
-}
-.by {
-  font-size:0.75rem;
-  font-family:"MS Mincho", serif;
-}
-
-hr {border:none; margin:0.5rem;}
-
+hr {border:none; margin:1rem;}
 .how {padding:0 1.25%;}
 
 input[type="text"],
@@ -90,22 +63,18 @@ input[type="email"] {
 </head>
 <body>
 
-  <div id="header">
-  <a href="/cando/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-  <a><b>Submit</b></a>
-  </div>
-  <div id="programs">
-  <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
-  <p id="message" class="center"><span class="by">creative, community space</span></p>
-  <i class="on">Chotto Crazy</i>
-  </div>
   <section id="submit">
   <form id="information" action="complete.php" method="post">
-  <div class="org">
-  <p><input type="text" name="date" placeholder="名前" required></p>
-  <p><input type="email" name="id" placeholder="メールアドレス" required></p>
-<hr/>
+<p>あなたの実現したいことは何ですか？<br/><input type="text" name="what" placeholder="実現したいこと" required></p>
+<p>実現したいことを詳しく説明できますか？<br/>
+<input type="radio" name="info_more" value="block" id="block">
+<label for="block" class="label">はい</label>
+<input type="radio" name="info_more" value="none" id="none">
+<label for="none" class="label">いいえ</label>
+</p>
+<p class="info_form"><textarea name="info" placeholder="実現したいことの詳しい説明"></textarea></p>
   <div class="search-box how">
+    <p>あなたの実現したいことは、</p>
   <ul>
 <li>
 <input type="radio" name="how" value="think" id="think">
@@ -123,15 +92,9 @@ input[type="email"] {
 <input type="radio" name="how" value="refresh" id="refresh">
 <label for="refresh" class="label">休憩</label></li>
   </ul>
+    <p>の どれに当てはまりますか？</p>
   </div>
-<p><input type="text" name="what" placeholder="実現したいこと" required></p>
-<p>実現したいことを詳しく説明できますか？<br/>
-<input type="radio" name="info_more" value="block" id="block">
-<label for="block" class="label">はい</label>
-<input type="radio" name="info_more" value="none" id="none">
-<label for="none" class="label">いいえ</label>
-</p>
-  <textarea name="info" placeholder="実現したいことの詳しい説明"></textarea>
+<hr/>
 <hr/>
 <p>実現したいこと一覧ページにプロフィールを掲載しますか？<br/>
 <input type="radio" name="pro_more" value="block" id="pro_block">
@@ -139,19 +102,22 @@ input[type="email"] {
 <input type="radio" name="pro_more" value="none" id="pro_none">
 <label for="pro_none" class="label">いいえ</label>
 </p>
+  <p><input type="text" name="date" placeholder="名前" required></p>
   <textarea name="pro" placeholder="プロフィール"></textarea>
 <hr/>
-<p>ウェブサイトやSNSのリンクを掲載しますか？<br/>
+<p>プロフィールにウェブサイトやSNSのリンクを掲載しますか？<br/>
 <input type="radio" name="link" value="block" id="link_block">
 <label for="link_block" class="label">はい</label>
 <input type="radio" name="link" value="none" id="link_none">
 <label for="link_none" class="label">いいえ</label>
 </p>
   <p><input type="url" name="url" placeholder="リンク"></p>
-  </div>
-  <button type="submit">Submit</button>
+<hr/>
+
+<p>実現する際に連絡を希望するメールアドレスをご入力ください。<br/><input type="email" name="id" placeholder="メールアドレス" required></p>
+  <button type="submit">投稿する</button>
   </form>
   </section>
-  </div>
+
 </body>
 </html>

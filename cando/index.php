@@ -39,7 +39,7 @@ fclose($fp);
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
-$("#").load("");
+$("#form").load("submit.php");
 })
 </script>
 <link rel="stylesheet" href="style.css" />
@@ -89,14 +89,12 @@ hr {border:none; margin:1rem 0;}
 </div>
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
-<p id="message" class="center"><span class="by">creative, community space</span></p>
+<p id="message" class="center"><span class="by">あなたの実現したいことは何ですか？</span></p>
 <i class="on">Chotto Crazy</i>
 </div>
-<div id="about">
-</div>
+<div id="form"></div>
 <form id="information">
 <div class="org">
-<p><span>ここに 大 chotto crazy に集まった、ちょっとクレイジーな素晴らしいアイデアや創造的チャレンジを紹介します。</span></p>
 <div class="search-box how">
 <ul>
 <li>
