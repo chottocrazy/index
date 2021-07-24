@@ -227,7 +227,7 @@ button:hover {
   position:fixed;
   top:0; left:0;
   z-index:100;
-  padding:5vh 2.5% 7.5vh;
+  padding:5vh 2.5% 0;
   width:75%;
   max-height: 75vh;
   overflow: auto;
@@ -270,8 +270,7 @@ button:hover {
 .list .link {
   position:relative;
   float:right;
-  right:2.5%;
-  margin:1.25% 2.5%;
+  margin:2.5% 2.5%;
   z-index:3;
 }
 .list .link a {
