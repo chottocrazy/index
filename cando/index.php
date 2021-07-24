@@ -132,10 +132,6 @@ body {background:#eee;}
 <ul>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
-<li class="list_item list_toggle" data-how="<?=h($row[0])?>">
-<p class="what"><?=h($row[1])?></p>
-<span class="date"><?=h($row[3])?></span>
-</li>
 
 <li class="list_item list_toggle" data-how="<?=h($row[0])?>" onclick="obj=document.getElementById('<?=h($row[7])?>').style; obj.display=(obj.display=='none')?'block':'none';">
 <p class="what"><?=h($row[0])?></p>
