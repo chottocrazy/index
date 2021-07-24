@@ -95,6 +95,15 @@
   background:#fff;
 }
 
+#about {
+  display:block;
+  width:75%;
+  padding:2.5%;
+  background:#fff;
+  margin: auto;
+  border:0.1rem solid;
+  border-radius:0.5rem;
+}
 #information {
   padding:1rem;
   border-radius:1rem;
