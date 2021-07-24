@@ -268,10 +268,10 @@ button:hover {
   white-space:pre-wrap;
 }
 .list .link {
-  position:fixed;
-  bottom:1.25%;
+  position:relative;
+  float:right;
   right:2.5%;
-  margin:0;
+  margin:1.25% 2.5%;
   z-index:3;
 }
 .list .link a {
