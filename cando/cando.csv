@@ -5,6 +5,8 @@ refresh,いろんなところにベンチを置きたい,ささじまかずま,"
 refresh,換気,ささじまかずま,"公共施設などいろんなところの窓を開けて、風通しをよくする。",block,,none,none, ,ventilate
 create,川底に絵を描く,ささじまかずま,"石をカラフルに色付けして、川に投げ、川底に絵みたいなのを描く",block,,none,none, ,river
 create,自作庭造り,芥川亜由弥,"植物だけでなくセメントなどを駆使して敷岩や小川を作ってみたい",block,,none,none, ,garden
+
+
 create,写真を撮りまくってみたい,きゅー,"通報されなそうなぐらいの自然の中で大勢(勿論全員全裸)の写真を撮りまくってみたい",block,写真撮って編み物して古着屋してお菓子作って居酒屋で働いています,block,block,https://www.instagram.com/agirlcalledq/,nude
 refresh,知らない町で生活してみたい,川良,"",none,"京都でVOU/棒というギャラリー＆ショップを営んでいます。",block,block,https://www.instagram.com/voukyoto/,goout
 think,レゲエMCになってみたい,セーラーかんな子,"特別にレゲエが好きというわけではないけど、ラップとポエトリーリーディングの中間みたいな感じで挑戦できる気がして…
@@ -37,3 +39,39 @@ create,幻の宝石,琥珀,幻の宝石と呼ばれる1億年前のバーマイ�
 create,メルティングライヴ,琥珀,巨大な氷の塊を全身の体温と摩擦熱で溶かしていく様子を観てみたい、自分はやりたくないけど。,block,紅茶とアンティークのお店,block,block,https://www.instagram.com/antiques_kohaku/,meit
 create,ドウランを全身に塗ってモノと化した人間を撮影したい。,琥珀,例えば「椅子」「ベランダのサボテン」「ひび割れた硝子」とかになりきってもらう,block,紅茶とアンティークのお店,block,block,https://www.instagram.com/antiques_kohaku/,dowran
 communication,暗闇で寝転がりながらノイズを大音量で聴く体験を共有する。,琥珀,これは昔メルツバウの音源で試したらその場にいる皆が暗闇の中に黒い鉄球を幻視したので、何が視えるか色んなノイズで試したい。,block,紅茶とアンティークのお店,block,block,https://www.instagram.com/antiques_kohaku/,bignoise
+create,一冊の写真集を大量に集めて展示,河野幸人,,none,写真家。IACK代表。,block,block,https://yukihitokono.com/,yukihitokono
+think,3つの実現したいこと,fri珍,"子育ては海外でしたい…切実に。(クラスの目標が「我慢する子」だったりする…)
+食わず嫌いなものですかね…最近わりとチャレンジ気味です。
+性転換(一生男性目線なのももったいない気がする)",block,ひかりのラウンジという店をやっています。,block,block,https://twitter.com/AD250000000/,kaaamiyadaisuke
+think,SNSの景色を体験,カトー,ステディと携帯を交換して、互いに普段見てるSNSの景色を体験し合ってみたい,block,I・餓男,block,none,,novo_kato
+communication,癖を発表,松延総司,人間誰しもがちょっと変わった癖（無意識にやってしまうやめられない行動）を持っていると思っていて、それを発表／実践するプレゼン大会をしたい,block,アーティスト,block,block,http://matsunobe.net,soshimatsunobe
+create,オペラ2・ゲルを作りたい,Dove,"オペラ2
+モンゴルの遊牧民の家、ゲルを作りたい",block,,none,none,,segdfo
+create,バナナブレッドのプティング・野原の草,永遠,"生きた国の味がするバナナブレッドのプティングをつくる。
+野原の草をぜんぶ三つ編みにして、星のチャームがついたきらきらしたゴムで結ぶ。",,"わたしは音楽をききます 本を読みます 映画をみます 文章をかきます",block,block,https://www.instagram.com/1n0ri/,towa
+organize,記憶と夢,pootee,全部すぐ忘れて記憶と夢をシャッフルして検索できるようにしたい,,,none,none,,moore
+create,架空の家を作りたいです。,emamouse,"小さい頃からの夢が「毎日一部屋ずつ増える家に住みたい」だったのですが、最近はそこまでではないですが、素敵な家に住みたいです。というか、自分で作りたいです。
+しかし、かなりお金がかかると思うので、今世では叶いそうにない、ということで、絵や音楽、動画などで架空の家を作っています。
+が、まだ全然ちょっとしかできてないので、もっと作るための時間が欲しいといつも思っています。",block,頭の中の、現実のちょっと横にある世界を現実に作るのが趣味の物です。,block,block,https://twitter.com/emamouse/,emamouse
+create,2つの実現したいこと,石塚俊,"●街のお店のシブいロゴを用いて公式グッズを作る。
+●合唱したいです。河原や駐車場で練習したいです。",block,グラフィックデザイナー。音楽や演劇、コンテンポラリーダンス、現代美術などの分野でアーティストと協働しています。,block,block,https://shunishizuka.com/,●合唱したいです。河原や駐車場で練習したいです。",block,グラフィックデザイナー。音楽や演劇、コンテンポラリーダンス、現代美術などの分野でアーティストと協働しています。,block,block,https://shunishizuka.com/,studio
+create,綺麗なフェードカット,"Le Makeup",知らない人の髪を切ってみて、初めてながらも綺麗なフェードカットに仕上げてみたい。,block,,none,none,,keisukeiiri@gmail.com
+create,本を作る,飯沢未央,微生物を練り込んだ本を作る,,"アーティストしつつ、TRANS BOOKSというブックイベントの運営しつつ、某クリエイティブエージェンシーで色々なプロジェクトに関わっております。",block,block,http://iimio.com,iimio
+think,サイキック少年になりたい　,sakumotto,,none,イベント、ポップアップ、展示、商品などのディレクション、プロデュースをしています。,block,block,http://www.sakumotto.jp,sakumotto
+create,たまごパーティ！,"ちょう りな",卵料理たくさんのパーティー,block,,none,none,,glddbr
+create,記録,スポーツガーデンひ,"●いまからでもいいので自分が死ぬまでの記録を映像として残したい
+●みんな(知ってる人や知らない人)が死ぬまでの記録を残したものを見たい
+●みんなが働いているところを見たい
+●みんながセックスしているところを見たい",block,,none,none,,twokame
+create,地球上の小石を一つの場所に集めてみたい,金子由里奈,めちゃくちゃ映画を見ている友達のことすごいなと思うし、「これきっと金子好きだよ」と言われるたびに、見てない（おそらく私が好きな）映画が無数にあることに途方に暮れる。映画ありすぎ。マジで石の数と同じくらいあるんじゃないのとか思った瞬間があって。まぁそんなことはないんですが・・。,block,いろいろ作ってます！,block,block,https://www.instagram.com/iwanihonki,yurinakaneko.iwa@gmail.com
+organize,無意識にやってしまっていることを知りたい,なっちん,色々な人が無意識にやってしまっていることを知りたい　それを改めて構造化して見直すこと,block,真実とリアリティの追求　,block,none,,natsumi
+create,5つの実現したいこと,yonezo,"湧く穴から出たあたらしい妖精を、追いかけたり、眺めたり、寝ころびながらふれあったりしてみたい
+山にあっとうされていたい(ずっと)
+星の力につつまれていたい
+牛のうたをつくりたい
+体を透明にして、クマや山の動物たちを観察",,"""レポーター(探検の)
+ねずとスヌーピーが友人""",block,none,,yonezo
+create,3つの実現したいこと,池野詩織,"光っている方へ行く
+可愛い凧を作って凧揚げをしたい
+喧嘩した人と仲直りしたい",block,写真家,block,block,https://www.instagram.com/ikenoshiori/,ikenoshiori
+create,公共施設のメインエントランスと通用口を入れ替える作品,秋山ブク,,none,2001年より「コンポジション」シリーズとして、ギャラリー、店舗、倉庫、公民館、屋外公園、催事場、図書館などのその場にある備品だけで即興的に空間を構成する作品を作り続けている。2017年より、レストランやカフェのテーブル上の備品や配膳された食器類を即興的に組み合わせ、その写真をSNSに投稿する「#table_arrangement」を始める。,block,block,https://www.instagram.com/bukuakiyama/,arrangement
