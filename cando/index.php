@@ -119,7 +119,7 @@ hr {border:none; margin:1rem 0;}
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>Can☆Do</b></a>
+<a><b>2020-2021</b></a>
 </div>
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
@@ -201,6 +201,6 @@ hr {border:none; margin:1rem 0;}
 </ul>
 </div>
 </div>
-<p id="marquee"><span>Copyright © 2020-2021 You. All Right Reserved</span></p>
+<p id="marquee"><span>Copyright © You. All Right Reserved</span></p>
 </body>
 </html>
