@@ -203,7 +203,7 @@ hr {border:none; margin:1rem 0;}
 <?php endif; ?>
 
 </ul>
-<p style="position:relative; padding: 0.5rem 0;"><span class="center">Copyright © You. All Right Reserved</span></p>
+<p style="position:relative; padding: 1rem 0 0;"><span class="center">Copyright © You. All Right Reserved</span></p>
 </div>
 </div>
 <div id="marquee">
