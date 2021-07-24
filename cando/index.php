@@ -77,7 +77,6 @@ $("#form").load("submit.php");
   font-family:"MS Mincho", serif;
 }
 body {background:#eee;}
-.org {background:#fff;}
 .reset-button {background:#fff;}
 hr {border:none; margin:1rem 0;}
 </style>
@@ -95,6 +94,7 @@ hr {border:none; margin:1rem 0;}
 <div id="about">
 <div id="form"></div>
 </div>
+
 <form id="information">
 <div class="org">
 <div class="search-box how">

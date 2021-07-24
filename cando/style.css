@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "inscrutable";
+  src: url(/font/inscrutable.otf);
+}
+@font-face {
+  font-family: "Orchard";
+  src: url(/font/Orchard-Linear.otf);
+}
+
 #programs {
   top:0; left:0;
   padding:2.5rem 0;
@@ -38,15 +47,6 @@
   text-stroke: 0.001rem #FFF;
 }
 
-@font-face {
-  font-family: "inscrutable";
-  src: url(/font/inscrutable.otf);
-}
-@font-face {
-  font-family: "Orchard";
-  src: url(/font/Orchard-Linear.otf);
-}
-
 .namae,
 #programs .on {
   font-family:"Orchard";
@@ -84,6 +84,7 @@
   transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
 }
+
 #message {
   display:inline-block;
   z-index:-1;
@@ -130,6 +131,14 @@ input[type="radio"]:checked + label {
   background: #D24117;
   color: #fff;
   text-shadow:0.1rem 0.1rem #000;
+}
+
+.org {
+  width:90%;
+  max-width:750px;
+  margin: auto;
+  border:2px solid #000;
+  border-radius:0.5rem;
 }
 
 form ul {
