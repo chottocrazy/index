@@ -54,7 +54,7 @@ $("#").load("");
   letter-spacing: 0rem;
 }
 .hold:before {
-  content:"Can Do";
+  content:"Can ☆ Do";
   color:#555;
   font-style:italic;
   position:absolute;
@@ -75,12 +75,6 @@ $("#").load("");
 .by {
   font-size:0.75rem;
   font-family:"MS Mincho", serif;
-}
-.by:after {
-  content:"∧°┐";
-  font-size:125%;
-  margin-left:0.5rem;
-  font-style: normal;
 }
 body {background:#eee;}
 .org {background:#fff;}
@@ -128,6 +122,7 @@ body {background:#eee;}
 </div>
 </div>
 </form>
+
 <div class="list">
 <ul>
 <?php if (!empty($rows)): ?>
@@ -139,7 +134,7 @@ body {background:#eee;}
 <span class="date"><?=h($row[2])?></span>
 <p class="what"><?=h($row[1])?></p>
 <p class="info" style="display:<?=h($row[4])?>;"><?=h($row[3])?></p>
-<p class="info" style="display:<?=h($row[6])?>;"><?=h($row[5])?></p>
+<p class="pro" style="display:<?=h($row[6])?>;"><?=h($row[5])?></p>
 <p class="link" style="display:<?=h($row[7])?>;">
   <a href="<?=h($row[8])?>" target="_blank" rel="noopener noreferrer">Link</a>
 </p>
@@ -154,7 +149,7 @@ body {background:#eee;}
 <span class="date">名前</span>
 <p class="what">実現したいこと</p>
 <p class="info" style="display:;">詳細</p>
-<p class="info" style="display:;">自己紹介</p>
+<p class="pro" style="display:;">自己紹介</p>
 <p class="link">
   <a>Link</a>
 </p>

@@ -216,6 +216,13 @@ button:hover {
   color:#000;
   padding:0.5rem 0 0;
 }
+.list .pro {
+  font-size:75%;
+  color:#000;
+  padding:0.5rem;
+  border: 1px solid #000;
+  border-radius:0.5em;
+}
 .list .link {
   position:absolute;
   bottom:0;
