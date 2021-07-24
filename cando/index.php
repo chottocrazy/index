@@ -158,7 +158,6 @@ hr {border:none; margin:1rem 0;}
 <label for="refresh" class="label">休憩</label></li>
 </ul>
 </div>
-<p><span>Copyright © You. All Right Reserved</span></p>
 </div>
 </form>
 
@@ -204,6 +203,7 @@ hr {border:none; margin:1rem 0;}
 <?php endif; ?>
 
 </ul>
+<p><span>Copyright © You. All Right Reserved</span></p>
 </div>
 </div>
 <div id="marquee">
