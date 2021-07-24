@@ -4,16 +4,19 @@ function h($str) {
 }
 $how = (string)filter_input(INPUT_POST, 'how');
 $what = (string)filter_input(INPUT_POST, 'what');
-$year = (string)filter_input(INPUT_POST, 'year');
 $date = (string)filter_input(INPUT_POST, 'date');
 $info = (string)filter_input(INPUT_POST, 'info');
-$state = (string)filter_input(INPUT_POST, 'state');
-$more = (string)filter_input(INPUT_POST, 'more');
+$info_more = (string)filter_input(INPUT_POST, 'info_more');
+$pro = (string)filter_input(INPUT_POST, 'pro');
+$pro_more = (string)filter_input(INPUT_POST, 'pro_more');
+$link = (string)filter_input(INPUT_POST, 'link');
+$url = (string)filter_input(INPUT_POST, 'url');
+$id = (string)filter_input(INPUT_POST, 'id');
 
 $fp = fopen('submit.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
-    fputcsv($fp, [$how, $what, $year, $date, $info, $state, $more]);
+    fputcsv($fp, [$how, $what, $date, $info, $info_more, $pro, $pro_more, $link, $url, $id]);
     rewind($fp);
 }
 
