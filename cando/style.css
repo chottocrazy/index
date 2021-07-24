@@ -97,11 +97,12 @@
 
 #about {
   display:block;
-  width:75%;
-  padding:1.25%;
+  width:90%;
+  max-width:750px;
+  padding:0 1.25%;
   background:#fff;
   margin: auto;
-  border: 1px solid #000;
+  border:2px solid #000;
   border-radius:0.5rem;
 }
 #information {
@@ -189,7 +190,7 @@ button:hover {
   flex-wrap: wrap-reverse;
 }
 .list li {
-  font-size:1rem;
+  font-size:1.25rem;
     padding:0.5rem 1rem;
     margin:0.5rem;
   border:2px solid #000;
