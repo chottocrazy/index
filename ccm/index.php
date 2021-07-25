@@ -195,7 +195,7 @@ $("#").load("");
 <h1 class="namae">Ayumi Akutagawa</h1>
 <marquee class="cv" scrollamount="10">新型コロナウイルス対策委員長</marquee></a>
 <div id="aa" class="more" style="display:none;">
-<span id="question" class="yes"><a href="http://ichoose.pe.hu/50q/aaacck2xw/aa/" target="_blank">10の質問</a></span>
+<span id="question" class="yes"><a href="http://ichoose.pe.hu/collection/aa2021/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
@@ -209,7 +209,7 @@ $("#").load("");
 <h1 class="namae">Kazuma Sasajima</h1>
 <marquee class="cv" scrollamount="10">大 chotto crazy 運営委員長／ウェブマスター</marquee></a>
 <div id="ks" class="more" style="display:none;">
-<span id="question" class="yes"><a href="http://ichoose.pe.hu/50q/aaacck2xw/k2/" target="_blank">10の質問</a></span>
+<span id="question" class="yes"><a href="http://ichoose.pe.hu/collection/sk2/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
