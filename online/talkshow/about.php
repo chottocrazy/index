@@ -52,20 +52,6 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 <p>面白い話をしなきゃ、楽しませなきゃと相手を満足させることを意識し話すのではなく、正直に、素直に話せたことへの達成感を感じること、自分が満足できるよういろんな人と「暗闇でおしゃべりしたい」</p>
 </div>
 <div id="more" class="more_index">
-<p><u>暗闇でおしゃべりしたい〇〇のこと</u><br/><b id="sub">These questions were created by Kenny Pain</b><br/>
-<span id="date">2020.12.15</span></p>
-<div id="more_text">
-<h2>質問の答えは全て二択です。</h2>
-<p>どちらかの答えを選択し、Answer をクリックすると、次の質問へと進みます。</p>
-</div>
-<div id="links">
-<h2>Play
-<a href="/online/talkshow/" target="_parent">暗闇でおしゃべりしたい〇〇のこと</a>
-</h2>
-</div>
-</div>
-<hr/>
-<div id="more" class="more_index">
 <p><u>2021.1.23</u><br/></p>
 <div id="more_text">
 <h2>暗闇でおしゃべり会</h2>
