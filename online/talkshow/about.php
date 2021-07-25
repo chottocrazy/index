@@ -38,7 +38,7 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 <p id="jp_title" class="center">暗闇でおしゃべりしたい</p>
 <i class="namae_by">Kenny Pain</i>
 </div>
-<p style="text-align:center;"><img src="image.jpg" width="75%"></p>
+<p style="text-align:center; padding:2.5% 0;"><img src="image.jpg" width="75%"></p>
 <div id="about_text">
 <p>人と話したいけど、注目されたくない。<br/>
 人の視線を感じない環境なら、緊張することなく話せるのではないかと考え「暗闇でおしゃべりしたい」を思いついた。</p>
