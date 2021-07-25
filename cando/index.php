@@ -54,7 +54,7 @@ $("#form").load("submit.php");
   letter-spacing: 0rem;
 }
 .hold:before {
-  content:"are the";
+  content:"Can ☆ Do";
   color:#555;
   font-style:italic;
   position:absolute;
@@ -128,7 +128,7 @@ hr {border:none; margin:1rem 0;}
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>Can ☆ Do</b></a>
+<a><b>Entry</b></a>
 </div>
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
