@@ -52,6 +52,7 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 </div>
 <div id="more" class="more_index">
 <p><u>暗闇でおしゃべりしたい〇〇のこと</u><br/><b id="sub">These questions were created by Kenny Pain</b><br/>
+<p><img src="/image.jpg" width="100%"></p>
 <span id="date">2020.12.15</span></p>
 <div id="more_text">
 <h2>質問の答えは全て二択です。</h2>
@@ -70,6 +71,16 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 <h2>暗闇でおしゃべり会</h2>
 <p>大大大 chotto crazy 2020 MAX にて、暗闇でおしゃべり会を開催しました。</p>
 <p><iframe src="https://www.youtube.com/embed/LbUAkZKk4Ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+</div>
+<hr/>
+<div id="more" class="more_index">
+<p><u>2020.9.20</u><br/></p>
+<div id="more_text">
+<h2>光るご褒美を作ろう</h2>
+<p>暗闇で光るご褒美を制作しました。</p>
+<p><iframe src="https://www.youtube.com/embed/mCfVYqpQqCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/GfNny5vIuOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 </div>
 </div>
