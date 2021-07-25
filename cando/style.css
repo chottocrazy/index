@@ -351,7 +351,7 @@ button:hover {
   color:#fff;
   background-color:#000;
 }
-#marquee .close:hover {
+#marquee:hover {
   cursor:pointer;
   background-color:rgba(0,0,0,0.5);
 }
