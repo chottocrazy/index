@@ -353,7 +353,7 @@ button:hover {
 }
 #marquee:hover {
   cursor:pointer;
-  background-color:rgba(0,0,0,0.5);
+  background:#D24117;
 }
 #marquee::after {
   content: "";
