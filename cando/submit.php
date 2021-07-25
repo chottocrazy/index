@@ -77,20 +77,20 @@ input[type="email"] {
     <p>あなたの実現したいことは、</p>
   <ul>
 <li>
-<input type="radio" name="how" value="think" id="think">
-<label for="think" class="label">思考</label></li>
+<input type="radio" name="how" value="think" id="sub_think">
+<label for="sub_think" class="label">思考</label></li>
 <li>
-<input type="radio" name="how" value="organize" id="organize">
-<label for="organize" class="label">整理</label></li>
+<input type="radio" name="how" value="organize" id="sub_organize">
+<label for="sub_organize" class="label">整理</label></li>
 <li>
-<input type="radio" name="how" value="communication" id="communication">
-<label for="communication" class="label">交流</label></li>
+<input type="radio" name="how" value="communication" id="sub_communication">
+<label for="sub_communication" class="label">交流</label></li>
 <li>
-<input type="radio" name="how" value="create" id="create">
-<label for="create" class="label">制作</label></li>
+<input type="radio" name="how" value="create" id="sub_create">
+<label for="sub_create" class="label">制作</label></li>
 <li>
-<input type="radio" name="how" value="refresh" id="refresh">
-<label for="refresh" class="label">休憩</label></li>
+<input type="radio" name="how" value="refresh" id="sub_refresh">
+<label for="sub_refresh" class="label">休憩</label></li>
   </ul>
     <p>の どれに当てはまりますか？</p>
   </div>
