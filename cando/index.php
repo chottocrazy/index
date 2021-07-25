@@ -91,7 +91,8 @@ hr {border:none; margin:1rem 0;}
 #about .close {
   position:absolute;
   font-size:5vw;
-  padding:1% 2.5%;
+  width:100%;
+  height: 100vh;
   top:0; right:0;
 }
 #about .close:hover {
