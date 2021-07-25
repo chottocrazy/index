@@ -59,7 +59,7 @@ $("#").load("");
 <p><u><?=h($row[1])?></u></p>
 <span id="sub"><?=h($row[2])?></span>
 <div id="links">
-<h2><a class="<?=h($row[3])?>" href="<?=h($row[3])?>" target="_blank" rel="noopener noreferrer">Watch the Superposition</a>
+<h2><a class="<?=h($row[3])?>" href="<?=h($row[3])?>" target="_blank" rel="noopener noreferrer">Watch the Video</a>
 </h2>
 </div>
 </div>
