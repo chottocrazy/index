@@ -114,7 +114,7 @@ $("#").load("");
 <h1 class="namae"><?=h($row[2])?></h1>
 <marquee class="cv" scrollamount="10"><?=h($row[6])?></marquee></a>
 <div id="<?=h($row[0])?>" class="more" style="display:none;">
-<span id="question" class="<?=h($row[4])?>" onclick="obj=document.getElementById('<?=h($row[0])?>_q').style; obj.display=(obj.display=='none')?'block':'none';">10の質問</span>
+<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/50q/cc2020/<?=h($row[0])?>/" target="_blank">10の質問</a></span>
 <span id="value" class="<?=h($row[5])?>" onclick="obj=document.getElementById('<?=h($row[0])?>_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p><?=h($row[6])?></p>
@@ -126,10 +126,6 @@ $("#").load("");
 <a class="<?=h($row[12])?>" href="https://<?=h($row[12])?>.bandcamp.com/" target="_blank">Bandcamp</a>
 </p>
 </div>
-</div>
-<div class="popup" id="<?=h($row[0])?>_q" style="display:none;">
-<p class="yes"><iframe src="http://ichoose.pe.hu/50q/cc2020/<?=h($row[0])?>/"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('<?=h($row[0])?>_q').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div class="popup" id="<?=h($row[0])?>_v" style="display:none;">
 <p class=""><iframe src="http://vg.pe.hu/publication/value/online/<?=h($row[3])?>/<?=h($row[0])?>/"></iframe></p>
@@ -143,7 +139,7 @@ $("#").load("");
 <h1 class="namae">name</h1>
 <marquee class="cv" scrollamount="10">自己紹介</marquee></a>
 <div id="___" class="more" style="display:;">
-<span id="question" class="yes" onclick="obj=document.getElementById('id_q').style; obj.display=(obj.display=='none')?'block':'none';">10の質問</span>
+<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/50q/cc2020/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('id_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p>自己紹介</p>
@@ -156,10 +152,6 @@ $("#").load("");
 </p>
 </div>
 </div>
-<div class="popup" id="id_q" style="display:none;">
-<p class="yes"><iframe src="10q/0000/id/"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('id_q').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
-</div>
 <div class="popup" id="id_v" style="display:none;">
 <p class=""><iframe src="value/0000/id/"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('id_v').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
@@ -171,17 +163,13 @@ $("#").load("");
 <h1 class="namae">Kaori Nakao</h1>
 <marquee class="cv" scrollamount="10">大 chotto craziest</marquee></a>
 <div id="x" class="more" style="display:none;">
-<span id="question" class="yes" onclick="obj=document.getElementById('x_q').style; obj.display=(obj.display=='none')?'block':'none';">10の質問</span>
+<span id="question" class="yes"><a href="http://ichoose.pe.hu/50q/cc2020/pehu/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
 <a class="yes" href="http://vg.pe.hu/jp/cm/kaochomex/" target="_blank">Website</a>
 </p>
 </div>
-</div>
-<div class="popup" id="x_q" style="display:none;">
-<p class="yes"><iframe src="http://ichoose.pe.hu/50q/aaacck2xw/x/"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('x_q').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div class="popup" id="pehu_v" style="display:none;">
 <p class=""><iframe src="http://vg.pe.hu/publication/value/book/"></iframe></p>
@@ -193,7 +181,7 @@ $("#").load("");
 <h1 class="namae"> Shoji Funakawa </h1>
 <marquee class="cv" scrollamount="10">ダンボール洞窟探検家</marquee></a>
 <div id="w" class="more" style="display:none;">
-<span id="question" class="yes" onclick="obj=document.getElementById('w_q').style; obj.display=(obj.display=='none')?'block':'none';">10の質問</span>
+<span id="question" class="yes"><a href="http://ichoose.pe.hu/50q/cc2020/weather/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
@@ -201,17 +189,13 @@ $("#").load("");
 </p>
 </div>
 </div>
-<div class="popup" id="w_q" style="display:none;">
-<p class="yes"><iframe src="http://ichoose.pe.hu/50q/aaacck2xw/weather/"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('w_q').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
-</div>
 <div class="refine-teims c">
 <a onclick="obj=document.getElementById('aa').style; obj.display=(obj.display=='none')?'block':'none';">
 <p class="name">運営委員<br><u>芥川亜由弥</u></p>
 <h1 class="namae">Ayumi Akutagawa</h1>
 <marquee class="cv" scrollamount="10">新型コロナウイルス対策委員長</marquee></a>
 <div id="aa" class="more" style="display:none;">
-<span id="question" class="yes" onclick="obj=document.getElementById('aa_q').style; obj.display=(obj.display=='none')?'block':'none';">10の質問</span>
+<span id="question" class="yes"><a href="http://ichoose.pe.hu/50q/aaacck2xw/aa/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
@@ -219,27 +203,19 @@ $("#").load("");
 </p>
 </div>
 </div>
-<div class="popup" id="aa_q" style="display:none;">
-<p class="yes"><iframe src="http://ichoose.pe.hu/50q/aaacck2xw/aa/"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('aa_q').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
-</div>
 <div class="refine-teims d">
 <a onclick="obj=document.getElementById('ks').style; obj.display=(obj.display=='none')?'block':'none';">
 <p class="name">運営委員<br><u>ささじまかずま</u></p>
 <h1 class="namae">Kazuma Sasajima</h1>
 <marquee class="cv" scrollamount="10">大 chotto crazy 運営委員長／ウェブマスター</marquee></a>
 <div id="ks" class="more" style="display:none;">
-<span id="question" class="yes" onclick="obj=document.getElementById('ks_q').style; obj.display=(obj.display=='none')?'block':'none';">10の質問</span>
+<span id="question" class="yes"><a href="http://ichoose.pe.hu/50q/aaacck2xw/k2/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
 <a class="yes" href="http://vg.pe.hu/" target="_blank">Website</a>
 </p>
 </div>
-</div>
-<div class="popup" id="ks_q" style="display:none;">
-<p class="yes"><iframe src="http://ichoose.pe.hu/50q/aaacck2xw/k2/"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('ks_q').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <p id="marquee"><b>This is the List of Chotto Crazy Mates</b><span>我々、ちょっとクレイジーメイト は、真のちょっとクレイジーシップにのっとり、人と比べるのではなく自分に素直になるとともに、全てを尊重し、はじめてのことでも臆せずチャレンジすること、実現したいことを実現するまでのすべてを全力で楽しむことを誓います。</span></p>
 </div>
