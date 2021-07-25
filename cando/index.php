@@ -212,7 +212,7 @@ hr {border:none; margin:1rem 0;}
 <p style="position:relative; padding: 1rem;"><span class="center">Copyright © You. All Right Reserved</span></p>
 </div>
 </div>
-<div id="marquee" style="cursor:pointer;" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">
+<div id="marquee" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">
 <p>
 大 chotto crazy は、
 <span class="chotto">素晴らしいアイデア</span>
