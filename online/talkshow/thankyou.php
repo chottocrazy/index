@@ -31,15 +31,6 @@ $("#").load("");
 </style>
 </head>
 <body>
-<div class="popup" id="more" style="display:none;">
-<p><iframe src="about.php"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('more').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
-</div>
-<div id="hidden" onclick="obj=document.getElementById('more').style; obj.display=(obj.display=='none')?'block':'none';">
-<div id="click" class="tag">
-<h1>暗闇でおしゃべりしたい</h1><i>Kenny Pain</i>
-</div>
-</div>
 <div id="all">
 <div id="01"></div>
 <div id="02"></div>
