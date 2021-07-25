@@ -38,6 +38,7 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 <p id="jp_title" class="center">暗闇でおしゃべりしたい</p>
 <i class="namae_by">Kenny Pain</i>
 </div>
+<p><img src="image.jpg" width="100%"></p>
 <div id="about_text">
 <p>人と話したいけど、注目されたくない。<br/>
 人の視線を感じない環境なら、緊張することなく話せるのではないかと考え「暗闇でおしゃべりしたい」を思いついた。</p>
@@ -52,7 +53,6 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 </div>
 <div id="more" class="more_index">
 <p><u>暗闇でおしゃべりしたい〇〇のこと</u><br/><b id="sub">These questions were created by Kenny Pain</b><br/>
-<p><img src="image.jpg" width="100%"></p>
 <span id="date">2020.12.15</span></p>
 <div id="more_text">
 <h2>質問の答えは全て二択です。</h2>
