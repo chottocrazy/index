@@ -22,7 +22,7 @@ body {background:#000;
   text-stroke: 0.05rem #000;
 }
 #rule {
-  font-size:1.25vw;
+  font-size:1.5rem;
   width:75%;
   margin:2.5vw auto;
 }
