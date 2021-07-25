@@ -351,6 +351,10 @@ button:hover {
   color:#fff;
   background:#000;
 }
+#marquee .close:hover {
+  cursor:pointer;
+  background-color:rgba(0,0,0,0.5);
+}
 #marquee::after {
   content: "";
   white-space: nowrap;
