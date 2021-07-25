@@ -105,7 +105,7 @@ hr {border:none; margin:1rem 0;}
   transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
   width:90%;
-  height:95%;
+  height:90%;
   padding:0 1.25%;
   margin: auto;
   overflow: auto;
