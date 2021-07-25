@@ -91,13 +91,16 @@ hr {border:none; margin:1rem 0;}
 #about .close {
   position:absolute;
   font-size:5vw;
-  width:100%;
+  width:95%;
   height: 100vh;
+  padding: 2.5%;
+  text-align:right;
   top:0; right:0;
 }
 #about .close:hover {
   cursor:pointer;
   color:#D24117;
+  background-color:rgba(255,255,255,0.5);
 }
 #about #form {
   position:absolute;
