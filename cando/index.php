@@ -216,7 +216,7 @@ hr {border:none; margin:1rem 0;}
 
 </ul>
 <hr/>
-<p style="position:relative; padding: 1rem;"><span class="center">Copyright © You. All Right Reserved</span></p>
+<p style="position:relative;"><span class="center">Copyright © You. All Right Reserved</span></p>
 </div>
 </div>
 <div id="marquee" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">
