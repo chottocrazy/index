@@ -114,7 +114,7 @@ $("#").load("");
 <h1 class="namae"><?=h($row[2])?></h1>
 <marquee class="cv" scrollamount="10"><?=h($row[6])?></marquee></a>
 <div id="<?=h($row[0])?>" class="more" style="display:none;">
-<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/50q/cc2020/<?=h($row[0])?>/" target="_blank">10の質問</a></span>
+<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/50q/cc<?=h($row[3])?>/<?=h($row[0])?>/" target="_blank">10の質問</a></span>
 <span id="value" class="<?=h($row[5])?>" onclick="obj=document.getElementById('<?=h($row[0])?>_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p><?=h($row[6])?></p>
@@ -135,11 +135,11 @@ $("#").load("");
 <?php else: ?>
 <div class="refine-teims ###">
 <a onclick="obj=document.getElementById('___').style; obj.display=(obj.display=='none')?'block':'none';">
-<p class="name">2020<br><u>名前</u></p>
+<p class="name">0000<br><u>名前</u></p>
 <h1 class="namae">name</h1>
 <marquee class="cv" scrollamount="10">自己紹介</marquee></a>
 <div id="___" class="more" style="display:;">
-<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/50q/cc2020/" target="_blank">10の質問</a></span>
+<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/50q/cc<?=h($row[3])?>/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('id_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p>自己紹介</p>
