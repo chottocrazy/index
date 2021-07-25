@@ -33,7 +33,7 @@ fclose($fp);
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>大 chotto crazy | 実現したいことを実現する</title>
+<title>大 chotto crazy | あなたの実現したいことは何ですか？</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/js/programs.js"></script>
 <link rel="stylesheet" href="style.css" />

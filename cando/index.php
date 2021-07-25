@@ -33,7 +33,7 @@ fclose($fp);
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>大 chotto crazy | 実現したいことを実現する</title>
+<title>大 chotto crazy | あなたの実現したいことは何ですか？</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="http://creative-community.pe.hu/coding/submit/org/org.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -118,6 +118,11 @@ hr {border:none; margin:1rem 0;}
   background:#fff;
   border:2px solid #000;
   border-radius:0.5rem;
+}
+#introduce {
+  position:relative;
+  top:0; left:0;
+  margin:0;
 }
 </style>
 </head>
@@ -210,6 +215,17 @@ hr {border:none; margin:1rem 0;}
 </ul>
 <hr/>
 <p style="position:relative; padding: 1rem;"><span class="center">Copyright © You. All Right Reserved</span></p>
+<div id="introduce">
+<div id="about_text" style="text-align:center;">
+<div id="title">
+<p id="jp_title" class="center">寄付</p>
+<i class="namae_by">Donation</i>
+</div>
+<a id="link" href="https://www.paypal.com/paypalme/chottocrazy" target="_parent">
+<p>PayPal.Me より、大 chotto crazy 運営資金のサポートを受け付けています。</p>
+<p>※ <u>PayPalアカウント(無料)</u> 必須。</p></a>
+</div>
+</div>
 </div>
 </div>
 <div id="marquee" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">
@@ -222,7 +238,6 @@ hr {border:none; margin:1rem 0;}
 <span class="red">募集</span>
 しています。
 </p>
-<a id="link"></a>
 </div>
 </body>
 </html>
