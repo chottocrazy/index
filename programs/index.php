@@ -35,7 +35,7 @@ fclose($fp);
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>公式プログラム一覧 | 大 chotto crazy</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/js/programs.js"></script>
+<script src="/programs/programs.js"></script>
 <link rel="stylesheet" href="/css/about.css" />
 <style type="text/css">
 .hold:before,
