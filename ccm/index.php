@@ -139,8 +139,8 @@ $("#").load("");
 <h1 class="namae">name</h1>
 <marquee class="cv" scrollamount="10">自己紹介</marquee></a>
 <div id="___" class="more" style="display:;">
-<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/50q/cc<?=h($row[3])?>/" target="_blank">10の質問</a></span>
-<span id="value" class="yes" onclick="obj=document.getElementById('id_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
+<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/10q/" target="_blank">10の質問</a></span>
+<span id="value" class="yes">大切なもの</span>
 <hr/>
 <p>自己紹介</p>
 <p id="link">
@@ -151,10 +151,6 @@ $("#").load("");
 <a class="<?=h($row[12])?>" href="https://<?=h($row[12])?>.bandcamp.com/" target="_blank">Bandcamp</a>
 </p>
 </div>
-</div>
-<div class="popup" id="id_v" style="display:none;">
-<p class=""><iframe src="value/0000/id/"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('id_v').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <?php endif; ?>
 <div class="refine-teims e">
