@@ -22,9 +22,10 @@ body {background:#000;
   text-stroke: 0.05rem #000;
 }
 #rule {
-  font-size:1.5rem;
+  font-size:1rem;
   width:75%;
-  margin:2rem auto;
+  padding:2.5%;
+  margin:auto;
 }
 #more_text iframe {width:100%; height:55vw;}
 </style>
