@@ -168,6 +168,7 @@ input[type="radio"]:checked + label {
   background:#fff;
   border:2px solid #000;
   border-radius:0.5rem;
+  transition: all 500ms ease;
 }
 .org h1 {
   font-weight: 555;
