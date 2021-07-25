@@ -22,9 +22,9 @@ body {background:#000;
   text-stroke: 0.05rem #000;
 }
 #rule {
-  font-size:1rem;
+  font-size:1.25rem;
   width:75%;
-  padding:2.5%;
+  padding:2.5% 0 5%;
   margin:auto;
 }
 #more_text iframe {width:100%; height:55vw;}
