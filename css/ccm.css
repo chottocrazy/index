@@ -218,8 +218,12 @@ hr, .refine-teims {border:none; border-bottom: 1px dotted #000;}
 .refine-teims .more span {
   font-size:125%;
 }
-.refine-teims .more #question{
+.refine-teims .more #question {
   float:right;
+}
+.refine-teims .more #question a {
+  color:#000;
+  text-decoration:none;
 }
 .refine-teims #link a {
   color:#000;
