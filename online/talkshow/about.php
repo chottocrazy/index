@@ -24,7 +24,7 @@ body {background:#000;
 #rule {
   font-size:1.5rem;
   width:75%;
-  margin:2.5vw auto;
+  margin:2rem auto;
 }
 #more_text iframe {width:100%; height:55vw;}
 </style>
