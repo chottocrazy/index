@@ -51,7 +51,7 @@ $("#").load("");
   letter-spacing: 0rem;
 }
 .hold:before {
-  content:"hold";
+  content:"are the";
   color:#555;
   font-style:italic;
   position:absolute;
