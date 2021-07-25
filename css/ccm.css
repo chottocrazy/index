@@ -225,6 +225,9 @@ hr, .refine-teims {border:none; border-bottom: 1px dotted #000;}
   color:#000;
   text-decoration:none;
 }
+.refine-teims .more #question a:hover {
+  color:#25AF5A;
+}
 .refine-teims #link a {
   color:#000;
   margin:0 0.25rem;
