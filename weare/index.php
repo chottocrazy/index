@@ -87,7 +87,7 @@ body {background:#eee;}
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>2017 - 2019</b></a>
+<a><b>2017 -</b></a>
 </div>
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
@@ -111,6 +111,9 @@ body {background:#eee;}
 <li>
 <input type="radio" name="year" value="three" id="three">
 <label for="three" class="label">2019</label></li>
+<li>
+<input type="radio" name="year" value="four" id="four">
+<label for="four" class="label">2020</label></li>
 </ul>
 </div>
 
@@ -159,6 +162,6 @@ body {background:#eee;}
 </ul>
 </div>
 </div>
-<p id="marquee"><span>大 chotto crazy を開始する以前に、ペフが実現したちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
+<p id="marquee"><span>これまでにペフが実現したちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
 </body>
 </html>
