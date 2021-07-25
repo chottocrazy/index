@@ -54,7 +54,7 @@ $("#form").load("submit.php");
   letter-spacing: 0rem;
 }
 .hold:before {
-  content:"are";
+  content:"are the";
   color:#555;
   font-style:italic;
   position:absolute;
