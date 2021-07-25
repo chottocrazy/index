@@ -31,7 +31,7 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 <body>
 <div id="header">
 <a href="/" target="_parent"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>How</b></a>
+<a><b>2020</b></a>
 </div>
 <div id="introduce">
 <div id="title">
