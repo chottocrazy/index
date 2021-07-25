@@ -215,17 +215,6 @@ hr {border:none; margin:1rem 0;}
 </ul>
 <hr/>
 <p style="position:relative; padding: 1rem;"><span class="center">Copyright © You. All Right Reserved</span></p>
-<div id="introduce">
-<div id="about_text" style="text-align:center;">
-<div id="title">
-<p id="jp_title" class="center">寄付</p>
-<i class="namae_by">Donation</i>
-</div>
-<a id="link" href="https://www.paypal.com/paypalme/chottocrazy" target="_parent">
-<p>PayPal.Me より、大 chotto crazy 運営資金のサポートを受け付けています。</p>
-<p>※ <u>PayPalアカウント(無料)</u> 必須。</p></a>
-</div>
-</div>
 </div>
 </div>
 <div id="marquee" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">
