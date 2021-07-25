@@ -21,6 +21,10 @@ body {background:#000;
   -webkit-text-stroke: 0.05rem #000;
   text-stroke: 0.05rem #000;
 }
+#rule {
+  width:75%;
+  margin:auto;
+}
 #more_text iframe {width:100%; height:55vw;}
 </style>
 <script type="text/javascript">
