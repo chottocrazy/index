@@ -28,17 +28,7 @@
 <body>
 <p id="center"><img src="http://chottocrazy.pe.hu/online/talkshow/image.png"></p>
 <div id="infomation">
-<h3>暗闇でおしゃべりしたい〇〇のこと</h3>
 <p id="next"><a href="../01/">Start</a></p>
-<div id="rule">
-<h3><u>These questions were created by</u></h3>
-これは、 <b>Kenny Pain</b>
-<p>が考えた 暗闇でおしゃべりしたいことです。</p>
-<p><u>These are two-choice questions.</u><br>
-質問の答えは全て二択です。</p>
-<h3>Please choose either answer and click ”Answer”,<br>and the next question will appear.</h3>
-どちらかの答えを選択し、Answer をクリックすると、次の質問へと進みます。
-</div>
 </div>
 </body>
 </html>

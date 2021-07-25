@@ -7,6 +7,7 @@
 <script src="ramdom.js"></script>
 <title>暗闇でおしゃべりしたい | 大 chotto crazy 2020</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
+<link rel="stylesheet" type="text/css" href="answer.css" />
 <style type="text/css">
 body {background:#000;
 	text-shadow: 0 0 1.5vw #fff, 0 0 2vw #fff;}
@@ -38,7 +39,15 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 <p id="jp_title" class="center">暗闇でおしゃべりしたい</p>
 <i class="namae_by">Kenny Pain</i>
 </div>
-<p style="text-align:center; padding:2.5% 0;"><img src="image.png" width="55%"></p>
+<div id="rule">
+<h3><u>These questions were created by</u></h3>
+これは、 <b>Kenny Pain</b>
+<p>が考えた 暗闇でおしゃべりしたいことです。</p>
+<p><u>These are two-choice questions.</u><br>
+質問の答えは全て二択です。</p>
+<h3>Please choose either answer and click ”Answer”,<br>and the next question will appear.</h3>
+どちらかの答えを選択し、Answer をクリックすると、次の質問へと進みます。
+</div>
 <div id="about_text">
 <p>人と話したいけど、注目されたくない。<br/>
 人の視線を感じない環境なら、緊張することなく話せるのではないかと考え「暗闇でおしゃべりしたい」を思いついた。</p>
