@@ -226,6 +226,7 @@ hr {border:none; margin:1rem 0;}
 や
 <span class="chotto">創造的チャレンジ</span>
 を
+いつでも
 <span class="red">募集</span>
 しています。
 </p>
