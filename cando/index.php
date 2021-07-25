@@ -210,7 +210,7 @@ hr {border:none; margin:1rem 0;}
 </div>
 </li>
 <?php endif; ?>
-<li class="list_item list_toggle" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">
+<li class="" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">
 <p class="what">あなたの実現したいことは何ですか？</p>
 </li>
 
