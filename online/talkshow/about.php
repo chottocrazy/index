@@ -20,6 +20,7 @@ body {background:#000;
   -webkit-text-stroke: 0.05rem #000;
   text-stroke: 0.05rem #000;
 }
+.more_text iframe {width:100%; height:55vw;}
 </style>
 <script type="text/javascript">
 $(function(){
@@ -68,6 +69,7 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 <div id="more_text">
 <h2>暗闇でおしゃべり会</h2>
 <p>大大大 chotto crazy 2020 MAX にて、暗闇でおしゃべり会を開催しました。</p>
+<p><iframe src="https://www.youtube.com/embed/LbUAkZKk4Ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 </div>
 </div>
