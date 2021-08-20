@@ -136,7 +136,7 @@ hr {border:none; margin:1rem 0;}
 </li>
 <li>
 <input type="radio" name="how" value="create" id="create">
-<label for="create" class="label">物を作る</label></li>
+<label for="create" class="label">作る</label></li>
 <li>
 <input type="radio" name="how" value="image" id="image">
 <label for="image" class="label">見る 撮る</label></li>
