@@ -28,7 +28,6 @@ flock($fp, LOCK_UN);
 fclose($fp);
 
 ?>
-
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -36,7 +35,7 @@ fclose($fp);
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>大 chotto crazy | あなたの実現したいことは何ですか？</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/js/programs.js"></script>
+<script src="http://creative-community.pe.hu/coding/submit/org/org.js"></script>
 <link rel="stylesheet" href="style.css" />
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -45,7 +44,6 @@ $(function(){
 $("#form").load("submit.php");
 })
 </script>
-<link rel="stylesheet" href="style.css" />
 <style type="text/css">
 #header b,
 .hold:before,
