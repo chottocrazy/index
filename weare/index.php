@@ -39,11 +39,10 @@ fclose($fp);
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
-$("#").load("");
+$("#form").load("submit.php");
 })
 </script>
 <link rel="stylesheet" href="style.css" />
-<link rel="stylesheet" type="text/css" href="/css/popup.css" />
 <style type="text/css">
 #header b,
 .hold:before,
@@ -135,6 +134,7 @@ hr {border:none; margin:1rem 0;}
 <input type="reset" name="reset" value="全部見る" class="reset-button">
 </div>
 </li>
+
 <li>
 <input type="radio" name="how" value="create" id="create">
 <label for="create" class="label">作る</label></li>
@@ -165,10 +165,12 @@ hr {border:none; margin:1rem 0;}
 <li>
 <input type="radio" name="how" value="challenge" id="challenge">
 <label for="challenge" class="label">挑戦 実験</label></li>
+
 </ul>
 </div>
 </div>
 </form>
+
 
 <div class="list">
 <ul>
@@ -205,17 +207,13 @@ hr {border:none; margin:1rem 0;}
 </div>
 </li>
 <?php endif; ?>
-<li style="background:#fff;" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';">
+<li style="background:#fff;" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">
 <p class="what">あなたの実現したいことは何ですか？</p>
 </li>
 </ul>
 <hr/>
 <p style="position:relative;"><span class="center">Copyright © You. All Right Reserved</span></p>
 </div>
-</div>
-<div class="popup" id="popup" style="display:none;">
-<p><iframe src="submit.php"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div id="marquee">
 <p>
@@ -228,7 +226,8 @@ hr {border:none; margin:1rem 0;}
 <span class="red">募集</span>
 しています。
 </p>
-<a id="link" href="#about" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';"></a>
+<a id="link" href="#about" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 </body>
 </html>
+ 
