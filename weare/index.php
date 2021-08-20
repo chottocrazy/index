@@ -28,6 +28,7 @@ flock($fp, LOCK_UN);
 fclose($fp);
 
 ?>
+
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -35,7 +36,9 @@ fclose($fp);
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>大 chotto crazy | あなたの実現したいことは何ですか？</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="http://creative-community.pe.hu/coding/submit/org/org.js"></script>
+<script src="/js/programs.js"></script>
+<link rel="stylesheet" href="style.css" />
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
@@ -114,6 +117,7 @@ hr {border:none; margin:1rem 0;}
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
 <a><b>Entry</b></a>
 </div>
+ 
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
 <p id="message" class="center"><span class="by">あなたの実現したいことは何ですか？</span></p>
