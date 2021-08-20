@@ -80,32 +80,35 @@ input[type="email"] {
 <input type="radio" name="how" value="create" id="create">
 <label for="create" class="label">作る</label></li>
 <li>
+<input type="radio" name="how" value="music" id="music">
+<label for="music" class="label">音を出す 聞く</label></li>
+<li>
 <input type="radio" name="how" value="image" id="image">
-<label for="image" class="label">見る 撮る</label></li>
+<label for="image" class="label">撮影する 見る</label></li>
 <li>
 <input type="radio" name="how" value="communication" id="communication">
-<label for="communication" class="label">書く 話す</label></li>
-<li>
-<input type="radio" name="how" value="music" id="music">
-<label for="music" class="label">歌う 演奏する</label></li>
-<li>
-<input type="radio" name="how" value="sports" id="sports">
-<label for="sports" class="label">運動する</label></li>
+<label for="communication" class="label">書く 読む 話す</label></li>
 <li>
 <input type="radio" name="how" value="research" id="research">
 <label for="research" class="label">知る 調べる</label></li>
 <li>
-<input type="radio" name="how" value="relax" id="relax">
-<label for="relax" class="label">優雅 休憩</label></li>
-<li>
 <input type="radio" name="how" value="food" id="food">
 <label for="food" class="label">料理 食べる 飲む</label></li>
+<li>
+<input type="radio" name="how" value="sports" id="sports">
+<label for="sports" class="label">運動する</label></li>
+<li>
+<input type="radio" name="how" value="relax" id="relax">
+<label for="relax" class="label">優雅 休憩</label></li>
 <li>
 <input type="radio" name="how" value="fantasy" id="fantasy">
 <label for="fantasy" class="label">夢 空想</label></li>
 <li>
 <input type="radio" name="how" value="challenge" id="challenge">
 <label for="challenge" class="label">挑戦 実験</label></li>
+<li>
+<input type="radio" name="how" value="etc" id="etc">
+<label for="etc" class="label">その他</label></li>
   </ul>
     <p>の どれに当てはまりますか？</p>
   </div>
