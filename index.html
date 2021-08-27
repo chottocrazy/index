@@ -81,7 +81,7 @@ b, h1, h3 {
 <p class="chotto">素晴らしいアイデア や</p>
 <p class="chotto">創造的チャレンジ を</p>
 <p><span class="big">実現</span> すること</p>
-<a id="link" href="/weare/" target="_parent"></a>
+<a id="link" onclick="obj=document.getElementById('weare').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 <span class="bg_fff">We Are The Chotto Crazy.</span>
 </div>
@@ -139,6 +139,10 @@ b, h1, h3 {
 <hr/>
 <div id="credit"></div>
 
+<div class="popup" id="weare" style="display:none;">
+<p><iframe src="/weare/"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('weare').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
 <div class="popup" id="ccm" style="display:none;">
 <p><iframe src="/ccm/"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('ccm').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
