@@ -34,7 +34,6 @@ fclose($fp);
 <style type="text/css">
 body {background:#fff;}
 .nlc i,
-.nlc b,
 .nlc .online u,
 .nlc #links a {
   background: linear-gradient(
@@ -43,7 +42,6 @@ body {background:#fff;}
   background-size: 400% 400%;
   animation: gradientBG 10s ease infinite;
 }
-.nlc b,
 .nlc .online u,
 .nlc #links a {
   color: #fff;
