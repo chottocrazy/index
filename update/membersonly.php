@@ -45,6 +45,7 @@ body {background:#fff;}
 .nlc .online u,
 .nlc #links a {
   color: #fff;
+  -webkit-text-fill-color: #fff;
 }
 .nlc {
   -webkit-background-clip: text;
