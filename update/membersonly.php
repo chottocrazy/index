@@ -42,6 +42,10 @@ body {background:#fff;}
   background-size: 400% 400%;
   animation: gradientBG 10s ease infinite;
 }
+.nlc .online u,
+.nlc #links a {
+  color: #fff;
+}
 .nlc {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
