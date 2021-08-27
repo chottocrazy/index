@@ -33,6 +33,7 @@ fclose($fp);
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
 body {background:#fff;}
+.nlc,
 .online u,
 #links a {
   background: linear-gradient(
@@ -40,6 +41,10 @@ body {background:#fff;}
 , #b3cbf6, #FFC778, #eee);
   background-size: 400% 400%;
   animation: gradientBG 10s ease infinite;
+}
+.nlc {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @keyframes gradientBG {
 0% {background-position: 0% 50%;}
@@ -57,7 +62,7 @@ $("#").load("");
 
 <div id="topics">
 <h2 id="top">
-<i id="sub" class="">Members Only</i>
+<i id="sub" class="nlc">Members Only</i>
 <b id="date">ニューライフコレクション会員限定</b>
 </h2>
 
