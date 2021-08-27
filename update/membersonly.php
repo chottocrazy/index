@@ -34,8 +34,8 @@ fclose($fp);
 <style type="text/css">
 body {background:#fff;}
 .nlc,
-.online u,
-#links a {
+.nlc .online u,
+.nlc #links a {
   background: linear-gradient(
 -90deg
 , #b3cbf6, #FFC778, #eee);
@@ -66,7 +66,7 @@ $("#").load("");
 <b id="date">ニューライフコレクション会員限定</b>
 </h2>
 
-<div>
+<div class="nlc">
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
 <div id="topics" class="online">
