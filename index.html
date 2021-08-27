@@ -129,7 +129,7 @@ b, h1, h3 {
 </div>
 <span class="bg_fff">Chotto Crazy Mates</span>
 </div>
-<a id="link" href="/ccm/" target="_parent"></a>
+<a id="link" onclick="obj=document.getElementById('ccm').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 </div>
 
@@ -139,6 +139,10 @@ b, h1, h3 {
 <hr/>
 <div id="credit"></div>
 
+<div class="popup" id="ccm" style="display:none;">
+<p><iframe src="/ccm/"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('ccm').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
 <div class="popup" id="programs" style="display:none;">
 <p><iframe src="/programs/"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('programs').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
