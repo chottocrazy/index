@@ -34,7 +34,18 @@ fclose($fp);
 <style type="text/css">
 body {background:#fff;}
 .online u,
-#links a {background:#000}
+#links a {
+  background: linear-gradient(
+-90deg
+, #b3cbf6, #FFC778, #eee);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+}
+@keyframes gradientBG {
+0% {background-position: 0% 50%;}
+50% {background-position: 100% 50%;}
+100% {background-position: 0% 50%;}
+}
 </style>
 <script type="text/javascript">
 $(function(){
