@@ -1,18 +1,17 @@
 <?php
-
 function h($str) {
     return htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
 }
-
-$date = (string)filter_input(INPUT_POST, 'date'); // $_POST['date']
-$title = (string)filter_input(INPUT_POST, 'title'); // $_POST['title']
-$text = (string)filter_input(INPUT_POST, 'text'); // $_POST['text']
-$link = (string)filter_input(INPUT_POST, 'link'); // $_POST['link']
+$how = (string)filter_input(INPUT_POST, 'how');
+$what = (string)filter_input(INPUT_POST, 'what');
+$date = (string)filter_input(INPUT_POST, 'date');
+$info = (string)filter_input(INPUT_POST, 'info');
+$more = (string)filter_input(INPUT_POST, 'more');
 
 $fp = fopen('cando.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
-    fputcsv($fp, [$date, $title, $text, $link]);
+    fputcsv($fp, [$how, $what, $date, $info, $more]);
     rewind($fp);
 }
 flock($fp, LOCK_SH);
@@ -51,14 +50,15 @@ $("#").load("");
 </h2>
 
 <div>
+<ul>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
-<div id="topics" class="online">
-<span id="date"><?=h($row[0])?></span>
+<li id="topics" class="list_item list_toggle online" data-how="<?=h($row[0])?>">
+<span id="date"><?=h($row[2])?></span>
 <p><u><?=h($row[1])?></u></p>
-<span id="sub"><?=h($row[2])?></span>
+<span id="sub"><?=h($row[3])?></span>
 <div id="links">
-<h2><a class="<?=h($row[3])?>" href="<?=h($row[3])?>" target="_blank" rel="noopener noreferrer">More Info</a>
+<h2><a class="<?=h($row[4])?>" href="<?=h($row[4])?>" target="_blank" rel="noopener noreferrer">More Info</a>
 </h2>
 </div>
 </div>
