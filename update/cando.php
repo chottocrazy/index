@@ -9,7 +9,7 @@ $title = (string)filter_input(INPUT_POST, 'title'); // $_POST['title']
 $text = (string)filter_input(INPUT_POST, 'text'); // $_POST['text']
 $link = (string)filter_input(INPUT_POST, 'link'); // $_POST['link']
 
-$fp = fopen('goout.csv', 'a+b');
+$fp = fopen('cando.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$date, $title, $text, $link]);
