@@ -32,28 +32,11 @@ fclose($fp);
 <title>Go Out | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
-.nlc i,
-.nlc .online u,
-.nlc #links a {
-  background: linear-gradient(
--90deg
-, #b3cbf6, #FFC778, #eee);
-  background-size: 400% 400%;
-  animation: gradientBG 10s ease infinite;
-}
-.nlc .online u,
-.nlc #links a {
-  color: #fff;
-  -webkit-text-fill-color: #fff;
-}
-.nlc i {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-@keyframes gradientBG {
-0% {background-position: 0% 50%;}
-50% {background-position: 100% 50%;}
-100% {background-position: 0% 50%;}
+body {background:lemonchiffon;}
+.online u,
+#links a {
+    color:lemonchiffon;
+    background:lightskyblue;
 }
 hr {clear:both; border:none;}
 </style>
@@ -66,11 +49,11 @@ $("#").load("");
 <body>
 
 <div id="topics">
-<h2 id="top" class="nlc">
-<i id="sub">Members Only</i>
-<b id="date">ニューライフコレクション会員限定</b>
+<h2 id="top">
+<i id="sub" class="">Let's Go Out</i>
+<b id="date">お知らせ</b>
 </h2>
-<div class="nlc">
+<div>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
 <div id="topics" class="online">
