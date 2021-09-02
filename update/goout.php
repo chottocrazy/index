@@ -75,6 +75,7 @@ $("#").load("");
 <span id="sub">ペフが運営する会員制コミュニティサイト「ニューライフコレクション」にて、限定コンテンツを公開<br/>
     また、大阪市内のさまざまな場所で、会員限定イベントを開催します。</span>
 </div>
+<hr/>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
 <div id="topics" class="online">
