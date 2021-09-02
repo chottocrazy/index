@@ -68,7 +68,7 @@ $("#").load("");
 <div id="topics">
 <h2 id="top" class="nlc">
 <i id="sub">Members Only</i>
-<b id="date">ニューライフコレクション会員限定</b>
+<b id="date">会員限定イベント</b>
 </h2>
 <div class="nlc">
 <?php if (!empty($rows)): ?>
