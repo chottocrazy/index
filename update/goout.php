@@ -71,6 +71,10 @@ $("#").load("");
 <b id="date">会員限定</b>
 </h2>
 <div class="nlc">
+<div id="topics" class="online">
+<span id="sub">ペフが運営する会員制コミュニティサイト「ニューライフコレクション」にて、限定コンテンツを公開<br/>
+    また、大阪市内のさまざまな場所で、会員限定イベントを開催します。</span>
+</div>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
 <div id="topics" class="online">
