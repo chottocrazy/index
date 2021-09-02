@@ -77,7 +77,6 @@ $("#").load("");
     また、大阪市内のさまざまな場所で、会員限定イベントを開催します。</p>
 </div>
 </div>
-<hr/>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
 <div id="topics" class="online">
