@@ -73,7 +73,7 @@ $("#").load("");
 <div class="nlc">
 <div id="topics" class="online">
 <div id="about_text">
-<p id="sub">会員制コミュニティサイト「ニューライフコレクション」のみが参加できる限定イベント</p>
+<p id="sub">会員制コミュニティサイト「ニューライフコレクション」の会員のみが参加できる限定イベント</p>
 </div>
 </div>
 <?php if (!empty($rows)): ?>
