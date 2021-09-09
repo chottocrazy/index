@@ -46,8 +46,8 @@ $("#").load("");
 
 <div id="topics">
 <h2 id="top">
-<i id="sub" class="">Topics</i>
-<b id="date">更新履歴</b>
+<i id="sub" class="">Index</i>
+<b id="date">関連作品</b>
 </h2>
 
 <div>
