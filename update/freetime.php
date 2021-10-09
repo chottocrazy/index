@@ -48,7 +48,7 @@ $("#").load("");
 <div id="topics">
 <h2 id="top">
 <i id="sub" class="">Members Only</i>
-<b id="date">開催日時</b>
+<b id="date">活動履歴</b>
 </h2>
 <div class="">
 <?php if (!empty($rows)): ?>
