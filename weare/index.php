@@ -34,7 +34,7 @@ fclose($fp);
 <script src="https://creative-community.space/org/js/ityped.js"></script>
 <link rel="stylesheet" href="https://creative-community.space/org/css/ityped.css"/>
 <link rel="stylesheet" href="https://creative-community.space/org/css/org.css"/>
-<link rel="stylesheet" href="https://creative-community.space/coding/fontbook/css/font-family.css"/>
+<link rel="stylesheet" href="http://chottocrazy.pe.hu/font/fontmotion.css"/>
 <style>
 
 #org ul {
