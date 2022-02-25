@@ -135,7 +135,7 @@ $("#").load("");
 <h1 class="namae">name</h1>
 <marquee class="cv" scrollamount="10">自己紹介</marquee></a>
 <div id="___" class="more" style="display:;">
-<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/10q/" target="_blank">10の質問</a></span>
+<span id="question" class="<?=h($row[4])?>"><a href="/ccm/" target="_blank">10の質問</a></span>
 <span id="value" class="yes">大切なもの</span>
 <hr/>
 <p>自己紹介</p>
@@ -155,16 +155,16 @@ $("#").load("");
 <h1 class="namae">Kaori Nakao</h1>
 <marquee class="cv" scrollamount="10">大 chotto craziest</marquee></a>
 <div id="x" class="more" style="display:none;">
-<span id="question" class="yes"><a href="http://ichoose.pe.hu/50q/cc2020/pehu/" target="_blank">10の質問</a></span>
+<span id="question" class="yes"><a href="https://creative-community.space/10q/collection/pehu/kn/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
-<a class="yes" href="http://vg.pe.hu/jp/cm/kaochomex/" target="_blank">Website</a>
+<a class="yes" href="https://creative-community.space/pehu/" target="_blank">Website</a>
 </p>
 </div>
 </div>
 <div class="popup" id="pehu_v" style="display:none;">
-<p class=""><iframe src="http://vg.pe.hu/publication/value/book/"></iframe></p>
+<p class=""><iframe src="https://creative-community.space/value/book/"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div class="refine-teims a">
@@ -173,11 +173,12 @@ $("#").load("");
 <h1 class="namae"> Shoji Funakawa </h1>
 <marquee class="cv" scrollamount="10">ダンボール洞窟探検家</marquee></a>
 <div id="w" class="more" style="display:none;">
-<span id="question" class="yes"><a href="http://ichoose.pe.hu/50q/cc2020/weather/" target="_blank">10の質問</a></span>
+<span id="question" class="yes"><a href="http://ichoose.pe.hu/aaacck2xw/weather/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
-<a class="yes" href="http://vg.pe.hu/jp/cm/weather/" target="_blank">Website</a>
+<a class="yes" href="https://twitter.com/a_sho_z" target="_blank">Twitter</a>
+<a class="yes" href="https://www.instagram.com/a_weather_z/" target="_blank">Instagram</a>
 </p>
 </div>
 </div>
@@ -187,11 +188,12 @@ $("#").load("");
 <h1 class="namae">Ayumi Akutagawa</h1>
 <marquee class="cv" scrollamount="10">新型コロナウイルス対策委員長</marquee></a>
 <div id="aa" class="more" style="display:none;">
-<span id="question" class="yes"><a href="http://ichoose.pe.hu/collection/aa2021/" target="_blank">10の質問</a></span>
+<span id="question" class="yes"><a href="hhttps://creative-community.space/10q/collection/pehu/aa/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
-<a class="yes" href="http://vg.pe.hu/jp/cm/aa/" target="_blank">Website</a>
+<a class="yes" href="https://www.instagram.com/abi_the_best_items/" target="_blank">Inbstagram</a>
+<a class="yes" href="https://newlifecollection.com/?ca=32" target="_blank">Webshop</a>
 </p>
 </div>
 </div>
@@ -201,7 +203,7 @@ $("#").load("");
 <h1 class="namae">Kazuma Sasajima</h1>
 <marquee class="cv" scrollamount="10">大 chotto crazy 運営委員長／ウェブマスター</marquee></a>
 <div id="ks" class="more" style="display:none;">
-<span id="question" class="yes"><a href="http://ichoose.pe.hu/collection/sk2/" target="_blank">10の質問</a></span>
+<span id="question" class="yes"><a href="https://creative-community.space/10q/collection/pehu/sk2/" target="_blank">10の質問</a></span>
 <span id="value" class="yes" onclick="obj=document.getElementById('pehu_v').style; obj.display=(obj.display=='none')?'block':'none';">大切なもの</span>
 <hr/>
 <p id="link">
