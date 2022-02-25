@@ -37,7 +37,8 @@ fclose($fp);
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="http://creative-community.space/coding/submit/org/org.js"></script>
 <script src="/js/programs.js"></script>
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="/css/popup.css" />
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
