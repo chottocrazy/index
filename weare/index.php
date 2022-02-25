@@ -128,7 +128,6 @@ hr {border:none; margin:1rem 0;}
 <input type="reset" name="reset" value="全部見る" class="reset-button">
 </div>
 </li>
-
 <li>
 <input type="radio" name="how" value="create" id="create">
 <label for="create" class="label">作る</label></li>
@@ -162,7 +161,6 @@ hr {border:none; margin:1rem 0;}
 <li>
 <input type="radio" name="how" value="etc" id="etc">
 <label for="etc" class="label">その他</label></li>
-
 </ul>
 </div>
 </div>
@@ -203,9 +201,6 @@ hr {border:none; margin:1rem 0;}
 </div>
 </li>
 <?php endif; ?>
-<li style="background:#fff;" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';">
-<p class="what">あなたの実現したいことは何ですか？</p>
-</li>
 </ul>
 <hr/>
 </div>
