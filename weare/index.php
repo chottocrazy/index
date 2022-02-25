@@ -119,11 +119,6 @@ hr {border:none; margin:1rem 0;}
 
 <form id="information">
 <div class="org">
-<p>
-<span class="red yes">やりたい</span>
-<span class="red no">やりたくない</span>
-<span class="red or">やらなくてもいい</span></p>
-<h1>素晴らしいアイデアや創造的チャレンジを実現する</h1>
 <div class="search-box how">
 <ul>
 <li>
