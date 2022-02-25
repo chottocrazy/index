@@ -30,11 +30,10 @@ fclose($fp);
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="We are | 大 chotto crazy">
 
-<script src="https://creative-community.space/js/ityped.js"></script>
-<link rel="stylesheet" href="https://creative-community.space/css/ityped.css"/>
-<link rel="stylesheet" href="https://creative-community.space/css/org.css"/>
+<script src="https://creative-community.space/org/js/ityped.js"></script>
+<link rel="stylesheet" href="https://creative-community.space/org/css/ityped.css"/>
+<link rel="stylesheet" href="https://creative-community.space/org/css/org.css"/>
 <link rel="stylesheet" href="https://creative-community.space/coding/fontbook/css/font-family.css"/>
 <style>
 
