@@ -114,22 +114,17 @@ hr {border:none; margin:1rem 0;}
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>Entry</b></a>
+<a><b>Draft</b></a>
 </div>
  
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
-<p id="message" class="center"><span class="by">あなたの実現したいことは何ですか？</span></p>
+<p id="message" class="center"><span class="by">投稿一覧</span></p>
 <i class="on">Chotto Crazy</i>
 </div>
 
 <form id="information">
 <div class="org">
-<p>
-<span class="red yes">やりたい</span>
-<span class="red no">やりたくない</span>
-<span class="red or">やらなくてもいい</span></p>
-<h1>大 chotto crazy に集まった さまざまな人たちの 実現したいこと を 紹介します。</h1>
 <div class="search-box how">
 <ul>
 <li>
@@ -216,30 +211,10 @@ hr {border:none; margin:1rem 0;}
 </div>
 </li>
 <?php endif; ?>
-<li style="background:#fff;" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';">
-<p class="what">あなたの実現したいことは何ですか？</p>
-</li>
 </ul>
 <hr/>
+</div>
 <p style="position:relative;"><span class="center">Copyright © You. All Right Reserved</span></p>
-</div>
-</div>
-<div class="popup" id="popup" style="display:none;">
-<p><iframe src="submit.php"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
-</div>
-<div id="marquee">
-<p>
-大 chotto crazy は、
-<span class="chotto">素晴らしいアイデア</span>
-や
-<span class="chotto">創造的チャレンジ</span>
-を
-いつでも
-<span class="red">募集</span>
-しています。
-</p>
-<a id="link" href="#about" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 </body>
 </html>
