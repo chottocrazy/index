@@ -33,12 +33,18 @@ fclose($fp);
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>We are | 大 chotto crazy</title>
+<title>大 chotto crazy | あなたの実現したいことは何ですか？</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="http://creative-community.space/coding/submit/org/org.js"></script>
 <link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" type="text/css" href="/css/popup.css" />
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$("#form").load("submit.php");
+})
+</script>
 <style type="text/css">
 #header b,
 .hold:before,
@@ -108,12 +114,12 @@ hr {border:none; margin:1rem 0;}
 <body>
 <div id="header">
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
-<a><b>Past</b></a>
+<a><b>Entry</b></a>
 </div>
  
 <div id="programs">
 <div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
-<p id="message" class="center"><span class="by">実現したいことを実現する</span></p>
+<p id="message" class="center"><span class="by">あなたの実現したいことは何ですか？</span></p>
 <i class="on">Chotto Crazy</i>
 </div>
 
@@ -123,7 +129,7 @@ hr {border:none; margin:1rem 0;}
 <span class="red yes">やりたい</span>
 <span class="red no">やりたくない</span>
 <span class="red or">やらなくてもいい</span></p>
-<h1>素晴らしいアイデアや創造的チャレンジを実現する</h1>
+<h1>大 chotto crazy に集まった さまざまな人たちの 実現したいこと を 紹介します。</h1>
 <div class="search-box how">
 <ul>
 <li>
@@ -210,6 +216,9 @@ hr {border:none; margin:1rem 0;}
 </div>
 </li>
 <?php endif; ?>
+<li style="background:#fff;" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';">
+<p class="what">あなたの実現したいことは何ですか？</p>
+</li>
 </ul>
 <hr/>
 <p style="position:relative;"><span class="center">Copyright © You. All Right Reserved</span></p>
@@ -218,6 +227,19 @@ hr {border:none; margin:1rem 0;}
 <div class="popup" id="popup" style="display:none;">
 <p><iframe src="submit.php"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div id="marquee">
+<p>
+大 chotto crazy は、
+<span class="chotto">素晴らしいアイデア</span>
+や
+<span class="chotto">創造的チャレンジ</span>
+を
+いつでも
+<span class="red">募集</span>
+しています。
+</p>
+<a id="link" href="#about" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';"></a>
 </div>
 </body>
 </html>
