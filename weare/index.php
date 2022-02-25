@@ -212,12 +212,8 @@ hr {border:none; margin:1rem 0;}
 <?php endif; ?>
 </ul>
 <hr/>
+</div>
 <p style="position:relative;"><span class="center">Copyright © You. All Right Reserved</span></p>
-</div>
-</div>
-<div class="popup" id="popup" style="display:none;">
-<p><iframe src="submit.php"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('popup').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 </body>
 </html>
