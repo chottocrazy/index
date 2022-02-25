@@ -114,8 +114,8 @@ $("#").load("");
 <h1 class="namae"><?=h($row[2])?></h1>
 <marquee class="cv" scrollamount="10"><?=h($row[6])?></marquee></a>
 <div id="<?=h($row[0])?>" class="more" style="display:none;">
-<span id="question" class="<?=h($row[4])?>"><a href="http://ichoose.pe.hu/50q/cc<?=h($row[3])?>/<?=h($row[0])?>/" target="_blank">10の質問</a></span>
-<span id="value" class="<?=h($row[5])?>"><a href="http://vg.pe.hu/publication/value/online/<?=h($row[3])?>/<?=h($row[0])?>/" target="_blank">大切なもの</a></span>
+<span id="question" class="<?=h($row[4])?>"><a href="/ccm/<?=h($row[3])?>/<?=h($row[0])?>/" target="_blank">10の質問</a></span>
+<span id="value" class="<?=h($row[5])?>"><a href="https://creative-community.space/value/online/<?=h($row[3])?>/<?=h($row[0])?>/" target="_blank">大切なもの</a></span>
 <hr/>
 <p><?=h($row[6])?></p>
 <p id="link">
